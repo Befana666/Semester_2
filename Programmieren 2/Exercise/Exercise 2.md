@@ -1,5 +1,5 @@
 ### Aufgabe 2
-adfasdf
+
 In dieser Aufgabe soll eine Klasse Vector implementiert werden, in der mehrere Elemente vom Datentyp double gespeichert werden können. Die Elemente sollen in einem Array gespeichert werden und die Klasse soll Größe des Arrays verwalten, sodass auch während der Laufzeit eine Änderung der Größe ermöglicht wird. Die einzelnen Teilaufgaben führen Dich dabei Schrittweise durch die Erstellung der Klasse hindurch und fügen der Klasse weitere Funktionalitäten hinzu. 
 
 Schreibe für alle implementierten Funktionalitäten passende Anwendungsbeispiele.
@@ -264,10 +264,10 @@ double Vector::at(unsigned index) {
 ```
 
 ##### f)
->[!Info]- 
+>[!Info] 
 Überlege dir eine beliebige Möglichkeit, wie zwei Instanzen der Klasse miteinander verglichen werden und in eine Reihenfolge gebracht werden können. Überlade die Vergleichsoperatoren für deine Klasse entsprechend deinen Überlegungen.
 
->[!Tip]- <=> Operator
+>[!Tip] <=> Operator
 >Honestly, der <=> Operator ist nicht nur dein Albtraum. Ich bin mir immer noch nicht ganz sicher was er macht. Wenn ich es aber richtig verstanden habe überprüft er ob links gleich rechts ist, wenn nein dann checked er ob eine Seite größer als die andere ist, und gibt 1 oder -1 zurück.
 >Falls beide Seiten gleich groß sind gibt er 0 zurück.
 >
