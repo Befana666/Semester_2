@@ -1,4 +1,3 @@
-### Aufgabe 2
 
 In dieser Aufgabe soll eine Klasse Vector implementiert werden, in der mehrere Elemente vom Datentyp double gespeichert werden können. Die Elemente sollen in einem Array gespeichert werden und die Klasse soll Größe des Arrays verwalten, sodass auch während der Laufzeit eine Änderung der Größe ermöglicht wird. Die einzelnen Teilaufgaben führen Dich dabei Schrittweise durch die Erstellung der Klasse hindurch und fügen der Klasse weitere Funktionalitäten hinzu. 
 

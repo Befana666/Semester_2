@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmieren 2/Exercise/Exercise 2.md",
-                "mode": "preview",
+                "file": "Programmieren 2/Exercise/Exercise 2 - Vector.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 2"
+              "title": "Exercise 2 - Vector"
             }
           }
         ]
@@ -197,7 +197,7 @@
   "active": "d65341aabf446621",
   "lastOpenFiles": [
     "Untitled.canvas",
-    "Programmieren 2/Exercise/Exercise 2.md",
+    "Programmieren 2/Exercise/Exercise 2 - Vector.md",
     "Template/Programming_Exercise.md",
     "Untitled.md",
     "Template",
