@@ -137,8 +137,8 @@ $$
 \lim_{n->\infty}\begin{pmatrix}\frac{f(n)}{g(n)}\end{pmatrix}\geq c
 $$>oder $\frac{f(n)}{g(n)}$ wächst unbeschränkt für $n->\infty$ 
 
->o(g(n))
+> #o(g(n))
 >
 >Menge aller Funktionen f(n), wachsen langsamer als g(n)
 >
->$$\lim_{n->\infty}\begin{pmatrix}\frac{f(n)}{g(n)}\end{pmatrix} = 0$$
+>$$\lim_{n->\infty}\begin{pmatrix}\frac{f(n)}{g(n)}\end{pmatrix} \lt 0$$
