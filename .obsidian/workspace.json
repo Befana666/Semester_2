@@ -11,14 +11,14 @@
             "id": "71ba1eb1b71f4719",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
-                "bFile": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
-                "aRef": ""
+                "file": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Exercise 4 - Vererbung  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Exercise 4 - Vererbung"
             }
           }
         ]
