@@ -1,4 +1,4 @@
-![[Uebungsblatt4_Vererbung.pdf]]
+![[Uebungsblatt4_Vererbung.pdf]] sd
 
 In dieser Aufgabe findest Du mehrere Code-Ausschnitte, die Vererbung, Polymorphismus und Typumwandlungen thematisieren. Für alle Code-Ausschnitte sollen die folgenden Aufgaben gelöst werden: 
 
