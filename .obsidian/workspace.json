@@ -13,40 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Übung 4.md",
+                "file": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 4"
-            }
-          },
-          {
-            "id": "22624d513d814e2a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TheoInf/Übung_4/ue4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ue4"
-            }
-          },
-          {
-            "id": "f82f400ccaaf00ff",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TheoInf/Übung_4/Uebungsblatt4_Vererbung.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Uebungsblatt4_Vererbung"
+              "title": "Exercise 4 - Vererbung"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,17 +194,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f82f400ccaaf00ff",
+  "active": "b12eccc6d9883226",
   "lastOpenFiles": [
-    "TheoInf/Übung_4/Theoretische Informatik Übung (2).pdf",
-    "TheoInf/Übung_4/ue4.pdf",
-    "Übung 4.md",
-    "TheoInf/Übung_4/Uebungsblatt4_Vererbung.pdf",
+    "Programmieren 2/Attachments",
+    "Template/VTable.md",
     "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
+    "Programmieren 2/Attachments/Übung 4.md",
+    "TheoInf/Übung_4/ue4.pdf",
+    "TheoInf/Übung_4/Uebungsblatt4_Vererbung.pdf",
+    "TheoInf/Übung_4/Theoretische Informatik Übung (2).pdf",
     "TheoInf/Übung_4",
     "Analysis/Übungen/Übung 4.md",
+    "Uebungsblatt4_Vererbung.pdf",
     "Algo/20.04.md",
     "Programmieren 2/Exercise/Exercise 2.md",
+    "TheoInf/Übung 4.md",
+    "TheoInf/ue4.pdf",
     "TheoInf",
     "Template/natural number.md",
     "Template/def.md",
@@ -240,10 +220,8 @@
     "Algo/Übungen",
     "Template/Programming_Exercise.md",
     "Untitled.md",
-    "Template",
     "Algo/Attachment/Pasted image 20260413150228.png",
     "Algo/Attachment/Pasted image 20260413150328.png",
-    "Algo/Attachment",
     "Algo/Before.md",
     "Untitled.canvas",
     "Welcome.md"
