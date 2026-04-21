@@ -44,9 +44,21 @@ Eine Menge A ⊆ $\mathbb{N}$ heißt aufzählbar, falls A = ∅ gilt oder eine t
 Wenn es einen deterministischen Algo für k gibt ist k aufzählbar
 
 ##### (b) Man zeige: Ist A ⊆ $\mathbb{N}$ eine unendlich große, aufzählbare Menge, so gibt es ein ein B ⊆ A, das unendlich und entscheidbar ist.
+
 B ist unendlich und entscheidbar da wir sagen können ob ein element von A in B ist oder nicht in B ist.
 
 #### 4. Aufgabe
-Wir gehen von einer Gödelisierung M0, M1, M2, . . . aller Turingmaschinen aus und ordnen Mi jeweils fi zu, so dass fi die einstellige Funktion ist, die von Mi berechnet wird. Damit erhalten wir eine Aufzählung f0, f1, f2, . . . von Funktionen. 
+Wir gehen von einer Gödelisierung M0, M1, M2, . . . aller Turingmaschinen aus und ordnen M$_i$ jeweils f$_i$  zu, so dass f$_i$  die einstellige Funktion ist, die von M$_i$  berechnet wird. Damit erhalten wir eine Aufzählung f0, f1, f2, . . . von Funktionen. 
 
 Zeigen Sie, dass es zweistellige, totale und berechenbare Funktionen r, s gibt, so dass gilt:
+
+###### a) $f_{r(i,j)}=f_i\circ f_j$
+
+###### b) $f_{s(i,j)} = f_i + f_j$
+
+Dabei sei
+- $(f_i\circ f_j)(x)\stackrel{\text{def}}{=} f_i(f_j(x))$
+- $(f_i+f_j)(x)\stackrel{\text{def}}{=}f_i(x)+f_j(x)$
+
+für alle x$\in\mathbb{N}$
+
