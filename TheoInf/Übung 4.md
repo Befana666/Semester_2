@@ -54,7 +54,11 @@ Zeigen Sie, dass es zweistellige, totale und berechenbare Funktionen r, s gibt, 
 
 ###### a) $f_{r(i,j)}=f_i\circ f_j$
 
+fi = fi(x)
+fj = fj(fi)
+
 ###### b) $f_{s(i,j)} = f_i + f_j$
+sum = fi(x)+fj(x)
 
 Dabei sei
 - $(f_i\circ f_j)(x)\stackrel{\text{def}}{=} f_i(f_j(x))$
