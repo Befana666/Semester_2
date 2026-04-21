@@ -140,20 +140,6 @@ int main()
 }
 ```
 
-Animal:
-
-| Index | Funktionsname | Funktion            |
-| ----- | ------------- | ------------------- |
-| 0     | ~animal       | Animal::~animal()   |
-| 1     | makeSound     | Animal::makeSound() |
-Dog:
-
-| Index | Funktionsname | Funktion          |
-| ----- | ------------- | ----------------- |
-| 0     | ~animal       | Animal::~animal() |
-| 1     | makeSound     | Dog::makeSound()  |
-| 2     | fetch         | Dog::fetch()      |
-
 Cat
 
 | Index | Funktionsname | Funktion          |
@@ -176,3 +162,34 @@ Output:
 3. fetch
 4. failed
 
+###### c)
+```
+#include <iostream>
+
+namespace Aufgabe4_1c {
+
+    class Animal {
+    public:
+        virtual void makeSound() const { std::cout << "Animal sound\n"; }
+        void sleep() const { std::cout << "Animal sleeping\n"; }
+    };
+
+    class Dog : public Animal {
+    public:
+        void makeSound() const override { std::cout << "Woof\n"; }
+        void sleep() const { std::cout << "Dog sleeping\n"; }
+    };
+
+    void run() {
+        Animal* a = new Dog();
+        a->makeSound();
+        a->sleep();
+        delete a;
+    }
+
+}
+```
+
+| Index | Funktionsnamen | Funktion |
+| ----- | -------------- | -------- |
+| 0     |                |          |
