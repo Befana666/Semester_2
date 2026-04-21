@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de1f370cb796282b",
+        "id": "ab68afa00af2eb12",
         "type": "tabs",
         "children": [
           {
-            "id": "71ba1eb1b71f4719",
+            "id": "6358ecd6aa927e16",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,14 +194,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b12eccc6d9883226",
+  "active": "6358ecd6aa927e16",
   "lastOpenFiles": [
+    "Programmieren 2/Attachments/Pasted image 20260421125118.png",
+    "Pasted image 20260421123731.png",
+    "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
+    "Programmieren 2/Attachments/Uebungsblatt4_Vererbung.pdf",
+    "TheoInf/Übung_4/Übung 4.md",
+    "Untitled.base",
+    "Untitled 1.canvas",
+    "Pasted image 20260421123713.png",
+    "Untitled Diagram.svg",
     "Programmieren 2/Attachments",
     "Template/VTable.md",
-    "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
-    "Programmieren 2/Attachments/Übung 4.md",
     "TheoInf/Übung_4/ue4.pdf",
-    "TheoInf/Übung_4/Uebungsblatt4_Vererbung.pdf",
     "TheoInf/Übung_4/Theoretische Informatik Übung (2).pdf",
     "TheoInf/Übung_4",
     "Analysis/Übungen/Übung 4.md",
@@ -215,15 +222,12 @@
     "Template/def.md",
     "Programmieren 2/Exercise/Exercise 2 - Vector.md",
     "Analysis/Übungen",
-    "Analysis",
     "Algo/Übungen/Übung 5.md",
-    "Algo/Übungen",
     "Template/Programming_Exercise.md",
     "Untitled.md",
     "Algo/Attachment/Pasted image 20260413150228.png",
     "Algo/Attachment/Pasted image 20260413150328.png",
     "Algo/Before.md",
-    "Untitled.canvas",
     "Welcome.md"
   ]
 }

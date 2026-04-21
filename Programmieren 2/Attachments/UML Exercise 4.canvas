@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"cd28a851edc0df5d","type":"text","text":"{Publication}","x":-153,"y":-9,"width":250,"height":69},
+		{"id":"315d8afe249fd22b","type":"text","text":"__#__ Titel: string\n__#__ Herausgeber :string\n__#__ Erscheinungsjahr: int\n__#__ borrowed: bool","x":-153,"y":40,"width":250,"height":140},
+		{"id":"c826c9c023b21d1d","type":"text","text":"__+__ getIdentification():string\n__+__ borrow()\n__+__ giveBack()","x":-153,"y":160,"width":250,"height":100},
+		{"id":"f0d3b1ccd05cf95a","type":"text","text":"Book","x":-380,"y":440,"width":250,"height":69},
+		{"id":"2d4057c0d58a4243","type":"text","text":"__#__ ISBN:int\n__#__ genre: Genre\n","x":-380,"y":489,"width":250,"height":140},
+		{"id":"0db08f1efbce1e57","type":"text","text":"__+__ getIdentification:string\n","x":-380,"y":609,"width":250,"height":100},
+		{"id":"88d3470e72ce2dce","type":"text","text":"Magazin","x":115,"y":440,"width":250,"height":69},
+		{"id":"608d018fae630a40","type":"text","text":"__#__ ISSN: int\n__#__ \n__#__ \n__#__ ","x":115,"y":489,"width":250,"height":140},
+		{"id":"311169ea54112cda","type":"text","text":"__+__ getIdentification(()):string\n","x":115,"y":609,"width":250,"height":100}
+	],
+	"edges":[
+		{"id":"48cc7eca0c848108","fromNode":"88d3470e72ce2dce","fromSide":"top","toNode":"c826c9c023b21d1d","toSide":"bottom"},
+		{"id":"0fc16866613dca32","fromNode":"f0d3b1ccd05cf95a","fromSide":"top","toNode":"c826c9c023b21d1d","toSide":"bottom"}
+	]
+}

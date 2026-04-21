@@ -1,5 +1,6 @@
-![[Uebungsblatt4_Vererbung.pdf]] 
 
+
+#### Aufgabe 1
 In dieser Aufgabe findest Du mehrere Code-Ausschnitte, die Vererbung, Polymorphismus und Typumwandlungen thematisieren. Für alle Code-Ausschnitte sollen die folgenden Aufgaben gelöst werden: 
 
 - VTable analysieren: Zeichne für die relevanten Klassen einen Virtual Table. 
@@ -482,4 +483,21 @@ Output:
 	14. Derived Destroyed
 	15. Base Destroyed
 	16. Derived Destroyed
+
+
+#### Aufgabe 2
+
+In dieser Aufgabe soll eine kleine Verwaltungssoftware für eine Bibliothek erstellt werden. Dazu soll eine abstrakte Klasse Publication implementiert werden, von der die Klassen Book und Magazine erben. Die Klassen besitzen die folgenden Mindestanforderungen: 
+- Jede Publikation soll mit Titel, Herausgeber und Erscheinungsjahr instanziiert werden und entsprechende Funktionen geben, um diese Werte zurückzugeben.
+- In jeder Publikation soll gespeichert sein, ob sie zur Zeit ausgeliehen ist oder nicht, und die Funktionen borrow() und giveBack() existieren, um sie auszuleihen oder zurückzugeben.
+- Ein Buch muss zur Identifizierung mit einer ISBN instanziiert werden, ein Magazin mit einer ISSN.
+- Die abstrakte Klasse Publication soll eine rein virtuelle Funktion getIdentification() deklarieren, welche von den Kindklassen implementiert wird.
+- Für Bücher soll eine Enumeration Genre existieren, welche einem Buch ein Genre ”fiction“, ”nonfiction“, ”periodical“, ”biography“ oder ”children“ zuordnet. Der Konstruktor für das Buch soll diese Zuordnung bereits ermöglichen. 
+###### a) Trage in dem UML-Diagramm aus Abbildung 1 die gegebenen Mindestanforderungen ein. Die Enumeration Genre darf dabei als Datentyp verwendet werden. Die Konstruktoren, Getter und Setter werden bis auf die virtuelle Funktion nicht eingetragen. 
+
+![[Pasted image 20260421125118.png]]
+
+###### b) Implementiere die Klassen und erfülle die gegebenen Mindestanforderungen.
+###### c) Füge der Klasse Publication Operatorüberladungen für den == Operator und den != Operator hinzu, bei denen die Identifikation zweier Publikationen verglichen wird. Überlade außerdem den << Operator, um Titel, Herausgeber und Erscheinungsjahr einer Publikation in der Konsole auszugeben.
+###### d) Erstelle geeignete Beispiele, um die implementierten Klassen mit ihren Funktionalitäten zu testen.
 
