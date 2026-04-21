@@ -498,6 +498,225 @@ In dieser Aufgabe soll eine kleine Verwaltungssoftware für eine Bibliothek erst
 ![[Pasted image 20260421125118.png]]
 
 ###### b) Implementiere die Klassen und erfülle die gegebenen Mindestanforderungen.
+
+>[!Warning] Enum
+>Das Enum musst du außerhalbt der Klassen deklarieren
+
+
+>[!Warning] include
+>Was du inlcudesd ist wichtig ich hatte main auf cpp auf header das hat diese Hässlichen Fehler erzeugt. Also nur Header einbinden
+
+
+
+```
+library.h
+
+#pragma once
+#include <iostream>
+using namespace std;
+
+enum Genre {
+	fiction,
+	nonfiction,
+	periodical,
+	biography,
+	children
+};
+
+class Libary
+{
+private:
+	string title;
+	string publisher;
+	int releaseYear;
+	bool isBorrowed;
+
+public:
+	Libary(string title, string publisher, int releaseYear);
+
+	//all those functiones the Book and Magazin Class can also use
+	string getTitle();
+	void setTitle(string newTitle);
+
+	string getPublisher();
+	void setPublisher(string newPublisher);
+
+	int getReleaseYear();
+	void setReleaseYear(int newReleaseYear);
+
+	bool getBorrowed();
+
+	void borrow();
+	void giveBack();
+	
+	//These Virtual functions are marked to getting overwritten
+	virtual string getIdentification() { return "FAIL"; }
+
+	virtual ~Libary();
+
+};
+
+//Class for the Books
+class Book:public Libary {
+private:
+	const string isdn;
+	Genre genre;
+public:
+	
+	Book(string title, string publisher, int releaseYear, const string isdn, Genre genre);
+
+	virtual string getIdentification();
+
+	virtual ~Book();
+	
+};
+
+//Class for the Magazin
+class Magazin :public Libary {
+private:
+	const string issn;
+public:
+	Magazin(string title, string publisher, int releaseYear, const string issn);
+
+	virtual string getIdentification();
+
+	virtual ~Magazin();
+};
+```
+
+```
+library.cpp
+
+#pragma once
+#include "Libary.h"
+
+#include <iostream>
+using namespace std;
+
+Libary::Libary(string title, string publisher, int releaseYear)
+	:title(title), publisher(publisher), releaseYear(releaseYear), isBorrowed(false)
+{
+	cout << "Created new Media\n";
+}
+
+string Libary::getTitle() {
+	cout << title;
+	return title;
+}
+
+void Libary::setTitle(string newTitle) {
+	title = newTitle;
+	cout << "New Title is: " << title << "\n";
+}
+
+string Libary::getPublisher() {
+	cout << "The Publisher is " << publisher<<"\n";
+	return publisher;
+}
+
+void Libary::setPublisher(string newPublisher) {
+	publisher = newPublisher;
+	cout << "The Publisher is " << publisher;
+}
+
+int Libary::getReleaseYear() {
+	cout << "The Book was released " << releaseYear << "\n";
+	return releaseYear;
+}
+
+void Libary::setReleaseYear(int newReleaseYear) {
+	releaseYear = newReleaseYear;
+	cout << "The Book was released " << releaseYear << "\n";
+
+}
+
+bool Libary::getBorrowed() {
+	if (isBorrowed)
+		cout << "Book is borrowed out\n";
+	else
+		cout << "Book is not borrowed out\n";
+	return isBorrowed;
+}
+
+void Libary::borrow() {
+	if (isBorrowed)
+		cout << "Book cant be borrowed\n";
+	else {
+		isBorrowed = true;
+		cout << "You borrowed the book\n";
+	}
+}
+
+void Libary::giveBack() {
+	if (isBorrowed) {
+		cout << "You gave the book back\n";
+		isBorrowed = false;
+	}
+	else {
+		cout << "How did you do that? This book was never borrowed out!!\n";
+	}
+}
+
+Libary::~Libary(){
+	cout << "U DESTROYED IT\n";
+}
+
+Book::Book(string title, string publisher, int releaseYear, const string isdn, Genre genre)
+	:Libary(title, publisher, releaseYear), isdn(isdn), genre(genre)
+{
+	cout << "Created new Media with isdn: " << isdn << "\n";
+}
+
+string Book::getIdentification() {
+	cout << "The ISDN is " << isdn << "\n";
+	return isdn;
+
+}
+
+Book::~Book() {
+	cout << "You burned THE book";
+}
+
+Magazin::Magazin(string title, string publisher, int releaseYear, const string issn)
+	:Libary(title, publisher, releaseYear), issn(issn)
+{
+	cout << "Created new Media with isdn: " << issn << "\n";
+}
+
+string Magazin::getIdentification() {
+	cout << "The ISDN is " << issn << "\n";
+	return issn;
+}
+
+Magazin::~Magazin() {
+	cout << "You burned THE magazin";
+}
+```
+
+>[!Warning] Funktions aufruf
+>Der Funktions aufruf einer Klasse die geerbt ist wird durch den Pfeil -> gemacht und nicht den Punkt . z.B.:
+>book1->getTitle()
+
+
+```
+main.cpp just a snipped
+
+#pragma once
+#include "Libary.h"
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	Libary* book1 = new Book("test", "me", 2026, "19284637", fiction);
+	book1->getTitle();
+
+
+	return 0;
+
+}
+```
 ###### c) Füge der Klasse Publication Operatorüberladungen für den == Operator und den != Operator hinzu, bei denen die Identifikation zweier Publikationen verglichen wird. Überlade außerdem den << Operator, um Titel, Herausgeber und Erscheinungsjahr einer Publikation in der Konsole auszugeben.
 ###### d) Erstelle geeignete Beispiele, um die implementierten Klassen mit ihren Funktionalitäten zu testen.
 
