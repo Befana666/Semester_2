@@ -33,6 +33,7 @@ Zeigen Sie: Ist A der Wertebereich einer totalen, berechenbaren, monoton wachsen
 >aufzählung ist semi entscheidbar
 >der Reihenach listen
 
+Ist der Werte bereich entscheid bar ist die charakterischtische funktion berechen bar, was den Wertebereich auch berechenbar mach.
 
 #### 3. Aufgabe
 Eine Menge A ⊆ $\mathbb{N}$ heißt aufzählbar, falls A = ∅ gilt oder eine totale, berechenbare Funktion f : $\mathbb{N}$ → $\mathbb{N}$ existiert, so dass A = {f(0), f(1), f(2), . . . }. 
