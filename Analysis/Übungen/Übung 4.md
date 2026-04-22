@@ -51,3 +51,80 @@ $$a=\frac{1}{2}(a+\frac{5}{a})\Rightarrow a^2=5$$
 
 
 #### Aufgabe 2: Grenzwerte und -rechenregeln von Folgen
+Gegeben seien die Folgen $b_n = \frac{-2n}{n+1}$ und $d_n= \frac{2n+(-1)^n*n+1}{n}$. Geben Sie die Grenzwerte der folgenden Folgen an.
+
+###### a)
+$b_n+d_{2n-1}$
+	$$b_n+d_{2n-1}$$
+	1 .ersetze alle n in $d_n$ mit den $2_{2n-1}$ Binde mit Klammern
+
+		$$d_{2n-1}= \frac{2*(2n-1)+(-1)^{2n-1}*(2n-1)+1}{2n-1}$$
+	2. vereinfache die gleichung
+	Löse die Klammern auf.
+		-1 hoch ungerade zahl ist -1. 2*x-1 ist immer ungerade
+	$$d_{2n-1}= \frac{4n-2+(-1)*(2n-1)+1}{2n-1}$$
+	noch mal klammern auflösen
+	$$d_{2n-1}= \frac{4n-2+(-2n)+1+1}{2n-1}$$
+	sortiere
+	$$d_{2n-1}= \frac{4n+(-2n)-2+1+1}{2n-1}$$
+	verrrechne
+	$$d_{2n-1}= \frac{2n}{2n-1}$$3. Trage alles zusammen
+	$$b_n+d_{2n-1}= \frac{-2n}{n+1}+\frac{2n}{2n-1}$$4. Nun für den Grenzwert den Limes schreiben
+	$$\lim_\limits{n \to \infty}(b_n+d_{2n-1})=\frac{-2n}{n+1}+\frac{2n}{2n-1}$$5. Rechnung mit n Gleichsetzen
+	$$n=\frac{-2n}{n+1}+\frac{2n}{2n-1}$$Du darfst die Terme durch n nehmen um die Variabeln raus zu kürzen. !Vorsicht funktioniert so nur beim grenzwert wo $\frac{1}{n}=0$ ist.
+	$$n=\frac{-2}{1+\frac1n}+\frac{2}{2-\frac1n}$$
+	$$n=\frac{-2}{1+0}+\frac{2}{2-0}$$
+	$$n=-2+1$$
+	$$n=-1$$
+	$$\lim_\limits{n \to \infty}(b_n+d_{2n-1})=-1$$
+	Der Grenzwert ist -1.
+>[!secret]- $b_n*d_{2n-1}$
+>Setzt 2n in $d_n$ ein
+>$d_{2n}= \frac{2(2n)+(-1)^{(2n)}*(2n)+1}{(2n)}$
+>Ausklammern
+>$d_{2n}=\frac{4n+2n+1}{2n}$
+>Verrechnen
+>$d_{2n}=\frac{6n+1}{2n}$
+>Setzte beides Zusammen
+>$b_n*d_{2n}= \frac{-2n}{n+1}*\frac{6n+1}{2n}$
+>In den Limes setzen
+>$\lim_\limits{n \to \infty}(b_n*d_{2n})= \frac{-2n}{n+1}*\frac{6n+1}{2n}$
+>n rauskürzen
+>$\lim_\limits{n \to \infty}(b_n*d_{2n})= \frac{-2}{1+\frac1n}*\frac{6+\frac1n}{2}$
+>x/n mit 0 ersetzen
+>$\lim_\limits{n \to \infty}(b_n*d_{2n})= \frac{-2}{1}*\frac{6}{2}$
+>Brüche lösen
+>$\lim_\limits{n \to \infty}(b_n*d_{2n})= -2*3$
+>Ergebnis:
+>$\lim_\limits{n \to \infty}(b_n*d_{2n})= -6$
+
+>[!secret]- $\frac{d_{2n}}{b_n}$
+>Setzt 2n in $d_n$ ein
+>$d_{2n}= \frac{2(2n)+(-1)^{(2n)}*(2n)+1}{(2n)}$
+>Ausklammern
+>$d_{2n}=\frac{4n+2n+1}{2n}$
+>Verrechnen
+>$d_{2n}=\frac{6n+1}{2n}$
+>Setzte beides Zusammen
+>$\frac{d_{2n}}{b_n}= \frac{\frac{6n+1}{2n}}{\frac{-2n}{n+1}}$
+>Mit kehrwert Multiplizieren um doppel bruch zu entfernen ($\frac{\frac ab}{\frac cd} = \frac ab*\frac dc$)
+>$\frac{d_{2n}}{b_n}= \frac{6n+1}{2n}*\frac{n+1}{-2n}$
+  Limes einsetzen
+>$\lim_\limits{n \to \infty}(\frac{d_{2n}}{b_n}) = \frac{6n+1}{2n}*\frac{n+1}{-2n}$
+>Durch n teilen
+>$\lim_\limits{n \to \infty}(\frac{d_{2n}}{b_n}) = \frac{6+\frac1n}{2}*\frac{1+\frac1n}{-2}$
+>Ersetze $\frac1n$ mit 0
+>$\lim_\limits{n \to \infty}(\frac{d_{2n}}{b_n}) = \frac{6}{2}*\frac{1}{-2}$
+>Verrechnen
+>$\lim_\limits{n \to \infty}(\frac{d_{2n}}{b_n}) = -1.5$
+	  	
+###### b)
+
+>[!secret]- $\frac{2n^2-3}{n^2+n+1}$
+>Setzt 2n in $d_n$ ein	
+>$d_{2n}= \frac{2(2n)+(-1)^{(2n)}*(2n)+1}{(2n)}$
+>
+>$\lim_\limits{n \to \infty}=\frac{2n^2}{n^2}$
+	
+
+$\frac{-5n+1}{4n^2-7}$

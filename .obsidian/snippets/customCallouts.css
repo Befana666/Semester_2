@@ -1,0 +1,11 @@
+/* Example Custom Callout CSS */
+.callout[data-callout="secret"] {
+    --callout-color: 0,0,0;
+    --callout-icon: "chevron-right";
+    --icon-color: 0,0,0;
+    --callout-title-color: #ffffff;
+    --callout-text-align: left;
+}
+.callout[data-callout="secret"] .callout-icon .svg-icon {
+    color: white;
+}
