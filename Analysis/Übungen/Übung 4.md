@@ -37,14 +37,17 @@ $\Rightarrow a_{j}^2\geq0\Rightarrow a_{j}^\geq\sqrt{5}$
 
 $a_{j}$ ist monoton fallend, denn
 $a_{j}-a_{j-1} = a_{j}-\frac{1}{2}a_{j}-\frac{5}{2a_{j}}=\frac{1}{2_a{j}} (a_{j}^2-5)\geq0\Rightarrow a_{j}\geq a{j+1}$
+>[!Note]
+>die Variable (hier:$a_j$) sitzt untem im Bruch da durch wird das ergebnis kleiner und kleiner je größer die Variable wird $\Rightarrow$ Fallend
 
 Daher muss $a{j}$ einen Grenzwert(GW) $a\geq \sqrt{5}$ besitzen.
 Wir wenden den Grenzwert auf die Rekursionsgleichung an.
 
-$$\lim_\limits{j \to \infty} a_{j+1}= \lim_\limits{j \to \infty} \frac{1}{2}(a_{j}+\frac{2}{a_{j}})$$
+$$\lim_\limits{j \to \infty} a_{j+1}= \lim_\limits{j \to \infty} \frac{1}{2}(a_{j}+\frac{5}{a_{j}})$$
 $$a=\frac{1}{2}(a+\frac{5}{a})\Rightarrow a^2=5$$
 
-
+>[!Warning] Grenzwert
+>Um den Grenzwert zu berechnen, nehme ich die Gleichung die hinter dem Limes steht. Setze die mit einer Variabel z.B. x (hier:a) gleich. Verschiebe alle Zahlen die an Variabeln gebunden sind rüber. Was übrig bleibt ist der Grenzwert. Vorsicht falsche ergebnisse möglich wenn kein Grenzwert existiert.
 
 
 #### Aufgabe 2: Grenzwerte und -rechenregeln von Folgen
