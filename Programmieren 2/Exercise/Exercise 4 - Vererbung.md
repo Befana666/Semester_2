@@ -525,60 +525,54 @@ enum Genre {
 
 class Libary
 {
-private:
-	string title;
-	string publisher;
-	int releaseYear;
+protected:
+	const string title;
+	const string publisher;
+	const int releaseYear;
 	bool isBorrowed;
 
 public:
 	Libary(string title, string publisher, int releaseYear);
 
-	//all those functiones the Book and Magazin Class can also use
-	string getTitle();
-	void setTitle(string newTitle);
+	const string& getTitle() const;
 
-	string getPublisher();
-	void setPublisher(string newPublisher);
+	const string& getPublisher() const;
 
-	int getReleaseYear();
-	void setReleaseYear(int newReleaseYear);
+	const int& getReleaseYear() const;
 
 	bool getBorrowed();
 
 	void borrow();
 	void giveBack();
-	
-	//These Virtual functions are marked to getting overwritten
-	virtual string getIdentification() { return "FAIL"; }
+
+	virtual const string& getIdentification() const = 0;
 
 	virtual ~Libary();
 
 };
 
-//Class for the Books
 class Book:public Libary {
 private:
 	const string isdn;
-	Genre genre;
+	
 public:
 	
 	Book(string title, string publisher, int releaseYear, const string isdn, Genre genre);
 
-	virtual string getIdentification();
+	const string& getIdentification() const override;
 
 	virtual ~Book();
-	
+private:
+	Genre genre;
 };
 
-//Class for the Magazin
 class Magazin :public Libary {
 private:
 	const string issn;
 public:
 	Magazin(string title, string publisher, int releaseYear, const string issn);
 
-	virtual string getIdentification();
+	const string& getIdentification()  const override;
 
 	virtual ~Magazin();
 };
@@ -593,41 +587,22 @@ library.cpp
 #include <iostream>
 using namespace std;
 
-Libary::Libary(string title, string publisher, int releaseYear)
+Libary::Libary(const string title,const string publisher,const int releaseYear)
 	:title(title), publisher(publisher), releaseYear(releaseYear), isBorrowed(false)
 {
 	cout << "Created new Media\n";
 }
 
-string Libary::getTitle() {
-	cout << title;
+const string& Libary::getTitle() const {
 	return title;
 }
 
-void Libary::setTitle(string newTitle) {
-	title = newTitle;
-	cout << "New Title is: " << title << "\n";
-}
-
-string Libary::getPublisher() {
-	cout << "The Publisher is " << publisher<<"\n";
+const string& Libary::getPublisher () const {
 	return publisher;
 }
 
-void Libary::setPublisher(string newPublisher) {
-	publisher = newPublisher;
-	cout << "The Publisher is " << publisher;
-}
-
-int Libary::getReleaseYear() {
-	cout << "The Book was released " << releaseYear << "\n";
+const int& Libary::getReleaseYear() const {
 	return releaseYear;
-}
-
-void Libary::setReleaseYear(int newReleaseYear) {
-	releaseYear = newReleaseYear;
-	cout << "The Book was released " << releaseYear << "\n";
-
 }
 
 bool Libary::getBorrowed() {
@@ -661,42 +636,36 @@ Libary::~Libary(){
 	cout << "U DESTROYED IT\n";
 }
 
-Book::Book(string title, string publisher, int releaseYear, const string isdn, Genre genre)
-	:Libary(title, publisher, releaseYear), isdn(isdn), genre(genre)
+Book::Book(const string newTitle,const string newPublisher, const int newReleaseYear, const string newIsdn, Genre newGenre)
+	:Libary(newTitle, newPublisher, newReleaseYear), isdn(newIsdn), genre(newGenre)
 {
-	cout << "Created new Media with isdn: " << isdn << "\n";
+	cout << "Created new Media with issn: " << isdn << title << publisher << releaseYear << "\n";
 }
 
-string Book::getIdentification() {
-	cout << "The ISDN is " << isdn << "\n";
+const string& Book::getIdentification() const{
 	return isdn;
 
 }
 
 Book::~Book() {
-	cout << "You burned THE book";
+	cout << "You burned THE book\n";
 }
 
-Magazin::Magazin(string title, string publisher, int releaseYear, const string issn)
+Magazin::Magazin(const string title, const string publisher,const int releaseYear, const string issn)
 	:Libary(title, publisher, releaseYear), issn(issn)
 {
 	cout << "Created new Media with isdn: " << issn << "\n";
 }
 
-string Magazin::getIdentification() {
+const string& Magazin::getIdentification() const {
 	cout << "The ISDN is " << issn << "\n";
 	return issn;
 }
 
 Magazin::~Magazin() {
-	cout << "You burned THE magazin";
+	cout << "You burned THE magazin\n";
 }
 ```
-
->[!Warning] Funktions aufruf
->Der Funktions aufruf einer Klasse die geerbt ist wird durch den Pfeil -> gemacht und nicht den Punkt . z.B.:
->book1->getTitle()
-
 
 ```
 main.cpp just a snipped
@@ -709,8 +678,8 @@ using namespace std;
 
 int main()
 {
-	Libary* book1 = new Book("test", "me", 2026, "19284637", fiction);
-	book1->getTitle();
+	Book book1{ "test", "me", 2026, "19284637", fiction };
+
 
 
 	return 0;
@@ -718,5 +687,73 @@ int main()
 }
 ```
 ###### c) Füge der Klasse Publication Operatorüberladungen für den == Operator und den != Operator hinzu, bei denen die Identifikation zweier Publikationen verglichen wird. Überlade außerdem den << Operator, um Titel, Herausgeber und Erscheinungsjahr einer Publikation in der Konsole auszugeben.
+
+>[!Note] 
+>Please ask me not wieso alles const ist. Ich hatte es am anfang oben alles ohne const aber das ging gar nicht. auch das Book book1{} hatte ich am anfang als Library book1 = new book .... das ging auch schief und wieso override am ende der get identification funktion needed ist. (well maybe ask me so i have to check why idk im confused)
+
+```
+Libary.h
+ostream& operator<<(ostream& os, const Libary& book);
+
+bool operator==(const Libary& book1, const Libary& book2);
+bool operator!=(const Libary& book1, const Libary& book2);
+```
+
+```
+Libary.cpp
+ostream& operator<<(ostream& os, const Libary& book) {
+	return os	<< "The Book Title is " << book.getTitle() << ".\n"
+				<< "It's been published in the year " << book.getReleaseYear() << ""
+				<< " by " << book.getPublisher() << ".\n"
+				<< "The ISDN/ISSN is " << book.getIdentification() << ".\n";
+}
+
+bool operator==(const Libary& book1, const Libary& book2)
+{
+	return (book1.getIdentification() == book2.getIdentification());
+}
+
+bool operator!=(const Libary& book1, const Libary& book2)
+{
+	return (book1.getIdentification() != book2.getIdentification());
+
+}
+```
 ###### d) Erstelle geeignete Beispiele, um die implementierten Klassen mit ihren Funktionalitäten zu testen.
 
+Well kinda the same as above just use the code u wrote idk.
+
+```
+main.cpp
+
+Book book1{ "test", "me", 2026, "19284637", fiction };
+cout << "\n";
+
+Book book2{ "test", "me", 2026, "19284637", fiction };
+cout << "\n";
+
+Book anotherBook{ "test2", "me", 2026, "192846dsaf37", nonfiction };
+cout << "\n";
+
+Magazin magazin{ "sience", "notme", 2020, "sdjfiji" };
+cout << "\n";
+
+cout << "\n";
+cout << book1;
+cout << "\n";
+
+cout << anotherBook;
+cout << "\n";
+
+cout << magazin;
+cout << "\n";
+
+
+cout << (book1 == book2);
+cout << (book1 != anotherBook);
+cout << "\n";
+book1.borrow();
+book1.borrow();
+book2.giveBack();
+book1.giveBack();
+```

@@ -4,28 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "ab68afa00af2eb12",
-        "type": "tabs",
-        "dimension": 44.230769230769226,
-        "children": [
-          {
-            "id": "6358ecd6aa927e16",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Analysis/Analysis_GE_Teil03 - beschriftet.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Analysis_GE_Teil03 - beschriftet"
-            }
-          }
-        ]
-      },
-      {
         "id": "f89e00ad6bf30c09",
         "type": "tabs",
-        "dimension": 55.769230769230774,
         "children": [
           {
             "id": "9e5d74f8f6ac715b",
@@ -33,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Übungen/Übung 4.md",
+                "file": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 4"
+              "title": "Exercise 4 - Vererbung"
             }
           }
         ]
@@ -216,15 +196,15 @@
   },
   "active": "9e5d74f8f6ac715b",
   "lastOpenFiles": [
-    "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
+    "Programmieren 2/Attachments/Uebungsblatt4_Vererbung.pdf",
     "Analysis/Übungen/Übung 4.md",
+    "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
     "Pasted image 20260421200906.png",
     "Pasted image 20260421190901.png",
     "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
     "Pasted image 20260421123731.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
-    "Programmieren 2/Attachments/Uebungsblatt4_Vererbung.pdf",
     "TheoInf/Übung_4/Übung 4.md",
     "Untitled.base",
     "Untitled 1.canvas",
