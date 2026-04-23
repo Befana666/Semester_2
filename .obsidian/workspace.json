@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f89e00ad6bf30c09",
+        "id": "a6f9d1f7ac6aa75d",
         "type": "tabs",
-        "dimension": 19.963369963369964,
         "children": [
           {
-            "id": "9e5d74f8f6ac715b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Analysis/Übungen/Analysis_GE_Blatt4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Analysis_GE_Blatt4"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c29acc6f7c866749",
-        "type": "tabs",
-        "dimension": 80.03663003663004,
-        "children": [
-          {
-            "id": "21bee9b35049d587",
+            "id": "06f6d66a70b3759b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Übungen/Übung 4.md",
+                "file": "Algo/Übungen/Übung 4.md",
                 "mode": "source",
                 "source": false
               },
@@ -114,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programmieren 2/Exercise/Exercise 2.md",
+                "file": "Algo/Übungen/Übung 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Exercise 2"
+              "title": "Backlinks for Übung 4"
             }
           },
           {
@@ -214,43 +194,50 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21bee9b35049d587",
+  "active": "06f6d66a70b3759b",
   "lastOpenFiles": [
-    "Analysis/Übungen/Analysis_GE_Blatt4.pdf",
+    "Algo/Übungen/Aufgabenstellung/Übung4.pdf",
+    "Algo/Übungen/Übung 4.md",
+    "Algo/Übungen/Aufgabenstellung/Übung5.pdf",
+    "Algo/Übungen/Aufgabenstellung/Unconfirmed 521149.crdownload",
+    "Algo/Übungen/Übung 3.md",
+    "TheoInf/Übung_4/Übung 4.md",
+    "Algo/Übungen/Handschriftlich/Übung 3.pdf",
+    "Algo/Übungen/Aufgabenstellung/Übung3.pdf",
+    "TheoInf/Übung_4/Theoretische Informatik Übung.pdf",
+    "Analysis/Übungen/Pasted image 20260421200906.png",
+    "Analysis/Übungen/Pasted image 20260421190901.png",
+    "Welcome.md",
+    "Template/vTable.md",
+    "Template/programming_Exercise.md",
+    "Algo/Vorlesungen/LV_Notizen_2303.pdf",
+    "Algo/Algorithmen und Datenstrukturen.pdf",
+    "Algo/Vorlesungen/LV_Notizen_3003b.pdf",
+    "Algo/Vorlesungen/LV_Notizen_3003a.pdf",
+    "Algo/Übungen/Übung 2.md",
+    "Template/code.md",
+    "Algo/Übungen/Übung 5.md",
+    "Algo/Attachment/Übung2_ggTStruktogramm.png",
+    "Algo/Before.md",
+    "Algo/Übungen/Übung 1.md",
+    "Algo/20.04.md",
+    "Template/reellen Zahlen.md",
     "Analysis/Übungen/Übung 4.md",
+    "Algo/Attachment/Pasted image 20260413150228.png",
+    "Algo/Attachment/Pasted image 20260413150328.png",
     "Template/lim.md",
-    "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
-    "Programmieren 2/Attachments/Uebungsblatt4_Vererbung.pdf",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
-    "Pasted image 20260421190901.png",
-    "Pasted image 20260421200906.png",
     "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
     "Pasted image 20260421123731.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
-    "TheoInf/Übung_4/Übung 4.md",
-    "Untitled.base",
     "Untitled 1.canvas",
     "Pasted image 20260421123713.png",
     "Untitled Diagram.svg",
-    "Programmieren 2/Attachments",
-    "Template/VTable.md",
-    "TheoInf/Übung_4/ue4.pdf",
-    "TheoInf/Übung_4/Theoretische Informatik Übung (2).pdf",
-    "TheoInf/Übung_4",
-    "Uebungsblatt4_Vererbung.pdf",
-    "Algo/20.04.md",
     "Programmieren 2/Exercise/Exercise 2.md",
     "TheoInf/Übung 4.md",
-    "TheoInf/ue4.pdf",
     "Template/natural number.md",
     "Template/def.md",
     "Programmieren 2/Exercise/Exercise 2 - Vector.md",
-    "Algo/Übungen/Übung 5.md",
-    "Template/Programming_Exercise.md",
-    "Untitled.md",
-    "Algo/Attachment/Pasted image 20260413150228.png",
-    "Algo/Attachment/Pasted image 20260413150328.png",
-    "Algo/Before.md",
-    "Welcome.md"
+    "Untitled.md"
   ]
 }

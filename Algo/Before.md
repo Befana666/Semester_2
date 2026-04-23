@@ -1,7 +1,9 @@
-> [!Algorithmus]
+> [!Algorithmus] #Algorithmus
 > - eindeutige, endliche Beschreibung eines Verfahrens um ein Problem zu lösen
 > - Beschreibung erfolgt in einem Formalismus
 > - muss nur für zulässige Eingaben funktionieren
+
+^1da272
 
 Eigenschaften eines Guten Algorithmus:
 - schnell
