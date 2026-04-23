@@ -1,4 +1,4 @@
-/* Example Custom Callout CSS */
+/* Black "no Icon" for Math */
 .callout[data-callout="secret"] {
     --callout-color: 0,0,0;
     --callout-icon: "chevron-right";
@@ -9,3 +9,16 @@
 .callout[data-callout="secret"] .callout-icon .svg-icon {
     color: white;
 }
+
+/* Black Code icon for Coding */
+.callout[data-callout="code"] {
+    --callout-color: 100,100,100;
+    --callout-icon: "square-code";
+    --icon-color: 0,0,0;
+    --callout-title-color: #ffffff;
+    --callout-text-align: left;
+}
+
+    .callout[data-callout="code"] .callout-icon .svg-icon {
+        color: white;
+    }

@@ -217,5 +217,28 @@ int Vektor::bin_suche(int sw)
 
 Output: 9864100
 ##### b) Schreiben Sie ein C++-Programm für die iterative Berechnung der Funktion 𝑇(𝑛) und berechnen Sie die Werte von 𝑇(𝑛) bis 𝑛 = 10. 
+
+>[!code]- main.cpp
+>```
+>#include <iostream>
+>using namespace std;
+>
+>int recItt(int n) {
+>    int sum{ 1 };
+>    for (int i = 2; i <= n; i++) {
+>       
+>        sum = i * sum + i;// 3
+>    }
+>    return sum;
+>}
+>
+>int main()
+>{
+>	cout << recItt(10);
+>}
+>```
+Output: 9864100
 ##### c) Von welcher Ordnungsklasse ist das Wachstumsverhalten der Funktion 𝑇(𝑛)? 
+
+	
 ##### d) Wie viele rekursive Aufrufe benötigt die Berechnung von 𝑇(𝑛)? e) Von welcher Ordnung ist die Anzahl der rekursiven Aufrufe?
