@@ -25,14 +25,12 @@
             "id": "998a8e25123f5e9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "TheoInf/Übung_4/aufgabe 4.md",
-                "mode": "source",
-                "source": false
+                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
               },
-              "icon": "lucide-file",
-              "title": "aufgabe 4"
+              "icon": "lucide-file-text",
+              "title": "Exercise 5"
             }
           }
         ],
@@ -209,30 +207,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "998a8e25123f5e9b",
+  "active": "b12eccc6d9883226",
   "lastOpenFiles": [
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 2.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
+    "Programmieren 2/Exercise/Exercise 1.md",
+    "Programmieren 2/Exercise/Aufgabenstellung",
+    "Algo/Übungen/Übung 5.md",
+    "TheoInf/Übung_4/aufgabe 4.md",
     "TheoInf/Übung_4/Übung 4.md",
     "Algo/Übungen/Übung 4.md",
-    "TheoInf/Übung_4/aufgabe 4.md",
     "Algo/Übungen/Übung 3.md",
     "Algo/Übungen/Handschriftlich/Übung 5.pdf",
     "Algo/Übungen/Aufgabenstellung/Übung4.pdf",
     "Algo/Übungen/Aufgabenstellung/Übung5.pdf",
     "Algo/Übungen/Aufgabenstellung/Unconfirmed 521149.crdownload",
-    "Algo/Übungen/Handschriftlich/Übung 3.pdf",
-    "Algo/Übungen/Aufgabenstellung/Übung3.pdf",
-    "TheoInf/Übung_4/Theoretische Informatik Übung.pdf",
     "Analysis/Übungen/Pasted image 20260421200906.png",
     "Analysis/Übungen/Pasted image 20260421190901.png",
     "Welcome.md",
     "Template/vTable.md",
     "Template/programming_Exercise.md",
-    "Algo/Vorlesungen/LV_Notizen_2303.pdf",
-    "Algo/Algorithmen und Datenstrukturen.pdf",
-    "Algo/Vorlesungen/LV_Notizen_3003b.pdf",
     "Algo/Übungen/Übung 2.md",
     "Template/code.md",
-    "Algo/Übungen/Übung 5.md",
     "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Before.md",
     "Algo/Übungen/Übung 1.md",

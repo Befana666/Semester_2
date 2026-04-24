@@ -3,12 +3,17 @@ Beweisen Sie folgende Aussagen durch formales Nachprüfen der Definition der Lan
 ###### a) u(n) $\in$ o($n^{1/2}$) $\Rightarrow$ u(n)$*$u(n) $\in$ O(n) 
 	wahr 
 
-$$Behauptung u(n)*u(n)\in O(n) lim u(n)*(un)/n \leq c \in R$$
+Behauptung$$ u(n)*u(n)\in O(n) lim u(n)*(un)/n \leq c \in R$$
 Beweis:
 $$\lim_\limits{n \to \infty} \frac{u(n)*u(n)}{n} = \lim_\limits{n \to \infty} \frac{u(n)*u(n)}{\sqrt n *\sqrt n} = \lim_\limits{n \to \infty}\frac{u(n)}{\sqrt n} * \lim_\limits{n \to \infty}\frac{u(n)}{\sqrt n} = 0*0$$
 ###### b) u(n) $\in$ O($n^2$ ) und v(n) $\in$ $\Theta$( $n^2$ ) $\Rightarrow$ u(n)+v(n) $\in$ O($n^2$)
 	wahr
+Voraussetzung:
 
+Behauptung:
+$$u(n)+v(n)\in O(n^2)\Leftrightarrow \lim_\limits{n\to\infty}\frac{u(n)+v(n)}{n^2}\leq c\in \mathbb{R}^+$$
+Beweis:
+$$\lim_\limits{n\to\infty}\frac{u(n)+v(n)}{n^2} = \lim_\limits{n\to\infty}\frac{u(n)}{n^2}+\lim_\limits{n\to\infty}\frac{v(n)}{n^2}\leq c_1+c_2 \in\mathbb{R}^+$$
 #### Aufgabe 17 
 Beweisen Sie folgende Aussagen durch formales Nachprüfen der Definition der Landauschen Symbole aus der Vorlesung oder widerlegen Sie die Aussage durch Angabe eines Gegenbeispiels (mit Begründung, warum dies ein Gegenbeispiel ist): 
 
