@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/code.md",
+                "file": "Programmieren 2/Exercise/Exercise 0 - Basics.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "code"
+              "title": "Exercise 0 - Basics"
             }
           }
         ]
@@ -216,8 +216,9 @@
   },
   "active": "998a8e25123f5e9b",
   "lastOpenFiles": [
-    "Programmieren 2/Exercise/Exercise 0.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
+    "Programmieren 2/Exercise/Exercise 0 - Basics.md",
+    "Template/code.md",
     "Untitled.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
@@ -240,7 +241,6 @@
     "Template/vTable.md",
     "Template/programming_Exercise.md",
     "Algo/Übungen/Übung 2.md",
-    "Template/code.md",
     "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Before.md",
     "Algo/Übungen/Übung 1.md",

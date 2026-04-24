@@ -139,6 +139,10 @@ a) Welche Fehler fallen dir in dem gegebenen Codeabschnitt auf?
 	- funktions namen sind case-sensitive Main != main
 	
 b) Compiliere den Code und untersuche die Fehlermeldungen. Hast du alle Fehler gefunden, die der Compiler gefunden hat? Hat der Compiler alle gefunden, die du gefunden hast? Welche Hinweise gibt der Compiler auf die gefundenen Fehler? 
+
+Hatte die Anführungs zeichen übersehen und das .h beim import iostream
+
+c) Behebe die vom Compiler angegebenen Fehler einem nach dem anderen und compiliere den Code nach jedem behobenen Fehler. Untersuche, wie sich die Fehlermeldungen ändern. 
 >[!code]- file.name
 >```
 >#include <iostream>
@@ -152,10 +156,9 @@ b) Compiliere den Code und untersuche die Fehlermeldungen. Hast du alle Fehler g
 >}
 >```
 
-c) Behebe die vom Compiler angegebenen Fehler einem nach dem anderen und compiliere den Code nach jedem behobenen Fehler. Untersuche, wie sich die Fehlermeldungen ändern. 
-
 #### 0.3 Typ-Deduktion
 In den folgenden Teilaufgaben sind Deklarationen gegeben, in denen eine automatische Typ-Auflösung stattfindet. Gib an, welcher Datentyp der Variable jeder Aufgabe durch den Compiler zugewiesen wird. 
+
 a) auto a{ true }; 
 b) auto b('x'); 
 c) auto c{"Hello"}; 
@@ -182,14 +185,21 @@ w) const auto w = &t;
 x) auto const x = &t; 
 y) const auto y{new int(3.0)};
 z) auto z{new const int(3.0)}; 
+
 #### 0.4 Geldumrechnung
 Ein US-Amerikaner beauftragt dich, sein Reisegeld in Euro umzurechnen. Um ihn bestmöglich zu unterstützen, bietest du ihm an ein Programm zu schreiben, bei dem er die Anzahl seiner ”pennies“ (1-Cent Stücke), ”nickels“ (5-Cent Stücke), ”dimes“ (10-Cent Stücke), ”quarters“ (25-Cent Stücke), ”half dollars“ (50-Cent Stücke) und ”dollars“ (100-Cent Stücke) eingeben kann. 
 a) Erstelle das Programm und schreibe eine eigene Abfrage für jedes Geldstück. z.B.: ”How many pennies do you have?“ 
+
 b) Lass das Programm seine aufgelisteten Geldstücke nach der kompletten Eingabe ausgeben. Achte darauf, dass das Programm auf die Grammatik achtet und bei einem Geldstück auch nur den Singular ausgibt. z.B.: ”You have 1 dime“ statt ”You have 1 dimes“.
+
 c) Gib die Summe seines Reisegeldes in US-Dollar oder US-Cent aus. 
+
 d) Rechne den Geldbetrag mit dem aktuellen Wechselkurs in Euro um und gib den Betrag aus. 
+
 e) Nun möchte der US-Amerikaner seine Reise in weitere Länder fortsetzen. Füge dem Programm eine Eingabe für das Land hinzu, in welches er reisen möchte, und gib seinen Geldbetrag in der örtlichen Währung aus. Als Länder sollten zugelassen sein: England, Deutschland, Südafrika und Japan. Nutze dafür IF-Statements. 
+
 f) Verwende statt IF-Statements nun Switch-Statements und lasse zusätzlich die folgenden Länder als mögliche Eingabe zu: Schweiz, Frankreich und Neuseeland. Freiwillig: Schweden, Russland, Australien, Brasilien. 
+
 #### 0.5 Pointer, Referenzen, Array, Struct, Enum 
 Die Quelldatei Exercise0 Array.cpp enthält ein Programm, welches die Elemente von zwei Integer- Arrays vergleicht. Dazu gibt es die Funktionen compReference() und compCopy(), welche die Werte der Elemente vergleichen. Die Funktion compPointer() vergleicht hingegen die Adressen der Elemente. 
 a) Versuche, den Inhalt der main-Funktion zu verstehen und führe den Code aus. 
