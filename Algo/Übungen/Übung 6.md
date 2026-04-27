@@ -4,6 +4,25 @@ In der Vorlesung wurde eine mögliche Implementierung des ADT Stack mit Hilfe ei
 
 ##### a) Implementieren Sie den ADT Stack mit Hilfe einer verketteten Liste. Folgende Schnittstelle soll zur Verfügung gestellt werden:
 
+>[!Note]- ADT Stack
+>Liste mit eingeschränkten Operationen
+>- es kann nur am anfang was eingefügt werden
+>- Last-In-First-Out = LIFO
+>  
+>  s.top - liefert oberstes element
+>  s.pop - entfernt oberstes Element
+>  s.push - legt element auf den Stack
+
+Good Explanation how stacks are normally used IF we dont have to fing write it ourself(Or all the websites i read to understand this bs): 
+
+[[https://www.geeksforgeeks.org/cpp/stack-in-cpp-stl/|GeekForGeeks Stack in C++]]
+[[https://www.happycoders.eu/de/algorithmen/stack-implementieren-linked-list/|Happy Coding]]
+[[https://www.geeksforgeeks.org/dsa/implement-a-stack-using-singly-linked-list/|GeekForGeeks Verkettete Liste]]
+
+Last in first out
+scheiben auf nem turm
+__ neues eleement, 1 alt, 2 alt ,3 alt ,4 alt ....
+
 ```
 template <class item_type>
 
@@ -16,7 +35,7 @@ class Stack
         };
 
     private:
-        *node tail;
+        node *tail;
         int anz_items;
 
     public:
