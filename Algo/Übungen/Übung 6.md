@@ -281,6 +281,17 @@ In der Vorlesung wurde ein Algorithmus zur Konvertierung eines Ausdrucks von Inf
 
 In der Vorlesung wurde ein Algorithmus zur Auswertung eines Ausdrucks in Postfixnotation mit Hilfe eines Stacks angegeben. Implementieren Sie diesen Algorithmus mit Hilfe der Schnittstellenfunktionen des ADT Stack aus Aufgabe 20.
 
+>[!Note] Postfix $\Rightarrow$ Infix
+>- Stapel anfangs leer 
+>- Stapel enthält während des Algorithmus nur Zahlen 
+>- Durchlaufe die Eingabeelemente von links nach rechts. 
+>- Fallunterscheidung 
+>	1. Zahl: Lege die Zahl auf den Stapel 
+>	2. Operator op: 
+>		- Wende den Operator op auf die beiden obersten Elemente des Stapels an 
+>		- Ersetze diese beiden Zahlen durch das Ergebnis 
+>- Am Ende steht das Rechenergebnis als einziger Wert im Stapel
+
 #### Aufgabe 23
 
 #### a) Folgender Postfix-Ausdruck sei gegeben:

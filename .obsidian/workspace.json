@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5
   },
   "right": {
     "id": "cc9ed7912658003a",
@@ -196,14 +196,17 @@
   },
   "active": "9ea02d188171e8e2",
   "lastOpenFiles": [
-    "Algo/Attachment/Übung 6.canvas",
+    "Analysis/Übungen/Pasted image 20260421190901.png",
+    "Analysis/Übungen/Analysis_GE_Blatt4.pdf",
+    "Algo/Attachment/Übung2_ggTStruktogramm.png",
+    "Algo/Attachment/Pasted image 20260413150328.png",
     "Algo/Übungen/Übung 6.md",
+    "Algo/Attachment/Übung 6.canvas",
     "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
     "Algo/Übungen/Übung 5.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
     "GeekForGeeks.md",
-    "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Programmieren 2/Exercise/Exercise 0 - Basics.md",
     "!Übung 6.canvas",
     "Template/code.md",
@@ -220,9 +223,7 @@
     "Algo/Übungen/Übung 4.md",
     "Algo/Übungen/Übung 3.md",
     "Algo/Übungen/Handschriftlich/Übung 5.pdf",
-    "Algo/Übungen/Aufgabenstellung/Übung4.pdf",
     "Analysis/Übungen/Pasted image 20260421200906.png",
-    "Analysis/Übungen/Pasted image 20260421190901.png",
     "Welcome.md",
     "Template/vTable.md",
     "Template/programming_Exercise.md",
@@ -233,7 +234,6 @@
     "Template/reellen Zahlen.md",
     "Analysis/Übungen/Übung 4.md",
     "Algo/Attachment/Pasted image 20260413150228.png",
-    "Algo/Attachment/Pasted image 20260413150328.png",
     "Template/lim.md",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
     "Pasted image 20260421123731.png",
