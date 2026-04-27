@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "01d2316552fb7c64",
+        "id": "25a88251a83622b5",
         "type": "tabs",
         "children": [
           {
-            "id": "878ed2cd21c4147a",
+            "id": "9ea02d188171e8e2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung6.pdf"
+                "file": "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Übung6"
-            }
-          },
-          {
-            "id": "c1b5cabf824a150d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Übung6"
+              "icon": "lucide-file",
+              "title": "Exercise 4 - Vererbung"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,14 +194,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1b5cabf824a150d",
+  "active": "9ea02d188171e8e2",
   "lastOpenFiles": [
     "Algo/Übungen/Übung 6.md",
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
+    "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
+    "Algo/Übungen/Übung 5.md",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
+    "GeekForGeeks.md",
+    "Algo/Attachment/Übung2_ggTStruktogramm.png",
+    "Algo/Attachment/Übung 6.canvas",
     "Programmieren 2/Exercise/Exercise 0 - Basics.md",
     "!Übung 6.canvas",
-    "Algo/Attachment/Übung 6.canvas",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
     "Template/code.md",
     "Untitled.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
@@ -222,7 +215,6 @@
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
     "Programmieren 2/Exercise/Exercise 1.md",
     "Programmieren 2/Exercise/Aufgabenstellung",
-    "Algo/Übungen/Übung 5.md",
     "TheoInf/Übung_4/aufgabe 4.md",
     "TheoInf/Übung_4/Übung 4.md",
     "Algo/Übungen/Übung 4.md",
@@ -235,7 +227,6 @@
     "Template/vTable.md",
     "Template/programming_Exercise.md",
     "Algo/Übungen/Übung 2.md",
-    "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Before.md",
     "Algo/Übungen/Übung 1.md",
     "Algo/20.04.md",
@@ -245,7 +236,6 @@
     "Algo/Attachment/Pasted image 20260413150328.png",
     "Template/lim.md",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
-    "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
     "Pasted image 20260421123731.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Untitled 1.canvas",
@@ -253,7 +243,6 @@
     "Untitled Diagram.svg",
     "Programmieren 2/Exercise/Exercise 2.md",
     "TheoInf/Übung 4.md",
-    "Template/natural number.md",
-    "Template/def.md"
+    "Template/natural number.md"
   ]
 }

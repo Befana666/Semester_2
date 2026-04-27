@@ -15,9 +15,9 @@ In der Vorlesung wurde eine mögliche Implementierung des ADT Stack mit Hilfe ei
 
 Good Explanation how stacks are normally used IF we dont have to fing write it ourself(Or all the websites i read to understand this bs): 
 
-[[https://www.geeksforgeeks.org/cpp/stack-in-cpp-stl/|GeekForGeeks Stack in C++]]
-[[https://www.happycoders.eu/de/algorithmen/stack-implementieren-linked-list/|Happy Coding]]
-[[https://www.geeksforgeeks.org/dsa/implement-a-stack-using-singly-linked-list/|GeekForGeeks Verkettete Liste]]
+[GeekForGeeks Stack in C++](https://www.geeksforgeeks.org/cpp/stack-in-cpp-stl/)
+[Happy Coding](https://www.happycoders.eu/de/algorithmen/stack-implementieren-linked-list/)
+[GeekForGeeks Verkettete Liste](https://www.geeksforgeeks.org/dsa/implement-a-stack-using-singly-linked-list/)
 
 Last in first out
 scheiben auf nem turm
