@@ -6,15 +6,22 @@ Das E-Mail Programm besteht aus den Klassen:
 - Person: Eine Person mit ihrem Vor- und Nachnamen.
 - Mailbox: Ein Postfach, das E-Mails verwaltet.
 - Mail: Eine E-Mail mit Sender, Empfänger und Inhalt (body).
-- 
+
 ![[Exercise5 Abbildung1]]
 
 Einige der Klassen stehen in Beziehung zueinander. 
 
-##### a) Überlege, welche Art der Beziehung (Abhängigkeit, Assoziation, Aggregation, Komposition) nach folgender Beschreibung am passendsten ist und ob die Beziehung gerichtet oder unge- richtet ist. Begründe, warum Du dich für die entsprechende Beziehung und gegen die anderen Beziehungen entschieden hast.
+>[!Cheatsheet]- UML
+>![[UML Beziehungesrichtungen]]
+##### a) Überlege, welche Art der Beziehung (Abhängigkeit, Assoziation, Aggregation, Komposition) nach folgender Beschreibung am passendsten ist und ob die Beziehung gerichtet oder ungerichtet ist. Begründe, warum Du dich für die entsprechende Beziehung und gegen die anderen Beziehungen entschieden hast.
 ###### i. Ein Adressbuch enthält eine beliebige Anzahl von Personen (auch keine). Personen kennen ihr Adressbuch nicht. 
+	Eine Gerichtete Beziehnung, da nur das Addressbuch die Personen enthalten aber die Personen das Addressbuch nicht kennen. Das Addressbuch hat eine 0...* beziehung.
 ###### ii. Ein Postfach enthält eine beliebige Anzahl von E-Mails (auch keine). E-Mails kennen ihr Postfach nicht. 
-###### iii. Eine E-Mail hat genau einen Absender und mindestens einen Empfänger. Personen kennen E-Mails, in denen sie Absender oder Empfänger sind, nicht. iv. Eine Person kann eine beliebige Anzahl von Freunden haben (auch keine). 
+	Die selbe Beziehung wie oben.
+###### iii. Eine E-Mail hat genau einen Absender und mindestens einen Empfänger. Personen kennen E-Mails, in denen sie Absender oder Empfänger sind, nicht. iv. Eine Person kann eine beliebige Anzahl von Freunden haben (auch keine).  
+Email 1 zu absender 1. Email 1 zu Empfänger 1...*. Da die Personen die Email nicht kennen geht der pfeil immer in richtung der email.
+Freunde sind Bidirektional 0...*.
+
 ##### b) Trage die Beziehungen in UML-Notation in die Abbildung ein. Trage nur Beziehungen ein, keine Attribute oder Methoden. Beschrifte die Beziehungen wenn möglich mit Stereotypen, Rollennamen und Multiplizitäten. 
 ##### c) Überlege, ob neben den beschriebenen Beziehungen noch weitere Abhängigkeiten zwischen den Klassen bestehen könnten und trage diese ebenfalls in die Abbildung ein. 
 ##### d) Betrachte Abbildung 2 (Seite 3). Hier wurde das String-Attribut ”body“ der Klasse ”Mail“ entfernt und durch eine Assoziation zu einer neuen Klasse ”MailBody“ ersetzt. Betrachte diese neue Architektur und beantworte die folgenden Fragen: 

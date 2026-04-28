@@ -44,12 +44,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmieren 2/UML.md",
+                "file": "Programmieren 2/Exercise/Exercise 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UML"
+              "title": "Exercise 5"
+            }
+          },
+          {
+            "id": "78d5e0498ba168af",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Programmieren 2/Attachments/Exercise5 Abbildung1.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Exercise5 Abbildung1"
             }
           },
           {
@@ -68,6 +80,24 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "5154b77337db4731",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da3b651c06c47b57",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-28 13.11.35.excalidraw"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -241,19 +271,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b91dfb4515094b91",
+  "active": "da3b651c06c47b57",
   "lastOpenFiles": [
-    "Programmieren 2/Attachments/UML Exercise 4.canvas",
+    "Programmieren 2/Exercise/Exercise 5.md",
+    "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
+    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
     "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
+    "Programmieren 2/UML.md",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Algo/Attachment/Übung 6.canvas",
     "Algo/Übungen/Übung 6.md",
     "Algo/Übungen/Übung 5.md",
     "conflict-files-obsidian-git.md",
     "GeekForGeeks.md",
-    "Programmieren 2/UML.md",
-    "Programmieren 2/Exercise/Exercise 5.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
-    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
     "Excalidraw",
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
