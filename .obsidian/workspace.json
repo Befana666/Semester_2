@@ -44,12 +44,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Übung 5.md",
+                "file": "Programmieren 2/UML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 5"
+              "title": "UML"
             }
           },
           {
@@ -243,11 +243,13 @@
   },
   "active": "b91dfb4515094b91",
   "lastOpenFiles": [
-    "Algo/Übungen/Übung 6.md",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
+    "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
     "Algo/Attachment/Übung 6.canvas",
+    "Algo/Übungen/Übung 6.md",
+    "Algo/Übungen/Übung 5.md",
     "conflict-files-obsidian-git.md",
     "GeekForGeeks.md",
-    "Excalidraw/Drawing 2026-04-28 12.42.09.excalidraw.md",
     "Programmieren 2/UML.md",
     "Programmieren 2/Exercise/Exercise 5.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
@@ -268,7 +270,6 @@
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
     "Programmieren 2/Exercise/Exercise 1.md",
     "Programmieren 2/Exercise/Aufgabenstellung",
-    "Algo/Übungen/Übung 5.md",
     "TheoInf/Übung_4/aufgabe 4.md",
     "TheoInf/Übung_4/Übung 4.md",
     "Algo/Übungen/Übung 4.md",
@@ -290,7 +291,6 @@
     "Algo/Attachment/Pasted image 20260413150328.png",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
     "Pasted image 20260421123731.png",
-    "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Untitled 1.canvas"
   ]
 }
