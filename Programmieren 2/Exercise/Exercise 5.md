@@ -26,12 +26,21 @@ Freunde sind Bidirektional 0...*.
 siehe c
 ##### c) Überlege, ob neben den beschriebenen Beziehungen noch weitere Abhängigkeiten zwischen den Klassen bestehen könnten und trage diese ebenfalls in die Abbildung ein. 
 ![[Drawing 2026-04-28 13.11.35.excalidraw]]
-##### d) Betrachte Abbildung 2 (Seite 3). Hier wurde das String-Attribut ”body“ der Klasse ”Mail“ entfernt und durch eine Assoziation zu einer neuen Klasse ”MailBody“ ersetzt. Betrachte diese neue Architektur und beantworte die folgenden Fragen: 
+##### d) Betrachte die Abbildung. Hier wurde das String-Attribut ”body“ der Klasse ”Mail“ entfernt und durch eine Assoziation zu einer neuen Klasse ”MailBody“ ersetzt. Betrachte diese neue Architektur und beantworte die folgenden Fragen: 
+![[Drawing 2026-04-28 14.09.51.excalidraw]]
 ###### i. Um welche Art von Klasse handelt es sich bei ”MailBody“ und was zeichnet solche Klassen aus? 
 Es ist eine Interface Klasse. Interface klassen können erweitert und realisiert werden.
 ![[Interface Klassen#^9a86d2]]
 ###### ii. Welche Vorteile hat die neue Architektur gegenüber der alten Architektur mit dem String- Attribut? 
+
+Man muss sich nicht strikt an den string type halten sonder kann den body auch mit sachen wie z.B. HTML inhalten füllen weitere Arten können einfach weitere kind klassen implementiert werden.
 ###### iii. Was ist die Aufgabe der Klassen ”PlainText“ und ”HtmlMarkup“ und warum müssen diese die Methode ”getContent()“ überschreiben?
+Da bei PlainText der Inhalt nur als string verarbeitet wird aber beim HTMLMarkup der als HTML interpretiert werden muss.
+
+>[!Warning] 
+>Als realisierende Klassen der Schnittstellenklasse müssen die Klassen ”PlainText“ und ”HtmlMarkup“ die Methode ”getContent()“ überschreiben und implementieren. Würden
+sie dies nicht tun, würden sie die Schnittstellenklasse nicht vollständig implementieren (sondern
+erweitern) und könnten nicht instanziiert werden.
 
 #### 5.2 Klassenbeziehungen implementieren
 In Abbildung 3 (folgende Seite) ist ein UML-Klassendiagramm eines Verwaltungssystems einer Universität dargestellt. Das System besteht aus den Klassen: 

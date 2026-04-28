@@ -118,6 +118,159 @@
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.22.1",
     "libraryItems": [
       {
+        "status": "unpublished",
+        "elements": [
+          {
+            "id": "Bb3A-0jhGEf4vKuCBO2Be",
+            "type": "arrow",
+            "x": -348.2871530359303,
+            "y": 31.189290026941837,
+            "width": 236.84271240234375,
+            "height": 3.66229248046875,
+            "angle": 0,
+            "strokeColor": "#000000",
+            "backgroundColor": "transparent",
+            "fillStyle": "hachure",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "izz7jZaSiEh2kxSiGXSSF"
+            ],
+            "seed": 504575980,
+            "version": 100,
+            "versionNonce": 2074816108,
+            "isDeleted": false,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                236.84271240234375,
+                -3.66229248046875
+              ]
+            ],
+            "lastCommittedPoint": null,
+            "startBinding": null,
+            "endBinding": null,
+            "startArrowhead": null,
+            "endArrowhead": null,
+            "index": "aA",
+            "frameId": null,
+            "roundness": {
+              "type": 2
+            },
+            "boundElements": [],
+            "updated": 1777378334137,
+            "link": null,
+            "hasTextLink": false,
+            "locked": false
+          },
+          {
+            "id": "AEEUti5WYkj6H4OLNYDzy",
+            "type": "line",
+            "x": -111.06205537968033,
+            "y": 11.101216296473087,
+            "width": 30.17535400390625,
+            "height": 16.003662109375,
+            "angle": 0,
+            "strokeColor": "#000000",
+            "backgroundColor": "transparent",
+            "fillStyle": "hachure",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "izz7jZaSiEh2kxSiGXSSF"
+            ],
+            "seed": 134163692,
+            "version": 71,
+            "versionNonce": 1139508076,
+            "isDeleted": false,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                30.17535400390625,
+                16.003662109375
+              ]
+            ],
+            "lastCommittedPoint": null,
+            "startBinding": null,
+            "endBinding": null,
+            "startArrowhead": null,
+            "endArrowhead": null,
+            "index": "aC",
+            "frameId": null,
+            "roundness": {
+              "type": 2
+            },
+            "boundElements": [],
+            "updated": 1777378334137,
+            "link": null,
+            "hasTextLink": false,
+            "locked": false,
+            "polygon": false
+          },
+          {
+            "id": "M_2nIAondtVz0IOaTXpPA",
+            "type": "line",
+            "x": -79.98362520389908,
+            "y": 26.848591784754337,
+            "width": 28.2388916015625,
+            "height": 14.933837890625,
+            "angle": 0,
+            "strokeColor": "#000000",
+            "backgroundColor": "transparent",
+            "fillStyle": "hachure",
+            "strokeWidth": 1,
+            "strokeStyle": "solid",
+            "roughness": 1,
+            "opacity": 100,
+            "groupIds": [
+              "izz7jZaSiEh2kxSiGXSSF"
+            ],
+            "seed": 534949740,
+            "version": 83,
+            "versionNonce": 2030056940,
+            "isDeleted": false,
+            "points": [
+              [
+                0,
+                0
+              ],
+              [
+                -28.2388916015625,
+                14.933837890625
+              ]
+            ],
+            "lastCommittedPoint": null,
+            "startBinding": null,
+            "endBinding": null,
+            "startArrowhead": null,
+            "endArrowhead": null,
+            "index": "aD",
+            "frameId": null,
+            "roundness": {
+              "type": 2
+            },
+            "boundElements": [],
+            "updated": 1777378334137,
+            "link": null,
+            "hasTextLink": false,
+            "locked": false,
+            "polygon": false
+          }
+        ],
+        "id": "tEBwHwy-zzDDxIThmeC2p",
+        "created": 1777378344552
+      },
+      {
         "id": "Zzt0edsasKRj2i1jwm5M8",
         "status": "unpublished",
         "elements": [
