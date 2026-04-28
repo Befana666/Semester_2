@@ -4,76 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5154b77337db4731",
+        "id": "b58fac695c528949",
         "type": "tabs",
         "children": [
           {
-            "id": "da3b651c06c47b57",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-28 13.11.35.excalidraw"
-            }
-          },
-          {
-            "id": "714731b9117e0ca4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exercise 5"
-            }
-          },
-          {
-            "id": "85db1ac465a5af0e",
+            "id": "dc81346f2df30d70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmieren 2/Exercise/Exercise 5.md",
+                "file": "TheoInf/Übung 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 5"
-            }
-          },
-          {
-            "id": "be97781aa43e14dc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-28 14.09.51.excalidraw"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "5364811f4003a6be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0e4a21215aba9757",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exercise 5"
+              "title": "Übung 5"
             }
           }
         ]
@@ -108,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Schnittstellen",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 308.5
   },
   "right": {
     "id": "cc9ed7912658003a",
@@ -239,6 +184,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -246,60 +192,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85db1ac465a5af0e",
+  "active": "dc81346f2df30d70",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
-    "Programmieren 2/Exercise/Exercise 5.md",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
-    "Algo/Übungen/Übung 2.md",
-    "Programmieren 2/Interface Klassen.md",
-    "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
-    "Algo/Before.md",
-    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
-    "Algo/Attachment/Übung 6.canvas",
-    "Algo/Übungen/Übung 1.md",
-    "Algo/20.04.md",
-    "TheoInf/Übung_4/Übung 4.md",
     "TheoInf/Übung_4/Theoretische Informatik Übung.pdf",
-    "TheoInf/Übung_4/aufgabe 4.md",
+    "TheoInf/Übung_4/Übung 4.md",
+    "TheoInf/Übung 5.md",
     "Programmieren 2/UML.md",
+    "Programmieren 2/Interface Klassen.md",
+    "Programmieren 2/Exercise/Exercise 5.md",
     "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
-    "Programmieren 2/Attachments/UML Exercise 4.canvas",
-    "Algo/Übungen/Übung 6.md",
-    "Algo/Übungen/Übung 5.md",
-    "conflict-files-obsidian-git.md",
-    "GeekForGeeks.md",
-    "Excalidraw",
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
+    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
+    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
+    "Excalidraw",
+    "Algo/Übungen/Übung 6.md",
+    "Analysis/Übungen/Pasted image 20260421190901.png",
+    "Analysis/Übungen/Analysis_GE_Blatt4.pdf",
+    "Algo/Attachment/Übung2_ggTStruktogramm.png",
+    "Algo/Attachment/Pasted image 20260413150328.png",
+    "Algo/Attachment/Übung 6.canvas",
+    "Programmieren 2/Exercise/Exercise 4 - Vererbung.md",
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
+    "Algo/Übungen/Übung 5.md",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
+    "GeekForGeeks.md",
     "Programmieren 2/Exercise/Exercise 0 - Basics.md",
     "!Übung 6.canvas",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
     "Template/code.md",
     "Untitled.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 2.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
     "Programmieren 2/Exercise/Exercise 1.md",
-    "Programmieren 2/Exercise/Aufgabenstellung",
+    "TheoInf/Übung_4/aufgabe 4.md",
     "Algo/Übungen/Übung 4.md",
     "Algo/Übungen/Übung 3.md",
     "Analysis/Übungen/Pasted image 20260421200906.png",
-    "Analysis/Übungen/Pasted image 20260421190901.png",
     "Welcome.md",
     "Template/vTable.md",
-    "Algo/Attachment/Übung2_ggTStruktogramm.png",
+    "Template/programming_Exercise.md",
+    "Algo/Übungen/Übung 2.md",
+    "Algo/Before.md",
     "Algo/Attachment/Pasted image 20260413150228.png",
-    "Algo/Attachment/Pasted image 20260413150328.png",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
     "Pasted image 20260421123731.png",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Untitled 1.canvas"
   ]
 }
