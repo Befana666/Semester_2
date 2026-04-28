@@ -56,10 +56,109 @@ class Stack
 
 In der Vorlesung wurde ein Algorithmus zur Konvertierung eines Ausdrucks von Infix- in Postfixnotation mit Hilfe eines Stacks angegeben. Implementieren Sie diesen Algorithmus mit Hilfe der Schnittstellenfunktionen des ADT Stack aus Aufgabe 20.
 
+>[!code]- main.cpp
+>```
+>int prio(char op) {
+>    if (op == '+' || op == '-') return 1;
+>    if (op == '*' || op == '/') return 2;
+>    return 0;
+>}
+>
+>void infixToPostfix() {
+>    Stack <char> inToPost;
+>
+>    cout << "\nWrite (4*8)+8+(4/2) as Postfix Notation. \n";
+>    string infix = "(4*8)+8+(4/2)";
+>    string postfix;
+>
+>    for (auto letter : infix) {
+>        if (isdigit(letter)) {
+>            postfix = postfix + letter;
+>        }
+>        else if (letter == '(') {
+>            inToPost.push(letter);
+>        }
+>        else if (letter == ')') {
+>            while (inToPost.top() != '(') {
+>                if (inToPost.top() != ')') {
+>                    postfix = postfix + inToPost.pop();
+>                }
+>            }
+>            inToPost.pop();
+>
+>        }
+>        else {
+>            while (prio(letter) >= prio(inToPost.top()) && inToPost.length() != 0) {
+>                if (inToPost.top() == '(') {
+>
+>                    break;
+>                }
+>                else {
+>                    postfix = postfix + inToPost.pop();
+>
+>                }
+>            }
+>            inToPost.push(letter);
+>
+>        }
+>    }
+>    while (!inToPost.empty())
+>        postfix = postfix + inToPost.pop();
+>    cout << "Postfixnotation is " << postfix << "\n";
+>}
+>```
 #### Aufgabe 22
 
 In der Vorlesung wurde ein Algorithmus zur Auswertung eines Ausdrucks in Postfixnotation mit Hilfe eines Stacks angegeben. Implementieren Sie diesen Algorithmus mit Hilfe der Schnittstellenfunktionen des ADT Stack aus Aufgabe 20.
 
+>[!code]- main.cpp
+>```
+>void postfixToInfix()
+>{
+>    Stack <int> postToIn;
+>
+>    string postfix = "48*8+42/+";
+>    string infix;
+>
+>    for (auto letter : postfix) {
+>        if (isdigit(letter)) {
+>            int number = letter - '0';
+>
+>            postToIn.push(number);
+>        }
+>        else {
+>            cout << letter;
+>
+>            int num2 = postToIn.pop();
+>            int num1 = postToIn.pop();
+>
+>            int num3;
+>
+>            if (letter == '+')
+>            {
+>                num3 = (num1 + num2);
+>            }
+>            else if (letter == '-')
+>            {
+>                num3 = (num1 - num2);
+>
+>            }
+>            else if (letter == '*')
+>            {
+>                num3 = (num1 * num2);
+>
+>            }
+>            else if (letter == '/')
+>            {
+>                num3 = (num1 / num2);
+>            }
+>            else {}
+>            postToIn.push(num3);
+>        }
+>    }
+>    cout << "Ergebnis: " << postToIn.pop();
+>}
+>```
 #### Aufgabe 23
 
 #### a) Folgender Postfix-Ausdruck sei gegeben:

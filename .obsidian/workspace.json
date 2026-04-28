@@ -8,27 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "878ed2cd21c4147a",
+            "id": "829584722b3d8749",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung6.pdf"
+                "file": "Programmieren 2/UML.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Übung6"
+              "icon": "lucide-file",
+              "title": "UML"
             }
           },
           {
-            "id": "c1b5cabf824a150d",
+            "id": "2da1e4bccfdd5469",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung6.pdf"
+                "file": "Algo/Attachment/Übung 6.canvas",
+                "viewState": {
+                  "x": 285,
+                  "y": -308,
+                  "zoom": -1.7206293659914742
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Übung6"
+              "icon": "lucide-layout-dashboard",
+              "title": "Übung 6"
             }
           }
         ],
@@ -202,12 +209,22 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c1b5cabf824a150d",
+  "active": "d83dc510f407cb5b",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-04-28 12.42.09.excalidraw.md",
+    "Programmieren 2/UML.md",
+    "Programmieren 2/Exercise/Exercise 5.md",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
+    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
     "Algo/Übungen/Übung 6.md",
+    "Excalidraw",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
     "Programmieren 2/Exercise/Exercise 0 - Basics.md",
     "!Übung 6.canvas",
@@ -217,7 +234,6 @@
     "Untitled.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 2.pdf",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
     "Programmieren 2/Exercise/Exercise 1.md",
@@ -228,7 +244,6 @@
     "Algo/Übungen/Übung 4.md",
     "Algo/Übungen/Übung 3.md",
     "Algo/Übungen/Handschriftlich/Übung 5.pdf",
-    "Algo/Übungen/Aufgabenstellung/Übung4.pdf",
     "Analysis/Übungen/Pasted image 20260421200906.png",
     "Analysis/Übungen/Pasted image 20260421190901.png",
     "Welcome.md",
@@ -249,11 +264,6 @@
     "Pasted image 20260421123731.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Untitled 1.canvas",
-    "Pasted image 20260421123713.png",
-    "Untitled Diagram.svg",
-    "Programmieren 2/Exercise/Exercise 2.md",
-    "TheoInf/Übung 4.md",
-    "Template/natural number.md",
-    "Template/def.md"
+    "Programmieren 2/Exercise/Exercise 2.md"
   ]
 }
