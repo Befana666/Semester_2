@@ -46,6 +46,18 @@
             }
           },
           {
+            "id": "9d744c04dd0c4646",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-28 14.17.11.excalidraw"
+            }
+          },
+          {
             "id": "be97781aa43e14dc",
             "type": "leaf",
             "state": {
@@ -59,24 +71,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "5364811f4003a6be",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0e4a21215aba9757",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exercise 5"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "cc9ed7912658003a",
@@ -252,9 +247,10 @@
   },
   "active": "85db1ac465a5af0e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
-    "Programmieren 2/Exercise/Exercise 5.md",
     "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
+    "Programmieren 2/Exercise/Exercise 5.md",
+    "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
     "Algo/Übungen/Übung 2.md",
     "Programmieren 2/Interface Klassen.md",
     "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
@@ -294,7 +290,6 @@
     "Analysis/Übungen/Pasted image 20260421200906.png",
     "Analysis/Übungen/Pasted image 20260421190901.png",
     "Welcome.md",
-    "Template/vTable.md",
     "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Attachment/Pasted image 20260413150228.png",
     "Algo/Attachment/Pasted image 20260413150328.png",
