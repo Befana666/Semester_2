@@ -23,9 +23,13 @@ Email 1 zu absender 1. Email 1 zu Empfänger 1...*. Da die Personen die Email ni
 Freunde sind Bidirektional 0...*.
 
 ##### b) Trage die Beziehungen in UML-Notation in die Abbildung ein. Trage nur Beziehungen ein, keine Attribute oder Methoden. Beschrifte die Beziehungen wenn möglich mit Stereotypen, Rollennamen und Multiplizitäten. 
+siehe c
 ##### c) Überlege, ob neben den beschriebenen Beziehungen noch weitere Abhängigkeiten zwischen den Klassen bestehen könnten und trage diese ebenfalls in die Abbildung ein. 
+![[Drawing 2026-04-28 13.11.35.excalidraw]]
 ##### d) Betrachte Abbildung 2 (Seite 3). Hier wurde das String-Attribut ”body“ der Klasse ”Mail“ entfernt und durch eine Assoziation zu einer neuen Klasse ”MailBody“ ersetzt. Betrachte diese neue Architektur und beantworte die folgenden Fragen: 
 ###### i. Um welche Art von Klasse handelt es sich bei ”MailBody“ und was zeichnet solche Klassen aus? 
+Es ist eine Interface Klasse. Interface klassen können erweitert und realisiert werden.
+![[Interface Klassen#^9a86d2]]
 ###### ii. Welche Vorteile hat die neue Architektur gegenüber der alten Architektur mit dem String- Attribut? 
 ###### iii. Was ist die Aufgabe der Klassen ”PlainText“ und ”HtmlMarkup“ und warum müssen diese die Methode ”getContent()“ überschreiben?
 
