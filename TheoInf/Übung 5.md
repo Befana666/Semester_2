@@ -69,7 +69,10 @@ Hinweis 3: Möglichst kleine Funktion heißt: Möglichst kleine Funktionswerte f
 
 
 (b) Geben Sie eine möglichst kleine, totale Funktion s : N → N an, so dass gilt: M berechnet f in Raum s. 
-(c) Geben Sie eine möglichst kleine, totale Funktion t : N → N an, so dass gilt: M berechnet f in Zeit t. Hinweis: Beachten Sie bei Ihrer Lösung unbedingt die Definitionen 18 und 19, sowie 6 aus der VL. Insbesondere denken Sie bitte daran, dass Ein- und Ausgabe der TM in Binärdarstellung erfolgen müssen!
+
+(c) Geben Sie eine möglichst kleine, totale Funktion t : N → N an, so dass gilt: M berechnet f in Zeit t. 
+
+Hinweis: Beachten Sie bei Ihrer Lösung unbedingt die Definitionen 18 und 19, sowie 6 aus der VL. Insbesondere denken Sie bitte daran, dass Ein- und Ausgabe der TM in Binärdarstellung erfolgen müssen!
 
 Definition 18 Seien f, t : N → N Funktionen auf N und t total. Eine TM M berechnet f in Zeit t, falls f von M berechnet wird und für jedes x ∈ N gilt: tM(x) ≤ t(|x|)
 
