@@ -3,7 +3,7 @@
 - eigenständig mit Wahrheitstafeln arbeiten
 - Quantoren und Prädikate arbeiten
 
-##### Beispiele Aussagen:
+#### Beispiele Aussagen:
 - Der Mars ist blau
 - 36 ist eine Primzahl und 4 teilt 36.
 
@@ -13,11 +13,7 @@
 - Wahrheitsgehalt untersuchen
 - Mathematische Beweise lassen sich klar und präzise führen
 
->[!definition]- Definition 1: Aussagen
->___
->Eine Aussage ist ein <span style="color:red">Satz</span>, der entweder <span style="color:red">wahr</span> oder <span style="color:red">falsch</span>, niemals aber beide zugleich ist.
->
->Wahren Aussagen ordnen wir den Wahrheitswert *w* zu, falschen Aussagen den Wahrheitswert *f*.
+![[Definition#^2f0e99]]
 
 Es gibt Sätze die keine Aussagen sind und auch Sätze die weder ja oder nein sind.
 
@@ -40,94 +36,91 @@ $$\phi:\{W,\ F,\ A,\ B,\ C,\ ...\}\rightarrow\{w,\ f\},\ \ \ \ X\rightarrow\phi(
 
 - Eine Wahrheitsfunktion auf der Menge der <span style="color:lightgreen">atomarer Aussagen</span> liefert eine <span style="color:lightgreen">Belegung (Interpretation)</span> der atomaren Aussagen mit Wahrheitswerten.
 - Aussagen- und Prädikatenlogik liefern Grundgesetze und Regeln, die die Bestimmung des Wahrheitswertes einer zusammengesetzten Aussage erlauben. 
-
+---
 #### Wahrheitstafeln
 
->[!definition]- Definition 2: Wahrheitstafel ODER
->___
->
->| A | B | A$\lor$B |
->| --- | --- | --- |
->|f|f|f|
->|f|w|w|
->|w|f|w|
->|w|w|w|
+![[Definition#^4d7e66]]
 
->[!definition]- Definition 3: Wahrheitstafel AND
->___
->
->A|B|A$\land B$
->--|--|--
->f|f|f
->f|w|f
->w|f|f
->w|w|w
+![[Definition#^129143]]
 
->[!definition]- Definition 4: Wahrheitstafel NOT
->___
->
->A|$\lnot A$
->--|--
->f|w
->w|f
+![[Definition#^21a45f]]
 
->[!definition]- Definition 5: Wahrheitstafel IMPLIKATION
->___
->
->A|B|A$\Rightarrow B$
->--|--|--
->f|f|w
->f|w|w
->w|f|f
->w|w|w
->
->A$\Rightarrow$B: Wenn A gilt, dann gilt auch B.
->
->Wenn A falsch ist, ist die Aussage Irrelevant von B wahr.
->Wenn A wahr ist, entscheiden B ob die Aussage wahr oder falsch ist.
->
->Ursache-Wirkung Beziehung
->Zeitliche Beziehung
->Räumliche Beziehung...
+![[Definition#^fcda15]]
 
->[!definition]- Definition 6: Wahrheitstafel ÄQUIVALENZ
->___
->
->A|B|
->--|--|--
->f|f|
->f|w|
->w|f|
->w|w|
->
->Wenn A = B ist, ist die Aussage wahr.
+![[Definition#^7b8f0e]]
 
->[!definition]- Definition 7: Wahrheitstafel XOR
->___
->
->A|B|A $\oplus$ B
->--|--|--
->f|f|f
->f|w|w
->w|f|w
->w|w|f
+![[Definition#^647e37]]
 
->[!definition]- Definition 8: logische Äquivalent
->___
->
->Zwei beliebige logische Aussagen oder Ausdrücke heißen <span style="color:red"> gleich </span> oder <span style="color:red"> logisch äquvalent</span>, wenn für jede beliebige Wahrheitsfunktion $\phi$ die Wahrheitswerte gleich sind.
->$$A=B: \Leftrightarrow\phi(A) = \phi(B)$$
->für alle Wahrheitsfunktionen $\phi$.
->
->Wir können die Gleichheit mit einer Wahrheitstafel oder KNF/DNF nachweisen.
+![[Definition#^f6456a]]
 
-#### Übung 1: 
+##### Übung 1: 
 
 $A \Rightarrow B = \lnot A\lor B$
 
-| A   | B   | $\lnot A$ | $\lnot A \lor B$ | $A \Rightarrow B |
-| --- | --- | --------- | ---------------- | ---------------- |
-| 0   | 0   | 1         | 1                | 1                |
-| 0   | 1   | 1         | 1                | 1                |
-| 1   | 0   | 0         | 0                | 0                |
-| 1   | 1   | 0         | 1                | 1                |
+| $A$ | $B$ | $\lnot A$ | $\lnot A \lor B$ | $A \Rightarrow B$ |
+| --- | --- | --------- | ---------------- | ----------------- |
+| 0   | 0   | 1         | 1                | 1                 |
+| 0   | 1   | 1         | 1                | 1                 |
+| 1   | 0   | 0         | 0                | 0                 |
+| 1   | 1   | 0         | 1                | 1                 |
+
+---
+#### Regeln von de Morgan
+
+![[Definition#^c7852c]]
+
+##### Übung 2: Regeln von de Morgan
+
+$$(\lnot A) \lor (\lnot B) = \lnot (A\land B)$$
+| $A$ | $B$ | $\lnot A$ | $\lnot B$ | $(\lnot A) \lor (\lnot B)$ |     | $A\land B$ | $\lnot (A\land B)$ |
+| --- | --- | --------- | --------- | -------------------------- | --- | ---------- | ------------------ |
+| 0   | 0   | 1         | 1         | 1                          |     | 0          | 1                  |
+| 0   | 1   | 1         | 0         | 1                          |     | 0          | 1                  |
+| 1   | 0   | 0         | 1         | 1                          |     | 0          | 1                  |
+| 1   | 1   | 0         | 0         | 0                          |     | 1          | 0                  |
+
+#### Normalformen
+
+Für jeden logischen Ausdruck, lässt sich mit einer Wahrheitstabelle ein logisch äquivalenter Ausdruck ableten, der nur aus atomaren [[Extra#^e9fe84|Atomare Aussagen]], Konjunktion, Disjunktionen und Negationen aufgebaut ist. [[Extra#^d48538|That was?]]
+
+>[!Extra]+ Disjunktive Normalform (DNF)
+>---
+>Ausdruck ist Disjunktion aus Konjunktionen und Negationen.
+>
+>Beispiel: $(A\land \lnot B) \lor (A \land \lnot B\land C) \lor (B \land C) \lor D$
+
+
+>[!Extra]+ Konjunktive Normalform (KNF)
+>---
+>Ausdruck ist Disjunktion aus Konjunktionen und Negationen.
+>
+>Beispiel: $(A\lor B\lor C) \land (A \lor B\lor \lnot C) \land (\lnot A \lor B \lor C) \land (\lnot A \lor \lnot B \lor C)$
+
+---
+#### [[Extra#^0f932c|Axiome]] der Aussagenlogik
+
+1. **Assoziativegesetz** $$\begin{aligned}(A\lor B) \lor C = A \lor (B \lor C) \\ (A\land B) \land C = A \land (B \land C)\end{aligned}$$
+2. **Kommutativgesetze**$$\begin{aligned}A \lor B = B\lor A \\ A\land B = B \land A\end{aligned}$$
+3. **Distributivegesetz**$$\begin{aligned} A\lor (B\land C) = (A\lor B)\land (A\lor C) \\ A\land (B\lor C) = (A\land B)\lor (A\land C)\end{aligned}$$
+4. **Absorptionsgesetze**$$\begin{aligned} A\lor (A\land B) = A \\ A\land (A\lor B) = A\end{aligned}$$
+5. **Idempotenzgesetze**$$\begin{aligned}A\lor A=A\\ A\land A = A\end{aligned}$$
+6. **Ausgeschlossener Dritter** $$\begin{aligned}A\lor (\lnot A) = W \\ A\land (\lnot A)= F \end{aligned}$$
+7. **De Morgansche Regeln** $$\begin{aligned}(\lnot A)\lor (\lnot B) = \lnot (A\land B) \\ (\lnot A)\land (\lnot B) = \lnot (A\lor B)\end{aligned}$$
+8. **Gesetze für W und F** $$\begin{aligned}A\land F= F\ \ \ \ \ \ \ \ \ \   A\lor F = A\\ sowie\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \\A\land W = A \ \ \ \ \ \ \ \ \ \ A\lor W = W\end{aligned}$$
+9. **Negation** $$\begin{aligned}\lnot W = F \\ \lnot F = W\end{aligned}$$
+10. **Doppelte Negation**$$\lnot (\lnot A)=A$$
+#### Tautologien und Kontradiktionen
+
+![[Definition#^131516]]
+
+![[Definition#^8eab43]]
+
+##### Übung 3: Beweise $(\lnot A \land B) \lor (A\land B) \Leftrightarrow B$
+Beweisen Sie mit Hilfe einer Wahrheitstafel$$(\lnot A \land B) \lor (A\land B) \Leftrightarrow B$$
+
+| A   | B   | $\lnot A \land B$ | $A\land B$ | $(\lnot A \land B) \lor (A\land B)$ | $(\lnot A \land B) \lor (A\land B) \Leftrightarrow B$ |
+| --- | --- | ----------------- | ---------- | ----------------------------------- | ----------------------------------------------------- |
+| 0   | 0   |                   |            |                                     |                                                       |
+| 0   | 1   |                   |            |                                     |                                                       |
+| 1   | 0   |                   |            |                                     |                                                       |
+| 1   | 1   |                   |            |                                     |                                                       |

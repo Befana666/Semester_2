@@ -19,7 +19,8 @@
 
 ^e9fe84
 
-^425fc5
->[!extra]- #Quantoren/Prädikaten_Logic
->---
->adasf
+>[!extra]+ Axiome
+>Axiome sind Grundlagengesetze
+
+^0f932c
+
