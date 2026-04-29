@@ -43,15 +43,19 @@ sie dies nicht tun, würden sie die Schnittstellenklasse nicht vollständig impl
 erweitern) und könnten nicht instanziiert werden.
 
 #### 5.2 Klassenbeziehungen implementieren
-In Abbildung 3 (folgende Seite) ist ein UML-Klassendiagramm eines Verwaltungssystems einer Universität dargestellt. Das System besteht aus den Klassen: 
-- Address: Postanschrift eines Gebäudes, bestehend aus Straße, Stadt und Land.  Person: Eine Person mit Vor- und Nachnamen. 
+
+In der Abbildung ist ein UML-Klassendiagramm eines Verwaltungssystems einer Universität dargestellt. Das System besteht aus den Klassen: 
+- Address: Postanschrift eines Gebäudes, bestehend aus Straße, Stadt und Land.
+- Person: Eine Person mit Vor- und Nachnamen. 
 - University: Eine Universität mit Namen. 
 - Faculty: Eine Fakultät mit Namen.
 Die Beziehungen zwischen den Klassen sind bereits in UML-Notation in der Abbildung festgelegt. 
+
+![[Drawing 2026-04-28 14.17.11.excalidraw]]
 ##### a) Erstelle ein neues Projekt und implementiere die vier Klassen aus dem Diagramm mit ihren Attributen. Die Attribute sollen über einen Konstruktor initialisiert werden und über public Getter-Methoden zugänglich sein. 
-##### b) Implementiere die Kompositionen von Person und University aus Address. Stelle bei der Implementierung sicher, dass die komponierten Objekte nicht ohne ihr Kompositionsobjekt exis- tieren können. #####
-##### c) Implementiere die Aggregation zwischen University und Faculty. Stelle sicher, dass sich In- stanzen beider Klassen gegenseitig erreichen können (ungerichtet / bidirektional). Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpoin- tern gefüllt ist. 
-##### d) Implementiere die Assoziationen von University und Faculty zu Person. Implementiere Mul- tiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
+##### b) Implementiere die Kompositionen von Person und University aus Address. Stelle bei der Implementierung sicher, dass die komponierten Objekte nicht ohne ihr Kompositionsobjekt existieren können. 
+##### c) Implementiere die Aggregation zwischen University und Faculty. Stelle sicher, dass sich In- stanzen beider Klassen gegenseitig erreichen können (ungerichtet / bidirektional). Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
+##### d) Implementiere die Assoziationen von University und Faculty zu Person. Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
 ##### e) Implementiere die Methoden in University um Fakultäten hinzufügen und entfernen zu können und in Faculty um Professoren und Studenten hinzuzufügen und entfernen zu können. 
 ##### f) Erstelle ein Testprogramm (main()-Methode), in dem Du Instanzen der Klassen erstellst und miteinander verknüpfst. Du kannst z.B. die Hochschule Kempten abbilden.
 - Erstelle den Präsidenten der Universität / Hochschule als Person-Instanz mit Namen und Adresse.

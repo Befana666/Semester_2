@@ -1,1 +1,1 @@
-$\stackrel{\text{def}}{=}$
+\stackrel{\text{def}}{=}

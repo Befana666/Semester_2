@@ -1,4 +1,5 @@
-1.Es sei die Menge Q def = {x : Mx hält auf Eingabe x und x ≤ 2 1000} gegeben. Ist Q entscheidbar? Begründen Sie Ihre Antwort!
+##### 1. Aufgabe 
+Es sei die Menge$$Q \stackrel{\text{def}}{=} \{x : M_x\ hält\ auf\ Eingabe\ x\ und\ x ≤ 2^{1000}\}$$ gegeben. Ist Q entscheidbar? Begründen Sie Ihre Antwort!
 
 Mx hält auf eingabe x ist das halte problem $\Rightarrow$ nicht entscheidbar.
 Der hintere teil ist eine entscheidbare Schranke 
