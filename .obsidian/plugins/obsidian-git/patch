@@ -1,0 +1,321 @@
+diff --git a/.obsidian/workspace.json b/.obsidian/workspace.json
+index 000000..000000 100644
+--- a/.obsidian/workspace.json
++++ b/.obsidian/workspace.json
+@@ -1,0 +1,315 @@
++{
++  "main": {
++    "id": "6172582cc1f5f2d5",
++    "type": "split",
++    "children": [
++      {
++        "id": "5154b77337db4731",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "da3b651c06c47b57",
++            "type": "leaf",
++            "state": {
++              "type": "excalidraw",
++              "state": {
++                "file": "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md"
++              },
++              "icon": "excalidraw-icon",
++              "title": "Drawing 2026-04-28 13.11.35.excalidraw"
++            }
++          },
++          {
++            "id": "714731b9117e0ca4",
++            "type": "leaf",
++            "state": {
++              "type": "pdf",
++              "state": {
++                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
++              },
++              "icon": "lucide-file-text",
++              "title": "Exercise 5"
++            }
++          },
++          {
++            "id": "85db1ac465a5af0e",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "Programmieren 2/Exercise/Exercise 5.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "Exercise 5"
++            }
++          },
++          {
++            "id": "6a37f57a14cdf8e1",
++            "type": "leaf",
++            "state": {
++              "type": "markdown",
++              "state": {
++                "file": "conflict-files-obsidian-git.md",
++                "mode": "source",
++                "source": false
++              },
++              "icon": "lucide-file",
++              "title": "conflict-files-obsidian-git"
++            }
++          },
++          {
++            "id": "9d744c04dd0c4646",
++            "type": "leaf",
++            "state": {
++              "type": "excalidraw",
++              "state": {
++                "file": "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md"
++              },
++              "icon": "excalidraw-icon",
++              "title": "Drawing 2026-04-28 14.17.11.excalidraw"
++            }
++          },
++          {
++            "id": "be97781aa43e14dc",
++            "type": "leaf",
++            "state": {
++              "type": "excalidraw",
++              "state": {
++                "file": "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md"
++              },
++              "icon": "excalidraw-icon",
++              "title": "Drawing 2026-04-28 14.09.51.excalidraw"
++            }
++          }
++        ],
++        "currentTab": 3
++      }
++    ],
++    "direction": "vertical"
++  },
++  "left": {
++    "id": "88d32bbf062ca21b",
++    "type": "split",
++    "children": [
++      {
++        "id": "263f601f149caba7",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "b12eccc6d9883226",
++            "type": "leaf",
++            "state": {
++              "type": "file-explorer",
++              "state": {
++                "sortOrder": "alphabetical",
++                "autoReveal": false
++              },
++              "icon": "lucide-folder-closed",
++              "title": "Files"
++            }
++          },
++          {
++            "id": "7a97f459999789b1",
++            "type": "leaf",
++            "state": {
++              "type": "search",
++              "state": {
++                "query": "tag:#Schnittstellen",
++                "matchingCase": false,
++                "explainSearch": false,
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical"
++              },
++              "icon": "lucide-search",
++              "title": "Search"
++            }
++          },
++          {
++            "id": "80d5431b2f6f853b",
++            "type": "leaf",
++            "state": {
++              "type": "bookmarks",
++              "state": {},
++              "icon": "lucide-bookmark",
++              "title": "Bookmarks"
++            }
++          }
++        ]
++      }
++    ],
++    "direction": "horizontal",
++    "width": 200,
++    "collapsed": true
++  },
++  "right": {
++    "id": "cc9ed7912658003a",
++    "type": "split",
++    "children": [
++      {
++        "id": "3a049589c0a7f724",
++        "type": "tabs",
++        "children": [
++          {
++            "id": "6b358967fe7a1f96",
++            "type": "leaf",
++            "state": {
++              "type": "backlink",
++              "state": {
++                "file": "TheoInf/Übung_4/aufgabe 4.md",
++                "collapseAll": false,
++                "extraContext": false,
++                "sortOrder": "alphabetical",
++                "showSearch": false,
++                "searchQuery": "",
++                "backlinkCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-coming-in",
++              "title": "Backlinks for aufgabe 4"
++            }
++          },
++          {
++            "id": "fb7f5facc16c494a",
++            "type": "leaf",
++            "state": {
++              "type": "outgoing-link",
++              "state": {
++                "file": "Algo/Before.md",
++                "linksCollapsed": false,
++                "unlinkedCollapsed": true
++              },
++              "icon": "links-going-out",
++              "title": "Outgoing links from Before"
++            }
++          },
++          {
++            "id": "27e6cbfe5005c8b2",
++            "type": "leaf",
++            "state": {
++              "type": "tag",
++              "state": {
++                "sortOrder": "frequency",
++                "useHierarchy": true,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-tags",
++              "title": "Tags"
++            }
++          },
++          {
++            "id": "fcdf84d8acfaf505",
++            "type": "leaf",
++            "state": {
++              "type": "all-properties",
++              "state": {
++                "sortOrder": "frequency",
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-archive",
++              "title": "All properties"
++            }
++          },
++          {
++            "id": "adfea9e94f29d752",
++            "type": "leaf",
++            "state": {
++              "type": "outline",
++              "state": {
++                "file": "Programmieren 2/Exercise/Exercise 2.md",
++                "followCursor": false,
++                "showSearch": false,
++                "searchQuery": ""
++              },
++              "icon": "lucide-list",
++              "title": "Outline of Exercise 2"
++            }
++          },
++          {
++            "id": "d83dc510f407cb5b",
++            "type": "leaf",
++            "state": {
++              "type": "git-view",
++              "state": {},
++              "icon": "git-pull-request",
++              "title": "Source Control"
++            }
++          }
++        ],
++        "currentTab": 5
++      }
++    ],
++    "direction": "horizontal",
++    "width": 200
++  },
++  "left-ribbon": {
++    "hiddenItems": {
++      "switcher:Open quick switcher": false,
++      "graph:Open graph view": false,
++      "canvas:Create new canvas": false,
++      "daily-notes:Open today's daily note": false,
++      "templates:Insert template": false,
++      "command-palette:Open command palette": false,
++      "bases:Create new base": false,
++      "obsidian-git:Open Git source control": false,
++      "obsidian-excalidraw-plugin:New drawing": false
++    }
++  },
++  "active": "6a37f57a14cdf8e1",
++  "lastOpenFiles": [
++    "Programmieren 2/Exercise/Exercise 5.md",
++    "conflict-files-obsidian-git.md",
++    "TheoInf/Übung 5.md",
++    "TheoInf/Aufgabenstellung/ue5.pdf",
++    "TheoInf/Aufgabenstellung/ue4.pdf",
++    "TheoInf/Aufgabenstellung",
++    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
++    "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
++    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
++    "Algo/Übungen/Übung 2.md",
++    "Programmieren 2/Interface Klassen.md",
++    "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
++    "Algo/Before.md",
++    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
++    "Algo/Attachment/Übung 6.canvas",
++    "Algo/Übungen/Übung 1.md",
++    "Algo/20.04.md",
++    "TheoInf/Übung_4/Übung 4.md",
++    "TheoInf/Übung_4/Theoretische Informatik Übung.pdf",
++    "TheoInf/Übung_4/aufgabe 4.md",
++    "Programmieren 2/UML.md",
++    "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
++    "Programmieren 2/Attachments/UML Exercise 4.canvas",
++    "Algo/Übungen/Übung 6.md",
++    "Algo/Übungen/Übung 5.md",
++    "GeekForGeeks.md",
++    "Excalidraw",
++    "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
++    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
++    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
++    "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
++    "Programmieren 2/Exercise/Exercise 0 - Basics.md",
++    "!Übung 6.canvas",
++    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
++    "Template/code.md",
++    "Untitled.md",
++    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
++    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
++    "Programmieren 2/Exercise/Exercise 1.md",
++    "Algo/Übungen/Übung 4.md",
++    "Algo/Übungen/Übung 3.md",
++    "Analysis/Übungen/Pasted image 20260421200906.png",
++    "Analysis/Übungen/Pasted image 20260421190901.png",
++    "Welcome.md",
++    "Algo/Attachment/Übung2_ggTStruktogramm.png",
++    "Algo/Attachment/Pasted image 20260413150228.png",
++    "Algo/Attachment/Pasted image 20260413150328.png",
++    "Programmieren 2/Attachments/Pasted image 20260421125118.png",
++    "Pasted image 20260421123731.png",
++    "Untitled 1.canvas"
++  ]
++}
+\ No newline at end of file
