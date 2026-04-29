@@ -6,71 +6,42 @@
       {
         "id": "5154b77337db4731",
         "type": "tabs",
+        "dimension": 62.052877138413685,
         "children": [
           {
-            "id": "da3b651c06c47b57",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-28 13.11.35.excalidraw"
-            }
-          },
-          {
-            "id": "714731b9117e0ca4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Exercise 5"
-            }
-          },
-          {
-            "id": "85db1ac465a5af0e",
+            "id": "fa7e1d3e6d8d3de4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmieren 2/Exercise/Exercise 5.md",
+                "file": "TheoInf/Vorlesung/RAM's.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exercise 5"
-            }
-          },
-          {
-            "id": "9d744c04dd0c4646",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-28 14.17.11.excalidraw"
-            }
-          },
-          {
-            "id": "be97781aa43e14dc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-28 14.09.51.excalidraw"
+              "title": "RAM's"
             }
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "ccec3007bbd03429",
+        "type": "tabs",
+        "dimension": 37.947122861586315,
+        "children": [
+          {
+            "id": "df0178c6eeef3b5c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "TheoInf/Vorlesung/Folien.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Folien"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Schnittstellen",
+                "query": "tag:#Quantoren/Prädikaten",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 205.5
   },
   "right": {
     "id": "cc9ed7912658003a",
@@ -245,56 +215,56 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "85db1ac465a5af0e",
+  "active": "df0178c6eeef3b5c",
   "lastOpenFiles": [
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5.pdf",
+    "TheoInf/Vorlesung/RAM's.md",
+    "TheoInf/Vorlesung/Folien.pdf",
+    "Template/embeddedDefinition.md",
+    "TheoInf/Übung 5.md",
+    "TheoInf/Definitionen.md",
+    "TheoInf/Definitionen/Untitled.md",
+    "TheoInf/Definitionen",
+    "Analysis/Vorlesung/Extra.md",
+    "TheoInf/Vorlesung/Unconfirmed 950577.crdownload",
+    "Pasted image 20260429125300.png",
+    "TheoInf/Vorlesung",
+    "Analysis/Vorlesung/Logische Aussagen.md",
+    "Template/wahrheitstafel.md",
+    "Analysis/Vorlesung/Folien/01_Vorlesung.pdf",
+    "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
     "Programmieren 2/Exercise/Exercise 5.md",
+    "Template/definition x.md",
+    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
+    "Template/def.md",
+    "Template/code.md",
+    "Analysis/Vorlesung/Folien/03_Vorlesung.pdf",
+    "Analysis/Vorlesung/Folien/02_Vorlesung.pdf",
+    "Analysis/Vorlesung/Folien/04_Vorlesung.pdf",
+    "Template/vTable.md",
+    "Template/reellen Zahlen.md",
+    "Template/programming_Exercise.md",
+    "Template/natural number.md",
+    "Template/lim.md",
+    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
+    "conflict-files-obsidian-git.md",
     "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
     "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
     "Algo/Übungen/Übung 2.md",
     "Programmieren 2/Interface Klassen.md",
     "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
     "Algo/Before.md",
-    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
     "Algo/Attachment/Übung 6.canvas",
-    "Algo/Übungen/Übung 1.md",
-    "Algo/20.04.md",
-    "TheoInf/Übung_4/Übung 4.md",
-    "TheoInf/Übung_4/Theoretische Informatik Übung.pdf",
-    "TheoInf/Übung_4/aufgabe 4.md",
-    "Programmieren 2/UML.md",
-    "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
-    "Algo/Übungen/Übung 6.md",
-    "Algo/Übungen/Übung 5.md",
-    "conflict-files-obsidian-git.md",
-    "GeekForGeeks.md",
-    "Excalidraw",
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
-    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
-    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
-    "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
-    "Programmieren 2/Exercise/Exercise 0 - Basics.md",
     "!Übung 6.canvas",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 0.pdf",
-    "Template/code.md",
-    "Untitled.md",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 2.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1.pdf",
-    "Programmieren 2/Exercise/Exercise 1.md",
-    "Programmieren 2/Exercise/Aufgabenstellung",
-    "Algo/Übungen/Übung 4.md",
-    "Algo/Übungen/Übung 3.md",
     "Analysis/Übungen/Pasted image 20260421200906.png",
     "Analysis/Übungen/Pasted image 20260421190901.png",
-    "Welcome.md",
     "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Attachment/Pasted image 20260413150228.png",
     "Algo/Attachment/Pasted image 20260413150328.png",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
-    "Pasted image 20260421123731.png",
     "Untitled 1.canvas"
   ]
 }

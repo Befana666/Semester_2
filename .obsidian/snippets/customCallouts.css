@@ -1,4 +1,4 @@
-/* Black "no Icon" for Math */
+rect /* Black "no Icon" for Math */
 .callout[data-callout="secret"] {
     --callout-color: 0,0,0;
     --callout-icon: "chevron-right";
@@ -22,3 +22,10 @@
     .callout[data-callout="code"] .callout-icon .svg-icon {
         color: white;
     }
+
+/* Definition */
+.callout[data-callout="definition"] {
+    --callout-color: 231, 211,110;
+    --callout-icon: "circle-question-mark";
+    --callout-text-align: left;
+}

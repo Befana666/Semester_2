@@ -1,1 +1,1 @@
-$\mathbb{N}$
+\mathbb{N}
