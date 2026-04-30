@@ -55,6 +55,8 @@ $$\phi:\{W,\ F,\ A,\ B,\ C,\ ...\}\rightarrow\{w,\ f\},\ \ \ \ X\rightarrow\phi(
 
 ##### Übung 1: 
 
+^2c90da
+
 $A \Rightarrow B = \lnot A\lor B$
 
 | $A$ | $B$ | $\lnot A$ | $\lnot A \lor B$ | $A \Rightarrow B$ |
@@ -191,4 +193,11 @@ Alle Elemente x der Gruppe G, haben die Eigenschaften E(x).
 | Vereinigungsmenge | $\cup$           | $A\cup B = \{x\in G \| x\in A\lor x \in B\}$ | Die Vereinigungsmenge von A und B ist: x Element der Menge G sind alle Teil der Menge A oder Teil der Menge B sind. |
 | Schnittmenge      | $\cap$           | $A\cap B = \{x\in G\|x\in A\land x \in B\}$  | Die Schnittmenge von A und B ist: x Elemente der Menge G sind alle die sowohl Teil der Menge A und B sind.          |
 | Komplement        | $\overline{A}^G$ | $\overline{A}^G=\{x\in G\|x \notin A\}$      | Die Menge der Elemente x in der Grundmenge G sind nicht Teil der Menge A.                                           |
-| Differenzmenge    | $/$              | $A/B=\{x\in G\| x\in A\land x\notin B\}$     |                                                                                                                     |
+| Differenzmenge    | $/$              | $A/B=\{x\in G\| x\in A\land x\notin B\}$     | Die Menge der Elemente x in der Grundmenge G, sind alle in der Teilmenge A aber nicht in der Teilmenge B.           |
+##### Übung 5:
+Zeigen Sie: Sind A und B zwei nichtleere Mengen aus der Grundmenge G, dann gilt:
+$$A/B = \{x\in G| \lnot(x \in A \Rightarrow x \in B)\}$$
+Alle Elemente x der Menge G, sind nicht, wenn x in der Teilmenge A dann ist x auch Teil der Teilmenge B. [[Logische Aussagen#^2c90da|hint]]
+$$\begin{aligned}A/B &= \{x\in G| (x \in A)\land (x \notin B) \}\text{//Definition} \\ 
+&=\{x\in G|(\lnot(x \notin A))\land (\lnot(x \in B)) \} \text{//doppel Negation} \\ &=\{x\in G|\lnot((x \notin A)\lor (x \in B)) \} \text{//de Morgan}\\ &=\{x\in G|\lnot((x \in A)\lor (x \in B)) \} \text{//Übung 1}
+\end{aligned}$$
