@@ -7,7 +7,8 @@ $$Q \subseteq \{ 0, 1, 2, 3, .... 2^{1000}(,x)\}$$
 
 $$Q(x) = \begin{cases}1, &Mx \ haelt \ auf \ Eingabe \ x \ und \ x \leq 2^{1000} \\0,&sonst\end{cases} $$
 
-Ja, $Q$ ist eine endliche Menge welche anhält sobald entweder $Mx$ = Eingabe $x$ ist oder x $\leq 2^{1000}$. Daher ist es ein endliche Menge, welche eine charakteristische Funktion hat. Durch die Beschränkung der Menge von $\leq 2^{1000}$  wird das Halteproblem "ausgehebelt" und die Menge ist entscheidbar.
+Ja, $Q$ ist eine endliche Menge welche anhält sobald entweder $Mx$ = Eingabe $x$ ist oder x $\leq 2^{1000}$. Daher ist es ein endliche Menge, welche eine charakteristische Funktion hat. 
+Durch die Beschränkung der Menge von $\leq 2^{1000}$  wird das Halteproblem "ausgehebelt" und die Menge ist entscheidbar.
 
 $\rightarrow$ Wir werden vermutlich nicht in endlicher Zeit das Q und ihre Funktion nicht bestimmen, es seiden jedes x und M(x) wird angesehen und anstelle von ausrechnen wird es versucht nach zu vollziehen.
 $\rightarrow$ Kennen die Lösung und gibt eine Lösung nicht das  selbe!

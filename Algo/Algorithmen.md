@@ -147,6 +147,9 @@ $$>oder $\frac{f(n)}{g(n)}$ wächst unbeschränkt für $n->\infty$
 >
 >$$\lim_{n->\infty}\begin{pmatrix}\frac{f(n)}{g(n)}\end{pmatrix} \lt 0$$
 
+>[!warning]+ 
+>c= Natürliche Zahlen
+
 #### Komplexitätsklassen
 
 | Symbol           | Name          | Beispiel                          | 1 sec   | n=1mio.             |
@@ -162,6 +165,20 @@ $$>oder $\frac{f(n)}{g(n)}$ wächst unbeschränkt für $n->\infty$
 | $O(2^n)$         | exponentiell  | Türme von Hanoi                   |         |                     |
 | $O(n!)$          | Fakultät      | Traveling Salesman Problem        |         |                     |
 | $O(n^n)$         |               |                                   |         |                     |
+#### Komplexität von Funktionen berechnen
+
+###### Übung 1: 
+$$\begin{aligned}&f(n)=5n^2+2n+13\\ &g(n)=n^2=O(n^2)\\ &f(u) \in O(n^2)?\\ &=\lim_\limits{n \to \infty}\frac{5n^2+2n+13}{n^2}=\lim_\limits{n \to \infty}\frac{5n^2}{n^2}+\lim_\limits{n \to \infty}\frac{2n}{n^2}+\lim_\limits{n \to \infty}\frac{13}{n^2}\\ & =5+0+0=5 \leq c \in \mathbb{R}^+\\& \Rightarrow f(n)=5n^2+2n+13 \in O(n^2)
+\end{aligned}$$
+###### Übung 2:
+$$\begin{aligned}
+&f(n)=1000n+100\\
+&g(n)=n^2\\
+&\lim_\limits{n \to \infty}\frac{1000n+100}{n^2}=\lim_\limits{n \to \infty}\frac{1000n}{n^2}+\lim_\limits{n \to \infty}\frac{100}{n^2}\\
+&0+0=0\leq c \in \mathbb{R}^+\\
+&f(n)=1000n+100\in O(n^2)
+\end{aligned}$$
+Für mehr Beispiele siehe: [[LV_Notizen_2303.pdf#page=2|LV_Notizen_2303, page 2]]
 
 ### Lineares Suchen
 

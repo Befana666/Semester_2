@@ -1,7 +1,6 @@
 ##### 1. Aufgabe 
 Es sei die Menge$$Q \stackrel{\text{def}}{=} \{x : M_x\ hält\ auf\ Eingabe\ x\ und\ x ≤ 2^{1000}\}$$ gegeben. Ist Q entscheidbar? Begründen Sie Ihre Antwort!
 
-Mx hält auf eingabe x ist das halte problem $\Rightarrow$ nicht entscheidbar.
 Der hintere teil ist eine entscheidbare Schranke 
 dadurch ist für diese eine Funktion das problem ist entscheidbar
 
@@ -10,7 +9,11 @@ dadurch ist für diese eine Funktion das problem ist entscheidbar
 (a) Geben Sie tADD1(18) an! Begründen Sie Ihre Antwort! 
 O(1) schritte sind immer eingabe
 oder
-11 Takte
+12 Takte
+
+10010
+10010_
+10011
 
 
 (b) Geben Sie eine Funktion t : N → N an, so dass ADD1 in Zeit t läuft!
@@ -18,19 +21,24 @@ oder
 >Für eine TM M definieren wir die Funktion tM : $\mathbb{N}\rightarrow\mathbb{N}$ wie folgt: tM(x) def 
 Anzahl der Takte, bis M hält, falls M auf x hält tM(x) def = ∞, falls M auf x nicht hält.
 
-t(n)=2n+1
+t(n)=2n+2
 
 3.Geben Sie eine möglichst kleine Funktion ℓ : N → N an, so dass für alle x ∈ N gilt: ℓ(x) ≥ |x| (idealerweise soll sogar: ℓ(x) = |x| gelten). Die Funktion soll als berechenbare Formel angegeben werden (z.B. also so etwas wie ℓ(x) = x 3 (dieses Beispiel löst die Aufgabe nicht richtig ;))). 
 Hinweis 1: |x| def = Länge der Binärdarstellung (ohne führende 0-en) von x. 
 Hinweis 2: Sie dürfen die Gauß-Klammern benutzen. Für ein x ∈ R ist dabei ⌊x⌋ die größte ganze Zahl y mit y ≤ x und ⌈x⌉ ist die kleinste ganze Zahl z mit z ≥ x. 
 Hinweis 3: Möglichst kleine Funktion heißt: Möglichst kleine Funktionswerte für alle Eingaben.
 
-### Kurz gesagt (Intuition):
+$$l(x)=⌊log_2​(x)⌋+1$$
 
 - Binärlänge zählt, wie oft man durch 2 teilen kann, bis man bei 1 ist
 - Logarithmus zur Basis 2 misst genau das
 - Abrunden + 1 gibt die exakte Bitlänge
 
+>[!Note]- log() erklärt
+Man soll eine funtion angeben, die die länge der binärdarstellung der eingabe ausgibt
+Das ist ja der exponent der größten zweierpotent, die in x reinpasst +1 (weil man ja mit 2^0 anfängt)
+log_2(x) gibt einem exakt den exponenten, mit dem man 2 potenzieren muss, um x auszukriegen
+Wenn x aber keine zweierpotenz ist, wird der wert ein bisschen größer, deswegen flooren wir das, weil uns ja nur sie zweierpotenz interessiert. Bis zur nächst größeren hat es ja keinen einfluss auf die länge, ob die zahl ein bisschen größer is oder nich
 
 4.Es sei die Funktion f : N → N für alle x ∈ N wie folgt definiert: f(x) def = 2^x − 1 
 (a) Skizzieren Sie eine Turingmaschine M, die f berechnet! Es ist nicht nötig, M auszuprogrammieren! Vielmehr sollen Sie die Arbeitsweise der Maschine in Worten beschreiben (und aufschreiben!), so dass einem Leser das Funktionsprinzip der Maschine klar wird. 
