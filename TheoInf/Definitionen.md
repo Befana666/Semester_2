@@ -18,3 +18,10 @@
 
 ^a72847
 
+>[!definition]+ Definition 3: RAM definiert Funktion
+>___
+>Sei $M$ eine Random-Access-Machine. Dann sei $f_M:\mathbb{N}\rightarrow\mathbb{N}$ diejenige Funktion, für die gilt: 
+>$$f_M(x)=\begin{cases}y, &\text{falls } M \text{ auf die Eingabe }x\text{ mit dem Ergebnis }y\text{ hält} \\ \text{nicht definiert} & \text{sonst}\end{cases}$$
+
+^b63ff6
+

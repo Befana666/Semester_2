@@ -95,4 +95,25 @@ Die Funktion $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist im RAM-berechenbar,
 >
 >Diese 1-stellige Funktion id:$\mathbb{N}\rightarrow \mathbb{N}$ mit $id(x)$ für alle $x \in \mathbb{N}$ wird auch <span style="color:red"> Identitätsfunktion</span> gennant. Sie bildet Ihr einzigstes Argument auf sich selbst ab.
 
-Jede RAM berechnet unendlich viele Funktionen für jedes $n\geq 0$
+Jede RAM berechnet unendlich viele Funktionen für jedes $n\geq 0$.
+
+Durch jede RAM wird auch eine Funktion definiert.
+
+![[Definitionen#^b63ff6]]
+
+>[!Note]+ Totalen Funktionen
+>haben für jede Eingabe auch eine Ausgabe 
+
+>[!Note]+ Partiellen Funktionen
+>haben Eingaben für die keine Ausgaben definiert sind.
+
+Eine Partielle Funktion wäre zum Beispiel das folgende Program/RAM:
+
+| BR  | Program               | Kommentar           |
+| --- | --------------------- | ------------------- |
+| 0   | $R1\leftarrow 4$      | R1=4                |
+| 1   | $R2\leftarrow R1-R0$  | R2=4-X              |
+| 2   | $IF\ R2\gt0\ GOTO\ 5$ | //Endloss für X < 4 |
+| 3   | $R0 \leftarrow R0+R0$ |                     |
+| 4   | $STOP$                |                     |
+| 5   | $GOTO\ 5$             | //Endlos loop       |
