@@ -124,3 +124,30 @@ Beweisen Sie mit Hilfe einer Wahrheitstafel$$(\lnot A \land B) \lor (A\land B) \
 | 0   | 1   | 1                 | 0          | 1                                   | 1                                                     |
 | 1   | 0   | 0                 | 0          | 0                                   | 0                                                     |
 | 1   | 1   | 0                 | 1          | 1                                   | 1                                                     |
+
+#### Aussageformen
+
+![[Definition#^d76148]]
+
+##### Beispiele
+- A(x) = "x ist größer als 4" //einstelliges Prädikat
+- B(x) = "x ist eine Amsel"
+- C(x,y) "x ist kleiner als y" //zweistelliges Prädikat
+- D(x, y, z)= "x ist kleiner als 0.3 und y ist größer als -0.5 und z ist gleich x+y" // dreistelliges Prädikat
+
+
+#### Quantoren
+
+Um Prädikate exakt quantifizieren zu können, verwendet man <span style="color:red">Quantoren</span>.
+
+|                  |            |                              |
+| ---------------- | ---------- | ---------------------------- |
+| All-Quantor      | $\forall$  | Für alle ...                 |
+| Existenz-Quantor | $\exists$  | Es gibt (mindestens) ein ... |
+|                  | $\exists!$ | Es gibt genau ein ...        |
+
+##### Beispiele
+- Die Gleichung $x^2=4$ besitzt eine Lösung in $\mathbb{R}$.
+	- $\exists x \in \mathbb{R} : x^2=4$
+- Die gleichung $x^2=4$ besitzt genau eine Lösung in $\mathbb{N}$.
+	- 

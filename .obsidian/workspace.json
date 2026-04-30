@@ -9,32 +9,35 @@
         "dimension": 48.562548562548564,
         "children": [
           {
-            "id": "fa7e1d3e6d8d3de4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "GameDesign/Vorlesung/GDDs/BioshockPitch-2002.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "BioshockPitch-2002"
-            }
-          },
-          {
             "id": "0dcdf281a6198c71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Vorlesung/Definition.md",
+                "file": "Analysis/Vorlesung/Logische Aussagen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definition"
+              "title": "Logische Aussagen"
+            }
+          },
+          {
+            "id": "0d792f74036dc7cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Vorlesung/Logische Aussagen.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logische Aussagen"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ccec3007bbd03429",
@@ -227,21 +230,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa7e1d3e6d8d3de4",
+  "active": "0d792f74036dc7cd",
   "lastOpenFiles": [
-    "Analysis/Vorlesung/Logische Aussagen.md",
-    "GameDesign/Vorlesung/GDDs/Pierre_GDD-2009.pdf",
-    "GameDesign/Vorlesung/GDDs/diablo_pitch-1994.pdf",
-    "GameDesign/Vorlesung/GDDs/Monkey Island 3 - 1995.pdf",
-    "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
-    "GameDesign/Vorlesung/GDDs/Empyreal_Fallen_GDD_Final.pdf",
-    "GameDesign/Vorlesung/GDDs/TheSims-TheStateOfTheArtAndGoingForwardToE3-1996.pdf",
-    "GameDesign/Vorlesung/GDDs/Monkey Island - Story - 1990.pdf",
-    "GameDesign/Vorlesung/GDDs/SamAndMax-1992.pdf",
-    "GameDesign/Vorlesung/GDDs/TheSims-Character-Rendering-Strategy-1996.pdf",
-    "GameDesign/Vorlesung/GDDs/Colonels_Bequest_Design_Document-1989.pdf",
-    "GameDesign/Vorlesung/GDDs/The Dig - 1990.pdf",
     "Analysis/Vorlesung/Definition.md",
+    "Analysis/Vorlesung/Logische Aussagen.md",
+    "GameDesign/Vorlesung/GDDs/WhatRemainsOfEditFinch-Original-Concept-Doc-2013.pdf",
+    "GameDesign/Vorlesung/GDDs/WasteLand2_VisionDoc_Final-2012.pdf",
+    "GameDesign/Vorlesung/GDDs/Tron-Design-(Spielautomat)-Document-1981.pdf",
+    "GameDesign/Vorlesung/GDDs/Torins_Passage_Design_Document-1995.pdf",
+    "GameDesign/Vorlesung/GDDs/TheSimsPieMenus-1996.pdf",
+    "GameDesign/Vorlesung/GDDs/TheSims-TheStateOfTheArtAndGoingForwardToE3-1996.pdf",
+    "GameDesign/Vorlesung/GDDs/TheSims-Character-Rendering-Strategy-1996.pdf",
+    "GameDesign/Vorlesung/GDDs/The Dig - 1990.pdf",
+    "GameDesign/Vorlesung/GDDs/Star Wars CD (Rebel Assault)-1992pdf.pdf",
+    "GameDesign/Vorlesung/GDDs/StarFox-2--CLV-P-SADK2-2009.pdf",
+    "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Template/aligned.md",
     "Analysis/Vorlesung/Extra.md",
     "TheoInf/Übung 5.md",

@@ -121,3 +121,13 @@
 >$A\land \lnot A$
 
 ^8eab43
+>[!definition]+ Definition 11: Aussageformen
+>___
+>Sprachliche Konstrukte mit Variablen, die nach Ersetzung der Variablen durch Objekte zu logischen Aussagen werden, heißen <span style="color:red">Aussageformen</span>.
+>
+>Aussageformen bezeichnet man synonym auch als <span style="color:red">Prädikate</span>.
+>- - -
+>
+>Prädikate mit einer Variable nennt man <span style="color:red">einstellige Prädikate</span>, Prädikate mit $n$ Variabeln nennt man <span style="color:red">n-stellige Prädikate</span>(n=Ordnung, Stelligkeit). 
+
+^d76148
