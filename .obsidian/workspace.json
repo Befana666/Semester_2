@@ -21,37 +21,8 @@
               "icon": "lucide-file",
               "title": "Übung 5"
             }
-          },
-          {
-            "id": "92769bd0847d4c48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoInf/Vorlesung/RAM's.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RAM's"
-            }
-          },
-          {
-            "id": "943ddd59ff6d9aa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TheoInf/Definitionen.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Definitionen"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "023d3e6529e4d919",
@@ -246,16 +217,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d83dc510f407cb5b",
+  "active": "13904d9ae89d3bd3",
   "lastOpenFiles": [
-    "TheoInf/Definitionen.md",
+    "TheoInf/Übungen/Übung 5/Übung 5.md",
     "TheoInf/Vorlesung/RAM's.md",
+    "TheoInf/Definitionen.md",
     "TheoInf/Vorlesung/Folien.pdf",
     "Analysis/Vorlesung/Definition.md",
     "Analysis/Vorlesung/Logische Aussagen.md",
     "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
     "Algo/Algorithmen.md",
-    "TheoInf/Übungen/Übung 5/Übung 5.md",
     "TheoInf/Übungen/Übung 5/ue5 Bearbeitet.md",
     "TheoInf/Übungen/Übung 5",
     "TheoInf/Übungen",
