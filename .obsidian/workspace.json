@@ -6,7 +6,7 @@
       {
         "id": "5154b77337db4731",
         "type": "tabs",
-        "dimension": 48.76160990712074,
+        "dimension": 45.05494505494506,
         "children": [
           {
             "id": "0dcdf281a6198c71",
@@ -54,7 +54,7 @@
       {
         "id": "1057ef055dce113e",
         "type": "tabs",
-        "dimension": 51.23839009287926,
+        "dimension": 54.94505494505495,
         "children": [
           {
             "id": "354f1e065c5abc25",
@@ -257,7 +257,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9608196c13dc055d",
+  "active": "b12eccc6d9883226",
   "lastOpenFiles": [
     "Algo/Code Beispiele/Fibonacci.md",
     "Algo/Algorithmen.md",

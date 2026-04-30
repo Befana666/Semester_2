@@ -23,7 +23,7 @@ Eigenschaften eines Guten Algorithmus:
 
 ##### Collatz- Funktion
 $$
-c_{n+1} = \begin{cases}\frac{c_n}{2}\\ 3*c_n+1\end{cases}
+c_{n+1} = \begin{cases}\frac{c_n}{2}, &falls\ c_n\  gerade\\ 3*c_n+1, &falls\ c_n\ ungerade\end{cases}
 $$
    
 - $c_n = 1$ ist Rekursionsende
@@ -237,5 +237,11 @@ Falls Element y in der Liste vorhanden ist, tue .....
 ##### Rekursionstiefe
 - Rekursive Form:
 	- Anzahl der Vergleiche = Anzahl der rekursiven Aufrufe:
-		- T(n) = 1 falls n $\leq$ 2 oder
-		- T(n+1)
+		$$T_{n+1}\begin{cases}T(n)=1, &falls\ n\leq 2\\ T(n-1)+T(n-2)+1, &falls\ n\geq 3\end{cases}$$
+	- n Speicherplätze im Stack nötig
+- Aufgelöste Form
+	- n+1 Speicherplätze nötig
+	- n-1 Schleifendurchläufe mit jeweils
+		- 1 Addition
+		- 1 Vergleich 
+		- 1 Inkrement
