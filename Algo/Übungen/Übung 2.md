@@ -196,7 +196,7 @@ Das Prinzip des Euklidischen Algorithmus wird auch gegenseitige Wechselwegnahme 
 Nach Ablauf des Verfahrens hat man mit m den ggT von a und b gefunden 
 ##### a) Handelt es sich laut Definition um einen Algorithmus? 
 Ja, da es die folgenden Regeln befolgt. 
-![[Before#^1da272]]
+![[Algorithmen#^1da272]]
 
 ##### b) Formulieren Sie den Algorithmus in Form eines Nassi-Shneiderman- Diagramms. Die freie Software „Structorizer“ darf dabei benutzt werden. 
 ![[Übung2_ggTStruktogramm.png]]

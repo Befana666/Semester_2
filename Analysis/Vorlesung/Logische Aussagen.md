@@ -158,6 +158,7 @@ Um Prädikate exakt quantifizieren zu können, verwendet man <span style="color:
 	- $\exists x \in \mathbb{R} : x^2=4$
 - Die Gleichung $x^2=4$ besitzt genau eine Lösung in $\mathbb{N}$.
 	- $\exists! x\in \mathbb{N}: x^2=4$
+note: wenn ich 2 beliebige zahlen aus n nehme so das beide ^2 gleich 4 sind sind beide zahlen gleich 
 - Die Gleichung $x^2=4$ besitzt genau zwei Lösungen in $\mathbb{R}$.
 	- $\exists! (x,4) \in \mathbb{R}*\mathbb{R}, x\lt:yx^2=y^2=4$
 	- Genau zwei lösungen da das Tupel als 1 objekt gilt also das $\exists!$ erfüllt aber auch 2 Values hat.
