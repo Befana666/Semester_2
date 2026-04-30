@@ -28,3 +28,25 @@
 >```
 
 ^b7c330
+
+Dynamisch Rekursive 
+>[!code]+ main.cpp
+>```
+>int fibo_dynamic(int n)
+>{
+>    static int known_fib[100];
+>    known_fib[1] = 1;
+>    known_fib[2] = 1;
+>    int result;
+>    if (known_fib[n] != 0)
+>        result = known_fib[n]; // Ergebnis bereits bekannt 
+>    else
+>    {
+>        result = fibo_dynamic(n - 1) + fibo_dynamic(n - 2);
+>        known_fib[n] = result;
+>    }
+>    return result;
+>}
+>```
+
+^2c7b4d

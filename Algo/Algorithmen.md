@@ -245,3 +245,52 @@ Falls Element y in der Liste vorhanden ist, tue .....
 		- 1 Addition
 		- 1 Vergleich 
 		- 1 Inkrement
+
+Dynamische Programmieren
+	- rekursive Form, die Neuberechnung von bekannten Werten vermeidet
+	- O(n) Vergleiche
+
+![[Fibonacci#^2c7b4d]]
+
+##### Beispiele
+
+Rucksackproblem
+	- Dieb raubt Safe aus
+	- Safe enthält N Typen von Gegenständen
+	- Gegenstände haben unterschiedlichen Wert und Größe
+	- Rucksach hat bestimmtes Fassungsvermögen
+	- Gesamtwert soll maximiert werden
+
+- Ordne Wertstücke nach möglichst leicht und Wertvolle
+- Ergibt lokales aber nicht globales Optimum
+- SCHNELL!!
+
+![[Rucksackproblem#^044660]]
+
+#### Divide and Conquer (DAQ)
+
+1. Zerlege in kleinere Teilprobleme (divide)
+2. Löse Teilprobleme
+3. Setze Teile zur Gesamtlösung zusammen
+
+Beispiele:
+- Binäre Suche
+- Mergesort, Quicksort, ...
+
+##### Binäre Suche in einem sortierten Array
+- Beispiel für  Anwendung von DAQ
+- geg.: sortiertes Array a, Suchwert sw
+- ges.: Suchindex si mit a\[si\] =sw
+- Vorgehensweise:
+	- funktioniert nur im sortierten Array
+	- Sucharray ist Ausgangsarray
+	- Solange Sucharray größer als Einitrag ist 
+		- Aufteilung des Sucharrays in 2 Teilfelder
+		- Falls sw im rechten Teilfeld setzte Sucharray auf das rechte Teilfeld, sonst auf das linke Teilfeld
+	- Rückgabe des Index (=si) des einzigen Elements im Sucharray
+
+|               | Lineare Suche      | Binäre Suche                       |
+| ------------- | ------------------ | ---------------------------------- |
+| best case:    | 1 Vergleich        | 1 Vergleich                        |
+| average case: | (n+1)/2 Vergleiche | $log_2(n)$ Vergleiche              |
+| worst case:   | n Vergleiche       | $\frac 1 2(1+log_2(n))$ Vergleiche |

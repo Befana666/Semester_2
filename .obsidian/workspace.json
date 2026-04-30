@@ -6,7 +6,7 @@
       {
         "id": "5154b77337db4731",
         "type": "tabs",
-        "dimension": 45.05494505494506,
+        "dimension": 54.761904761904766,
         "children": [
           {
             "id": "0dcdf281a6198c71",
@@ -14,16 +14,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo/Algorithmen.md",
+                "file": "Algo/Code Beispiele/Rucksackproblem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithmen"
+              "title": "Rucksackproblem"
             }
           },
           {
-            "id": "9608196c13dc055d",
+            "id": "fdc229e5383cb4a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,41 +37,29 @@
             }
           },
           {
-            "id": "83b662ef926fefa1",
+            "id": "d36190de8b06bf43",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Vektor-Addition.md"
+                "file": "Algo/Code Beispiele/Fibonacci.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Vektor-Addition"
+              "icon": "lucide-file",
+              "title": "Fibonacci"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "1057ef055dce113e",
+        "id": "023d3e6529e4d919",
         "type": "tabs",
-        "dimension": 54.94505494505495,
+        "dimension": 45.23809523809524,
         "children": [
           {
-            "id": "354f1e065c5abc25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algo/Code Beispiele/Facultät.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Facultät"
-            }
-          },
-          {
-            "id": "a5f49f25cf9649e5",
+            "id": "c1773f80ae5ec297",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -81,9 +69,36 @@
               "icon": "lucide-file-text",
               "title": "AUD_Skript_Teil_1"
             }
+          },
+          {
+            "id": "90e473891209e85a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoInf/Übung 5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Übung 5"
+            }
+          },
+          {
+            "id": "13904d9ae89d3bd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoInf/ue5 Bearbeitet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ue5 Bearbeitet"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,22 +272,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b12eccc6d9883226",
+  "active": "fdc229e5383cb4a0",
   "lastOpenFiles": [
-    "Algo/Code Beispiele/Fibonacci.md",
-    "Algo/Algorithmen.md",
     "Algo/Vorlesungen/AUD_Skript_Teil_1.pdf",
+    "TheoInf/Übung 5.md",
+    "Algo/Algorithmen.md",
+    "TheoInf/ue5 Bearbeitet.md",
+    "Algo/Code Beispiele/Fibonacci.md",
+    "Algo/Code Beispiele/Rucksackproblem.md",
+    "Excalidraw/Vektor-Addition.md",
     "Algo/Übungen/Übung 6.md",
     "Algo/Code Beispiele/Vector Addition.md",
     "Algo/Code Beispiele/Facultät.md",
     "Algo/Code Beispiele/Lineare Suchen.md",
-    "Excalidraw/Vektor-Addition.md",
     "Algo/Komplexität.md",
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
     "Algo/Code Beispiele",
     "Algo/Attachment/Übung 6.canvas",
-    "TheoInf/ue5 Bearbeitet.md",
-    "TheoInf/Übung 5.md",
     "Algo/Vorlesungen/5.Notes/LV_Notizen_2704e.pdf",
     "Algo/Vorlesungen/5.Notes/Unconfirmed 888726.crdownload",
     "Algo/Vorlesungen/5.Notes/LV_Notizen_2704d.pdf",
@@ -296,7 +312,6 @@
     "Template/definition x.md",
     "Template/def.md",
     "Template/code.md",
-    "Template/vTable.md",
     "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
