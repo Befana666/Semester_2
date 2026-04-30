@@ -79,8 +79,20 @@ Hilfsregister:               $[R2] =\ Zwischensumme,\ [R3] = 1$
 Die Funktion $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist im RAM-berechenbar, weil die folgende RAM diese Funktion berechnet:
 
 >[!code]+ Programm
->0|$R0\leftarrow R0+R1|//adds x+y=xy
+>0|$R0\leftarrow R0+R1$|//adds x+y=xy
 >--|--|--
->1|R0 \leftarrow R0+R2| //adds xy+z
+>1|$R0 \leftarrow R0+R2$| //adds xy+z
 >3|STOP
+>
+>3-stellige Funktion
 
+##### Übung 3:
+
+>[!code]+ Programm
+>0|$R0\leftarrow R0+R1$|//Bildet eingabe auf sich selbst ab
+>--|--|--
+>2|STOP
+>
+>Diese 1-stellige Funktion id:$\mathbb{N}\rightarrow \mathbb{N}$ mit $id(x)$ für alle $x \in \mathbb{N}$ wird auch <span style="color:red"> Identitätsfunktion</span> gennant. Sie bildet Ihr einzigstes Argument auf sich selbst ab.
+
+Jede RAM berechnet unendlich viele Funktionen für jedes $n\geq 0$

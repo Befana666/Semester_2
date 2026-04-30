@@ -1,4 +1,4 @@
->[!definition]- Definition 1: #Modifizierte_Differenz (S.50)
+>[!definition]- Definition 1: Modifizierte Differenz (S.50)
 >___
 >Für natürliche Zahlen $x,\ y$ sei $$x-y\stackrel{\text{def}}{=}md(x,\ y)\stackrel{\text{def}}{=}\begin{cases}x-y, &falls\ x\gt y\\ 0&sonst\end{cases}$$ 
 >Bedeuted:
@@ -7,7 +7,7 @@
 
 ^1e3839
 
->[!definition]- Definition 2: #RAM-Berechenbarkeit (S.57)
+>[!definition]- Definition 2: RAM-Berechenbarkeit (S.57)
 >___
 >Eine Funktion $f:\mathbb{N}^n\rightarrow\mathbb{N}$ mit $n\geq0$ heißt von einer RAM M berechnet, falls für beliebige $x1,\ x2,\ ....,\ x_n \in \mathbb{N}$ gilt:
 >$$f(x1,\ x2,\ ....,\ x_n) = \begin{cases}\text{ letzter Inhalt von R0}, &\text{falls M beim Start mit} \\ & [BR]=0 \\ & [R_0] =\text{ x1,...} \\ & [R(n-1)]=x_n \\ & [Ri]=0 \text{ für }i\geq n \\ & \text{nach endlich vielen Schritten hält} \\ \text{nicht definiert }&sonst\end{cases}$$
