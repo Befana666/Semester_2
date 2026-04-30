@@ -12,14 +12,12 @@
             "id": "0dcdf281a6198c71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Analysis/Vorlesung/Logische Aussagen.md",
-                "mode": "source",
-                "source": false
+                "file": "GameDesign/Übungen/04_Übung.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Logische Aussagen"
+              "icon": "lucide-file-text",
+              "title": "04_Übung"
             }
           }
         ]
@@ -215,23 +213,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b12eccc6d9883226",
+  "active": "0dcdf281a6198c71",
   "lastOpenFiles": [
-    "Analysis/Vorlesung/Folien/01_Vorlesung_Done.pdf",
+    "GameDesign/Übungen/03_Übung.pdf",
+    "GameDesign/Übungen/02_Übung.pdf",
+    "GameDesign/Übungen/01_Übung.pdf",
+    "GameDesign/Übungen/00_Übung.pdf",
+    "GameDesign/Übungen/04_Übung.pdf",
     "Analysis/Vorlesung/Logische Aussagen.md",
+    "GameDesign/Übungen/Unconfirmed 461671.crdownload",
+    "GameDesign/Übungen/Unconfirmed 305543.crdownload",
+    "GameDesign/Übungen/Unconfirmed 780789.crdownload",
+    "GameDesign/Übungen/Unconfirmed 680293.crdownload",
+    "GameDesign/Übungen/Unconfirmed 116385.crdownload",
     "TheoInf/Vorlesung/RAM's.md",
     "TheoInf/Definitionen.md",
     "TheoInf/Übung 5.md",
     "Analysis/Vorlesung/Definition.md",
-    "GameDesign/Vorlesung/GDDs/WhatRemainsOfEditFinch-Original-Concept-Doc-2013.pdf",
-    "GameDesign/Vorlesung/GDDs/WasteLand2_VisionDoc_Final-2012.pdf",
-    "GameDesign/Vorlesung/GDDs/Tron-Design-(Spielautomat)-Document-1981.pdf",
-    "GameDesign/Vorlesung/GDDs/Torins_Passage_Design_Document-1995.pdf",
-    "GameDesign/Vorlesung/GDDs/TheSimsPieMenus-1996.pdf",
-    "GameDesign/Vorlesung/GDDs/TheSims-TheStateOfTheArtAndGoingForwardToE3-1996.pdf",
-    "GameDesign/Vorlesung/GDDs/TheSims-Character-Rendering-Strategy-1996.pdf",
-    "GameDesign/Vorlesung/GDDs/The Dig - 1990.pdf",
-    "GameDesign/Vorlesung/GDDs/Star Wars CD (Rebel Assault)-1992pdf.pdf",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Template/aligned.md",
     "Analysis/Vorlesung/Extra.md",
