@@ -71,21 +71,8 @@
               "icon": "lucide-file",
               "title": "ue5 Bearbeitet"
             }
-          },
-          {
-            "id": "f0ad7b4dff2b84ec",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TheoInf/Vorlesung/Folien.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Folien"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,7 +246,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "92769bd0847d4c48",
+  "active": "d83dc510f407cb5b",
   "lastOpenFiles": [
     "TheoInf/Definitionen.md",
     "TheoInf/Vorlesung/RAM's.md",
