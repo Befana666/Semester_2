@@ -120,7 +120,7 @@ Beweisen Sie mit Hilfe einer Wahrheitstafel$$(\lnot A \land B) \lor (A\land B) \
 
 | A   | B   | $\lnot A \land B$ | $A\land B$ | $(\lnot A \land B) \lor (A\land B)$ | $(\lnot A \land B) \lor (A\land B) \Leftrightarrow B$ |
 | --- | --- | ----------------- | ---------- | ----------------------------------- | ----------------------------------------------------- |
-| 0   | 0   |                   |            |                                     |                                                       |
-| 0   | 1   |                   |            |                                     |                                                       |
-| 1   | 0   |                   |            |                                     |                                                       |
-| 1   | 1   |                   |            |                                     |                                                       |
+| 0   | 0   | 0                 | 0          | 0                                   | 0                                                     |
+| 0   | 1   | 1                 | 0          | 1                                   | 1                                                     |
+| 1   | 0   | 0                 | 0          | 0                                   | 0                                                     |
+| 1   | 1   | 0                 | 1          | 1                                   | 1                                                     |
