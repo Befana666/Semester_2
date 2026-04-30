@@ -26,14 +26,24 @@
             "id": "d36190de8b06bf43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Algo/Algorithmen.md",
-                "mode": "source",
-                "source": false
+                "file": "Algo/Vorlesungen/3.Notes/Binäre Suche Notizen.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Algorithmen"
+              "icon": "lucide-file-text",
+              "title": "Binäre Suche Notizen"
+            }
+          },
+          {
+            "id": "446b01362cfe3688",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Algo/Vorlesungen/1. Notes/Lineare Suche Notizen.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Lineare Suche Notizen"
             }
           },
           {
@@ -64,10 +74,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Algo/Vorlesungen/1. Notes/LV_Notizen_2303.pdf"
+                "file": "Algo/Vorlesungen/1. Notes/Big-O-Notation Notizen.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "LV_Notizen_2303"
+              "title": "Big-O-Notation Notizen"
             }
           },
           {
@@ -84,7 +94,8 @@
               "title": "ue5 Bearbeitet"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -260,13 +271,19 @@
   },
   "active": "d36190de8b06bf43",
   "lastOpenFiles": [
-    "Algo/Vorlesungen/1. Notes/LV_Notizen_2303.pdf",
+    "Algo/Vorlesungen/3.Notes/LV_Notizen_1304c.pdf",
+    "Algo/Vorlesungen/3.Notes/Rucksack-Problem Notizen.pdf",
+    "Algo/Vorlesungen/2. Notes/Rekursion Notizen.pdf",
+    "Algo/Vorlesungen/2. Notes/Greedy-Algorithmen Notizen.pdf",
+    "Algo/Vorlesungen/1. Notes/Lineare Suche Notizen.pdf",
+    "Algo/Vorlesungen/1. Notes/Big-O-Notation Notizen.pdf",
     "Algo/Algorithmen.md",
+    "Algo/Vorlesungen/3.Notes/Binäre Suche Notizen.pdf",
+    "Algo/Vorlesungen/Done_1. Vorlesung.pdf",
     "TheoInf/Übung 5.md",
     "TheoInf/ue5 Bearbeitet.md",
     "Algo/Code Beispiele/Fibonacci.md",
     "Template/lim.md",
-    "Algo/Vorlesungen/Done_1. Vorlesung.pdf",
     "Algo/Code Beispiele/Rucksackproblem.md",
     "Excalidraw/Vektor-Addition.md",
     "Algo/Übungen/Übung 6.md",
@@ -277,12 +294,6 @@
     "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
     "Algo/Code Beispiele",
     "Algo/Attachment/Übung 6.canvas",
-    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704e.pdf",
-    "Algo/Vorlesungen/5.Notes/Unconfirmed 888726.crdownload",
-    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704d.pdf",
-    "Algo/Vorlesungen/5.Notes/Unconfirmed 169077.crdownload",
-    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704c.pdf",
-    "Algo/Vorlesungen/5.Notes/Unconfirmed 54857.crdownload",
     "Algo/20.04.md",
     "Analysis/Vorlesung/Logische Aussagen.md",
     "TheoInf/Vorlesung/RAM's.md",

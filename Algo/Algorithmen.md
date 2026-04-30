@@ -178,7 +178,7 @@ $$\begin{aligned}
 &0+0=0\leq c \in \mathbb{R}^+\\
 &f(n)=1000n+100\in O(n^2)
 \end{aligned}$$
-Für mehr Beispiele siehe: [[LV_Notizen_2303.pdf#page=2|LV_Notizen_2303, page 2]]
+Für mehr Beispiele siehe: [[Big-O-Notation Notizen.pdf#page=2|LV_Notizen_2303, page 2]]
 
 ### Lineares Suchen
 
@@ -190,7 +190,7 @@ Falls Element y in der Liste vorhanden ist, tue .....
 | Best Case   | Average Case       | Worst Case   |
 | ----------- | ------------------ | ------------ |
 | 1 Vergleich | (n+1)/2 Vergleiche | n Vergleiche |
-
+Siehe hier für Komplexität: [[Lineare Suche Notizen.pdf#page=1|LV_Notizen_2303b, page 1]]
 ### Typen von Algorithmen
 
 - Iterative Algorithmen
@@ -226,6 +226,8 @@ Falls Element y in der Liste vorhanden ist, tue .....
 - Wechselgeldalgorithmus
 - Scheduling von Prozessen auf Prozessoren
 - Minimalpfad in einem Graphen (Routenoptimierung)
+
+More: [[Greedy-Algorithmen Notizen.pdf]]
 
 ---
 
@@ -284,6 +286,8 @@ Rucksackproblem
 
 ![[Rucksackproblem#^044660]]
 
+More: -[[Rekursion Notizen.pdf]]
+	  -[[Rucksack-Problem Notizen.pdf]]
 #### Divide and Conquer (DAQ)
 
 1. Zerlege in kleinere Teilprobleme (divide)
@@ -305,6 +309,7 @@ Beispiele:
 		- Aufteilung des Sucharrays in 2 Teilfelder
 		- Falls sw im rechten Teilfeld setzte Sucharray auf das rechte Teilfeld, sonst auf das linke Teilfeld
 	- Rückgabe des Index (=si) des einzigen Elements im Sucharray
+More: [[Binäre Suche Notizen.pdf]]
 
 |               | Lineare Suche      | Binäre Suche                       |
 | ------------- | ------------------ | ---------------------------------- |

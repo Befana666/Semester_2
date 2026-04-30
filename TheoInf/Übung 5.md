@@ -9,7 +9,7 @@ dadurch ist für diese eine Funktion das problem ist entscheidbar
 (a) Geben Sie tADD1(18) an! Begründen Sie Ihre Antwort! 
 O(1) schritte sind immer eingabe
 oder
-12 Takte
+11 Takte
 
 10010
 10010_
