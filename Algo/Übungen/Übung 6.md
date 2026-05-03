@@ -183,6 +183,8 @@ class Stack
 
 >[!code]- main.cpp
 >```
+>#include "stack.cpp"
+>
 >int main()
 >{
 >    Stack <int> st;
@@ -195,10 +197,6 @@ class Stack
 >
 >    //Tests top Method
 >    cout << "Return of top: " << st.top() << "\n";
->    
->    infixToPostfix();
->    postfixToInfix();
->
 >}
 >```
 
