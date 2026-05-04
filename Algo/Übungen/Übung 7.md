@@ -50,8 +50,8 @@ public:
 ```
 
 Tragen Sie die Resultate der Zeigeroperationen in die unten stehende Skizze ein. Achten Sie dabei auf Sonderfälle (leere Tabelle, iterator=0, iterator=head/tail,….)
+![[Algo/Attachment/Übung7_Aufgabe25.md#^group=Dwnl008y]]
 
-![[Übung7_Aufgabe25]]
-
+![[Algo/Attachment/Übung7_Aufgabe25.md#^frame=RBEwXHtn]]
 #### Aufgabe 26
 Welche Aufwände entstehen bei den Methoden delete, insert in Aufgabe 22. Von welcher Komplexitätsklasse sind diese Aufwände? Vergleichen Sie die Aufwände im Falle einer Implementierung mit Hilfe eines arrays und mit Hilfe der doppelt verketteten Liste.

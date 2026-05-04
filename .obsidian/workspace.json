@@ -12,12 +12,14 @@
             "id": "90e473891209e85a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung6.pdf"
+                "file": "Algo/Übungen/Übung 7.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Übung6"
+              "icon": "lucide-file",
+              "title": "Übung 7"
             }
           }
         ]
@@ -33,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Übung 7.md",
+                "file": "Analysis/Übungen/Übung 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 7"
+              "title": "Übung 4"
             }
           },
           {
@@ -73,15 +75,16 @@
             "id": "d2b95735e8621e39",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "Algo/Übungen/Aufgabenstellung/Übung7.pdf"
+                "file": "Algo/Attachment/Übung7_Aufgabe25.md"
               },
-              "icon": "lucide-file-text",
-              "title": "Übung7"
+              "icon": "excalidraw-icon",
+              "title": "Übung7_Aufgabe25"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -265,20 +268,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6ebe12f56e1bd6a8",
+  "active": "d2b95735e8621e39",
   "lastOpenFiles": [
-    "Algo/Übungen/Übung 6.md",
-    "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
     "Algo/Übungen/Übung 7.md",
+    "Algo/Attachment/Übung7_Aufgabe25.md",
+    "Algo/Übungen/Aufgabenstellung/Übung7.pdf",
     "Algo/Übungen/Übung 5.md",
     "Algo/Algorithmen.md",
-    "Algo/Übungen/Aufgabenstellung/Übung7.pdf",
+    "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
+    "Analysis/Übungen/Übung 4.md",
     "Pasted image 20260503165538.png",
+    "Algo/Übungen/Aufgabenstellung/Ausweis.pdf",
+    "Algo/Übungen/Aufgabenstellung/Ausweis.pdf.crdownload",
+    "Algo/Übungen/Übung 6.md",
     "Algo/Attachment/Vektor-Addition.md",
     "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
     "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
     "Excalidraw/Drawing 2026-04-28 13.11.35.excalidraw.md",
-    "Algo/Attachment/Übung7_Aufgabe25.md",
     "TheoInf/Übungen/Übung 5/Übung 5.md",
     "Algo/Vorlesungen/2. Notes/Rekursion Notizen.pdf",
     "Algo/Übungen/Aufgabenstellung/Nicht bestätigt 871688.crdownload",
@@ -291,8 +297,6 @@
     "TheoInf/Vorlesung/Folien.pdf",
     "Analysis/Vorlesung/Definition.md",
     "Analysis/Vorlesung/Logische Aussagen.md",
-    "Analysis/Analysis_GE_Teil03 - beschriftet.pdf",
-    "TheoInf/Übungen/Übung 5",
     "Algo/Code Beispiele/Fibonacci.md",
     "Template/lim.md",
     "Algo/Code Beispiele/Rucksackproblem.md",
@@ -304,7 +308,6 @@
     "Algo/20.04.md",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Template/aligned.md",
-    "Analysis/Vorlesung/Extra.md",
     "Pasted image 20260429125300.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
