@@ -8,63 +8,63 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ebe12f56e1bd6a8",
+            "id": "99c0e5074829bbb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Analysis/Übungen/Übung 4.md",
-                "mode": "source",
-                "source": false
+                "file": "Analysis/Attachments/Pasted image 20260421200906.png"
               },
-              "icon": "lucide-file",
-              "title": "Übung 4"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260421200906"
             }
           },
           {
-            "id": "baa81bc1d89b5135",
+            "id": "78ecee1c66472ee3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Algo/Algorithmen.md",
-                "mode": "source",
-                "source": false
+                "file": "Analysis/Vorlesung/Folien/04_Vorlesung.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Algorithmen"
+              "icon": "lucide-file-text",
+              "title": "04_Vorlesung"
             }
           },
           {
-            "id": "997aa944bbf9f84e",
+            "id": "b7e95c09167ae293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Übung 5.md",
+                "file": "Template/sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 5"
-            }
-          },
-          {
-            "id": "d2b95735e8621e39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algo/Übungen/Übung 7.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Übung 7"
+              "title": "sum"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "3d1c43bb8e05e5ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3fb8c948759bdff7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Analysis/Vorlesung/Folien/04_Vorlesung.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "04_Vorlesung"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,24 +248,28 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b12eccc6d9883226",
+  "active": "3fb8c948759bdff7",
   "lastOpenFiles": [
-    "Analysis/Lösungen/Blatt4_Lösung.pdf",
-    "Analysis/Lösungen/Nicht bestätigt 202135.crdownload",
-    "Analysis/Lösungen/Blatt3_Lösung.pdf",
-    "Analysis/Lösungen/Nicht bestätigt 357296.crdownload",
-    "Analysis/Lösungen/Blatt2_Lösung.pdf",
-    "Analysis/Lösungen/Nicht bestätigt 983248.crdownload",
-    "Analysis/Lösungen/Blatt1_Lösung.pdf",
-    "Analysis/Lösungen/Nicht bestätigt 141301.crdownload",
-    "Analysis/Lösungen",
-    "Algo/Attachment/Übung7_Aufgabe25.md",
-    "Algo/Übungen/Übung 7.md",
-    "Algo/Übungen/Aufgabenstellung/Übung7.pdf",
-    "Algo/Übungen/Übung 5.md",
-    "Algo/Algorithmen.md",
-    "Algo/Übungen/Aufgabenstellung/Übung6.pdf",
+    "Analysis/Übungen/Übung 6.md",
+    "Analysis/Übungen/Aufgabenstellung/Übung 6.pdf",
+    "Template/sum.md",
+    "Analysis/Vorlesung/Folien/04_Vorlesung.pdf",
+    "Analysis/Attachments/Pasted image 20260421200906.png",
+    "Analysis/Attachments",
+    "Analysis/Vorlesung/Folien/Analysis_GE_Teil03 - beschriftet.pdf",
+    "Analysis/Vorlesung/Folien/03_Vorlesung.pdf",
+    "Analysis/Attachments/Pasted image 20260421190901.png",
+    "Analysis/Übungen/Aufgabenstellung/Übung 4.pdf",
+    "Analysis/Übungen/Aufgabenstellung/Übung 5.pdf",
     "Analysis/Übungen/Übung 4.md",
+    "Analysis/Übungen/Aufgabenstellung",
+    "Analysis/Übungen/Untitled.md",
+    "Algo/Algorithmen.md",
+    "Analysis/Übungen/Nicht bestätigt 535762.crdownload",
+    "Analysis/Übungen/Nicht bestätigt 385303.crdownload",
+    "Algo/Übungen/Übung 5.md",
+    "Algo/Übungen/Übung 7.md",
+    "Algo/Attachment/Übung7_Aufgabe25.md",
     "Pasted image 20260503165538.png",
     "Algo/Übungen/Übung 6.md",
     "Algo/Attachment/Vektor-Addition.md",
@@ -284,19 +288,14 @@
     "Algo/Code Beispiele/Vector Addition.md",
     "Algo/Code Beispiele/Facultät.md",
     "Algo/Code Beispiele/Lineare Suchen.md",
-    "Algo/Komplexität.md",
     "Algo/Attachment/Übung 6.canvas",
-    "Algo/20.04.md",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
-    "Template/aligned.md",
     "Pasted image 20260429125300.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "!Übung 6.canvas",
-    "Analysis/Übungen/Pasted image 20260421200906.png",
-    "Analysis/Übungen/Pasted image 20260421190901.png",
     "Algo/Attachment/Übung2_ggTStruktogramm.png",
     "Algo/Attachment/Pasted image 20260413150228.png",
     "Untitled 1.canvas"
