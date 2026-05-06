@@ -13,10 +13,30 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf"
+                "file": "Analysis/Übungen/Analysis Übung (1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Übung 0"
+              "title": "Analysis Übung (1)"
+            }
+          }
+        ]
+      },
+      {
+        "id": "7dcd21bb3ebe56e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29eaa5a82c21a338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Übungen/Übung 6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Übung 6"
             }
           }
         ]
@@ -205,23 +225,26 @@
   },
   "active": "78ecee1c66472ee3",
   "lastOpenFiles": [
+    "Analysis/Übungen/Übung 6.md",
+    "Analysis/Übungen/Analysis Übung (1).pdf",
+    "Analysis/Übungen/Übung 0.md",
+    "Analysis/Übungen/Analysis Übung (1).pdf.crdownload",
+    "Analysis/Übungen/Übung 5.md",
+    "Analysis/Übungen/Übung 3.md",
+    "Analysis/Übungen/Übung 2.md",
+    "Analysis/Übungen/Übung 1.md",
+    "Analysis/Übungen/Aufgabenstellung/Übung 1.pdf",
+    "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf",
     "Analysis/Übungen/Aufgabenstellung/Übung 2.pdf",
     "Analysis/Vorlesung/Folien/05_Vorlesung.pdf",
     "Analysis/Vorlesung/Folien/04_Vorlesung.pdf",
-    "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf",
     "Analysis/Attachments/Pasted image 20260421200906.png",
     "Analysis/Übungen/Aufgabenstellung/Übung 3.pdf",
-    "Analysis/Übungen/Übung 6.md",
-    "Analysis/Übungen/Aufgabenstellung/Übung 1.pdf",
     "Analysis/Vorlesung/Folien/03_Vorlesung.pdf",
     "Analysis/Übungen/Aufgabenstellung/Nicht bestätigt 86745.crdownload",
-    "Analysis/Übungen/Aufgabenstellung/Nicht bestätigt 4778.crdownload",
-    "Analysis/Übungen/Aufgabenstellung/Nicht bestätigt 841025.crdownload",
-    "Analysis/Übungen/Aufgabenstellung/Nicht bestätigt 442868.crdownload",
     "Template/sum.md",
     "Analysis/Attachments/Pasted image 20260421190901.png",
     "Analysis/Übungen/Übung 4.md",
-    "Analysis/Übungen/Untitled.md",
     "Algo/Algorithmen.md",
     "Algo/Übungen/Übung 5.md",
     "Algo/Übungen/Übung 7.md",
@@ -240,10 +263,6 @@
     "Analysis/Vorlesung/Logische Aussagen.md",
     "Algo/Code Beispiele/Fibonacci.md",
     "Template/lim.md",
-    "Algo/Code Beispiele/Rucksackproblem.md",
-    "Algo/Code Beispiele/Vector Addition.md",
-    "Algo/Code Beispiele/Facultät.md",
-    "Algo/Code Beispiele/Lineare Suchen.md",
     "Algo/Attachment/Übung 6.canvas",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Pasted image 20260429125300.png",
