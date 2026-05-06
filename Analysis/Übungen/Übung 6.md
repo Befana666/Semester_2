@@ -1,8 +1,10 @@
 #### Aufgabe 1: Alternierende Reihen (I)
 Die folgende Aufgabe dient der Wiederholung der Inhalte aus Folien [[04_Vorlesung.pdf#page=33|4/33]], [[04_Vorlesung.pdf#page=34|4/34]] und [[04_Vorlesung.pdf#page=35|4/35]]. 
-##### a) Zeigen Sie, dass die unendliche Reihe $\sum\limits_{j = 1}^{\infty} {\frac{(-1)^j}{j}}$ konvergiert und geben Sie den Grenzwert an! Berechen Sie den Grenzwert mit einem Fehler von höchstens 0.1. 
+##### a) Zeigen Sie, dass die unendliche Reihe $\sum\limits_{j = 1}^{\infty} {\frac{(-1)^j}{j}}$ konvergiert und geben Sie den Grenzwert an! Berechen Sie den Grenzwert mit einem Fehler von höchstens 0,1. [[04_Vorlesung.pdf#page=39|Siehe]]
 
-
+Da die Zahl unterm bruch strich größer wird und sich die oberm bruchstrich nur das vorzeichen ändert konvergiert die Reihe zu null ohne null je zu treffen
+1,-1,0.5,-0.5,0.25.-0.25,0.125,-0.125,0.0625,-0.0625
+s-sn=s-$\sum\limits_{j = 1}^{\infty} {\frac{(-1)^j}{j}}$|$\leq a_n +1$
 ##### b) Wie viele Glieder der unendlichen Reihe aus a) mussen Sie summieren, um eine Genauigkeit von $10^{-3}$ zu erhalten? 
 ##### c) Geben Sie die alternierende Reihe der Kehrwerte der ungeraden natürlichen Zahlen an und begründen Sie die Konvergenz dieser unendlichen Reihe. 
 #### Aufgabe 2: Alternierende Reihen (II)
@@ -17,7 +19,7 @@ $$\sum\limits_{j = 0}^{\infty} {\frac{(-1)^j}{3^j}}$$
 	"Für alle $y0 \in \mathbb{R}$ gibt es ein $x0 \in \mathbb{R}$, sodass $g(x0) = y0$ gilt" 
 3) Überlegen Sie, wo Sie in ihrer Beweisführung verwenden, dass $a \not = 0$ gelten muss. 
 4) Folgern Sie die Bijektivität. 
-#### Aufgabe 4: Definitionsbereich, Bildbereich und Beschr¨anktheit 
+#### Aufgabe 4: Definitionsbereich, Bildbereich und Beschränktheit 
 Gegeben seien die beiden Funktionen $f$ : $\mathbb{R}_{\geq0},\ \ x\mapsto e^{\frac 12 x^2}$ und $g$ : $\mathbb{R} \rightarrow \mathbb{R}$, $x \mapsto \frac{x-\mu}{\sigma}$
 ##### a) Bestimmen Sie die Umkehrfunktionen $f^{-1}$ und $g^{-1}$. Welche Bedingungen ergeben sich für den Definitionsbereich der Umkehrfunktionen? 
 ##### b) Bestimmen Sie den Definitionsbereich $D_{f\circ g}$ der Komposition $(f\circ g)(x)$. 
