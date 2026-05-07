@@ -357,8 +357,8 @@ Tragen Sie die Resultate der Zeigeroperationen in die unten stehende Skizze ein.
 
 #### Aufgabe 26
 Welche Aufwände entstehen bei den Methoden **find, delete, insert, append** in Aufgabe 22. Von welcher Komplexitätsklasse sind diese Aufwände? Vergleichen Sie die Aufwände im Falle einer Implementierung mit Hilfe eines arrays und mit Hilfe der doppelt verketteten Liste.
-[https://www.happycoders.eu/de/algorithmen/stack-implementieren-linked-list](Linked List)
-[https://www.happycoders.eu/de/algorithmen/o-notation-zeitkomplexitaet/#O1_-_konstanter_Aufwand](Konstanter Aufwand)
+[Linked List](https://www.happycoders.eu/de/algorithmen/stack-implementieren-linked-list)
+[Konstanter Aufwand](https://www.happycoders.eu/de/algorithmen/o-notation-zeitkomplexitaet/#O1_-_konstanter_Aufwand)
 
 ---
 
