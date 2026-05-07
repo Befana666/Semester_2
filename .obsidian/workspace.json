@@ -18,8 +18,37 @@
               "icon": "lucide-file-text",
               "title": "Analysis Übung (1)"
             }
+          },
+          {
+            "id": "76c856c1fb3d67a6",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
+            }
+          },
+          {
+            "id": "6dc5c5eb663f7108",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7dcd21bb3ebe56e7",
@@ -223,10 +252,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "78ecee1c66472ee3",
+  "active": "6dc5c5eb663f7108",
   "lastOpenFiles": [
-    "Analysis/Übungen/Übung 6.md",
+    "conflict-files-obsidian-git.md",
     "Analysis/Übungen/Analysis Übung (1).pdf",
+    "GameDesign/Übungen/05_Übung.pdf",
+    "GameDesign/Vorlesung/5_Spiel als Erlebnis.pdf",
+    "GameDesign/Vorlesung/4_Spielmechanik.pdf",
+    "GameDesign/Vorlesung/3_Platzierung & Kontext.pdf",
+    "GameDesign/Vorlesung/2_Das Game Design Document.pdf",
+    "GameDesign/Vorlesung/1_Ideenfindung & Kreativtechniken.pdf",
+    "GameDesign/Vorlesung/0_Einführung und Spielmerkmale.pdf",
+    "Analysis/Übungen/Übung 6.md",
     "Analysis/Übungen/Übung 0.md",
     "Analysis/Übungen/Analysis Übung (1).pdf.crdownload",
     "Analysis/Übungen/Übung 5.md",
@@ -234,14 +271,7 @@
     "Analysis/Übungen/Übung 2.md",
     "Analysis/Übungen/Übung 1.md",
     "Analysis/Übungen/Aufgabenstellung/Übung 1.pdf",
-    "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf",
-    "Analysis/Übungen/Aufgabenstellung/Übung 2.pdf",
-    "Analysis/Vorlesung/Folien/05_Vorlesung.pdf",
-    "Analysis/Vorlesung/Folien/04_Vorlesung.pdf",
     "Analysis/Attachments/Pasted image 20260421200906.png",
-    "Analysis/Übungen/Aufgabenstellung/Übung 3.pdf",
-    "Analysis/Vorlesung/Folien/03_Vorlesung.pdf",
-    "Analysis/Übungen/Aufgabenstellung/Nicht bestätigt 86745.crdownload",
     "Template/sum.md",
     "Analysis/Attachments/Pasted image 20260421190901.png",
     "Analysis/Übungen/Übung 4.md",
@@ -262,7 +292,6 @@
     "Analysis/Vorlesung/Definition.md",
     "Analysis/Vorlesung/Logische Aussagen.md",
     "Algo/Code Beispiele/Fibonacci.md",
-    "Template/lim.md",
     "Algo/Attachment/Übung 6.canvas",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Pasted image 20260429125300.png",
