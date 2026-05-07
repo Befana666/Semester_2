@@ -352,7 +352,9 @@ Tragen Sie die Resultate der Zeigeroperationen in die unten stehende Skizze ein.
 ![[Algo/Attachment/Übung7_Aufgabe25.md#^group=Dwnl008y]]
 
 ![[Algo/Attachment/Übung7_Aufgabe25.md#^frame=RBEwXHtn]]
+
 ![[Algo/Attachment/Übung7_Aufgabe25.md#^frame=SFXJuRRp]]
+
 ![[Algo/Attachment/Übung7_Aufgabe25.md#^frame=pQUyMefy]]
 
 #### Aufgabe 26

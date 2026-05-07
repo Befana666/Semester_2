@@ -6,55 +6,26 @@
       {
         "id": "5154b77337db4731",
         "type": "tabs",
-        "dimension": 81.68498168498168,
+        "dimension": 36.26373626373626,
         "children": [
           {
             "id": "90e473891209e85a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "TheoInf/Übungen/Übung 5/Übung 5.md",
-                "mode": "source",
-                "source": false
+                "file": "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Übung 5"
-            }
-          },
-          {
-            "id": "f75240297bd5eacc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Algo/Attachment/Übung7_Aufgabe25.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Übung7_Aufgabe25"
-            }
-          },
-          {
-            "id": "cf3f2b55917dcef4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algo/Übungen/Übung 7.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Übung 7"
+              "icon": "lucide-file-text",
+              "title": "Übung 0"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "023d3e6529e4d919",
         "type": "tabs",
-        "dimension": 18.315018315018314,
+        "dimension": 63.73626373626373,
         "children": [
           {
             "id": "13904d9ae89d3bd3",
@@ -273,12 +244,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cf3f2b55917dcef4",
+  "active": "90e473891209e85a",
   "lastOpenFiles": [
+    "Analysis/Übungen/Übung 0.md",
+    "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf",
+    "TheoInf/Übungen/Übung 5/Übung 5.md",
     "Algo/Attachment/Übung7_Aufgabe25.md",
     "Algo/Übungen/Übung 7.md",
-    "Analysis/Übungen/Aufgabenstellung/Übung 0.pdf",
-    "Analysis/Übungen/Übung 0.md",
     "conflict-files-obsidian-git.md",
     "TheoInf/Vorlesung/RAM's.md",
     "Template/sum.md",
@@ -297,7 +269,6 @@
     "Algo/Attachment/Vektor-Addition.md",
     "TheoInf/Definitionen.md",
     "TheoInf/Übungen/Übung 5/ue5 Bearbeitet.md",
-    "TheoInf/Übungen/Übung 5/Übung 5.md",
     "Analysis/Vorlesung/Definition.md",
     "Analysis/Vorlesung/Logische Aussagen.md",
     "Algo/Algorithmen.md",
