@@ -1,0 +1,1 @@
+\sum\limits_{j = 1}^{\infty} {x}
