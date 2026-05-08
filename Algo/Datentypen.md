@@ -116,6 +116,8 @@ Zugriff nur über * und -> Operationen möglich
 >```
 
 ![[DatenTypenExcalidraw#^frame=YpKOU6KC]]
+
+
 ##### Insert
 
 >[!code]+ main.cpp
@@ -124,7 +126,7 @@ template <class item_type>
 void Stack<item_type>::push(item_type& r) {
 	node* temp = new node; //Create a new Node
 	temp->item = r; //set Value for Node
-	tail->nextItem = item; // Set Pointer from the Previous Node to this Node
+	temp->nextItem = tail; // Set this nodes pointer to the previous node
 	tail = temp; //Save the new Node as top most
 
 	itemCount += 1;
@@ -134,6 +136,24 @@ void Stack<item_type>::push(item_type& r) {
 ![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=EinfachInsert]]
 
 >[!Warning]- zu Übung 6
->mir viel gerade auf das ich bei der 6. Übung die Pointer in die Falsche richtung habe zeigen lassen zumindest im Vergleich zu der Grafik
+>mir viel gerade auf das die Pfeile hier und wie ich es gecoded habe nicht übereinstimmen
+>mir fällt aber auch kein anderer weg ein
+
 
 ##### Delete
+
+>[!code]- file.name
+>```
+>item_type Stack<item_type>::pop() {
+>	if (!empty()) {
+>		node* temp = tail; // Temp save the node u want to delete
+>		tail = temp->nextItem;
+>		itemCount -= 1;
+>		item_type value = temp->item;
+>		delete temp;
+>		return value;
+>	}
+>}
+>```
+
+![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=Delete]]
