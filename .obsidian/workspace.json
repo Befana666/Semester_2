@@ -40,16 +40,18 @@
             "id": "bbe844764e035661",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "split-diff-view",
               "state": {
-                "file": "Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-08 10.32.54.excalidraw"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "bb74acf9942b4650",
@@ -242,11 +244,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "86761080b112c7df",
+  "active": "bbe844764e035661",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Algo/Datentypen.md",
+    "Analysis/Übungen/Übung 5.md",
+    "Analysis/Übungen/Übung 3.md",
+    "Analysis/Übungen/Übung 2.md",
+    "Analysis/Übungen/Übung 1.md",
+    "Analysis/Übungen/Analysis Übung (1).pdf",
     "Algo/Algorithmen.md",
     "Algo/Übungen/Übung 6.md",
-    "Algo/Datentypen.md",
     "Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md",
     "Algo/Übungen/Übung 7.md",
     "Algo/Vorlesungen/AUD_Skript_Teil_2.pdf",
@@ -261,10 +269,8 @@
     "GameDesign/Vorlesung/0_Einführung und Spielmerkmale.pdf",
     "GameDesign/Übungen/Unconfirmed 486506.crdownload",
     "GameDesign/Vorlesung/1_Ideenfindung & Kreativtechniken.pdf",
-    "GameDesign/Vorlesung/2_Das Game Design Document.pdf",
     "Algo/Attachment/Übung7_Aufgabe25.md",
     "TheoInf/Übungen/Übung 5/Übung 5.md",
-    "conflict-files-obsidian-git.md",
     "TheoInf/Vorlesung/RAM's.md",
     "Template/sum.md",
     "Analysis/Übungen/Übung 6.md",
@@ -278,9 +284,6 @@
     "Algo/Code Beispiele/Fibonacci.md",
     "Template/lim.md",
     "Algo/Code Beispiele/Rucksackproblem.md",
-    "Excalidraw/Vektor-Addition.md",
-    "Algo/Code Beispiele/Vector Addition.md",
-    "Algo/Code Beispiele/Facultät.md",
     "Algo/Attachment/Übung 6.canvas",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
     "Pasted image 20260429125300.png",
