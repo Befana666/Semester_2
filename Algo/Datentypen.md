@@ -115,21 +115,23 @@ Zugriff nur über * und -> Operationen möglich
 >}
 >```
 
-![[Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md#^frame=YpKOU6KC]]
+![[DatenTypenExcalidraw#^frame=YpKOU6KC]]
 ##### Insert
 
 >[!code]+ main.cpp
 ```
 template <class item_type>
 void Stack<item_type>::push(item_type& r) {
-	node* temp = new node; //new Node
+	node* temp = new node; //Create a new Node
 	temp->item = r; //set Value for Node
 	tail->nextItem = item; // Set Pointer from the Previous Node to this Node
-	tail = temp;
+	tail = temp; //Save the new Node as top most
 
 	itemCount += 1;
 }
 ```
+
+![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=EinfachInsert]]
 
 >[!Warning]- zu Übung 6
 >mir viel gerade auf das ich bei der 6. Übung die Pointer in die Falsche richtung habe zeigen lassen zumindest im Vergleich zu der Grafik

@@ -230,7 +230,7 @@
             "version": 25,
             "versionNonce": 156743158,
             "isDeleted": false,
-            "boundElements": null,
+            "boundElements": [],
             "updated": 1778229306941,
             "locked": false,
             "text": "0",
@@ -243,7 +243,8 @@
             "originalText": "0",
             "autoResize": true,
             "lineHeight": 1.25,
-            "hasTextLink": false
+            "hasTextLink": false,
+            "link": null
           }
         ],
         "created": 1778229309526
@@ -409,7 +410,7 @@
             "version": 22,
             "versionNonce": 1304085802,
             "isDeleted": false,
-            "boundElements": null,
+            "boundElements": [],
             "updated": 1778229264050,
             "locked": false,
             "text": "tail",
@@ -422,7 +423,8 @@
             "originalText": "tail",
             "autoResize": true,
             "lineHeight": 1.25,
-            "hasTextLink": false
+            "hasTextLink": false,
+            "link": null
           }
         ],
         "id": "Mphcxfj_CgRKDd8ow0Z9A",
