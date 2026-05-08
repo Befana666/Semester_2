@@ -98,6 +98,7 @@ Zugriff nur über * und -> Operationen möglich
 
 ##### Einfach verkettete Liste
 
+
 >[!Info]+
 >___
 >- Hat einen Pointer zum nächsten Knoten
@@ -105,9 +106,19 @@ Zugriff nur über * und -> Operationen möglich
 >- Der  neuste Knoten zeigt auf einen nullptr
 >- Das älteste Objekt ist der tail
 
-![[Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md#^frame=YpKOU6KC]]
+>[!code]+ main.cpp
+>```
+>Stack<item_type>::Stack() {
+>	itemCount = 0;
+>	//There is no other
+>	tail = nullptr; // Shows technically the newest item so the name is confusing
+>}
+>```
 
->[!code]- main.cpp
+![[Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md#^frame=YpKOU6KC]]
+##### Insert
+
+>[!code]+ main.cpp
 ```
 template <class item_type>
 void Stack<item_type>::push(item_type& r) {
@@ -123,3 +134,4 @@ void Stack<item_type>::push(item_type& r) {
 >[!Warning]- zu Übung 6
 >mir viel gerade auf das ich bei der 6. Übung die Pointer in die Falsche richtung habe zeigen lassen zumindest im Vergleich zu der Grafik
 
+##### Delete

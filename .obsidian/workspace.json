@@ -35,23 +35,9 @@
               "icon": "lucide-file",
               "title": "Datentypen"
             }
-          },
-          {
-            "id": "bbe844764e035661",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "bb74acf9942b4650",
@@ -244,19 +230,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bbe844764e035661",
+  "active": "86761080b112c7df",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Algo/Übungen/Übung 6.md",
+    "Algo/Übungen/Übung 7.md",
     "Algo/Datentypen.md",
+    "conflict-files-obsidian-git.md",
     "Analysis/Übungen/Übung 5.md",
     "Analysis/Übungen/Übung 3.md",
     "Analysis/Übungen/Übung 2.md",
     "Analysis/Übungen/Übung 1.md",
     "Analysis/Übungen/Analysis Übung (1).pdf",
     "Algo/Algorithmen.md",
-    "Algo/Übungen/Übung 6.md",
     "Excalidraw/Drawing 2026-05-08 10.32.54.excalidraw.md",
-    "Algo/Übungen/Übung 7.md",
     "Algo/Vorlesungen/AUD_Skript_Teil_2.pdf",
     "Algo/Vorlesungen/AUD_Skript_Teil_3.pdf",
     "Analysis/Übungen/Übung 0.md",
