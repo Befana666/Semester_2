@@ -260,7 +260,7 @@ Siehe: [[Übung 7#Aufgabe 25|Aufgabe 25]]
 >Einträge (Elements):
 >- records eines Typs Tr
 
-Siehe [[AUD_Skript_Teil_2.pdf#page=37|Anwendungsbeispiele]]
+Siehe [[Done_2. Vorlesung.pdf#page=37|Anwendungsbeispiele]]
 
 Tabelle als Array implementierbar: 
 - feste zusammenhängende Random-Access-Struktur 
