@@ -142,7 +142,7 @@ void Stack<item_type>::push(item_type& r) {
 
 ##### Delete
 
->[!code]- file.name
+>[!code]- main.cpp
 >```
 >item_type Stack<item_type>::pop() {
 >	if (!empty()) {
@@ -157,3 +157,133 @@ void Stack<item_type>::push(item_type& r) {
 >```
 
 ![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=Delete]]
+Gefahr der Speicherfresser beim Löschen. Aka du hängst nur die Pointer um aber löscht das Item nicht.
+
+##### Zweifach Verkettete Liste
+- jeder Knoten hat 2 Zeiger einem zum vorherigen und einem zum nächsten Knoten
+- man kann in beide richtungen Loopen
+- Zugriff kann über head or tail passieren
+
+![[Algo/Attachment/DatenTypenExcalidraw.md#^clippedframe=CGWhuRU1]]
+
+#### Abstrakte Datentypen (aka. Klassen)
+
+>[!definition]+ Abstrakte Datentypen
+>___
+>- sind eine Kombination von Datentypen und Funktionen
+>- Daten sind standart mäßig auf private gesetzt (gekapselt)/ kein Zugriff von draußen
+>- Implementierung ist nach außen hin verborgen und austauschbar
+
+##### ADT Stack
+
+- Liste mit einigeschränkten Operationen
+	- Last-In-First-Out = LIFO
+
+Benötigte Operationen(min)
+	s.top - liefert das oberste Element
+	s.pop - entfernt das oberste Element
+	s.push(x) - legt ein Element auf den Stack
+
+
+![[ADT Stack#^4b10d0]]
+
+![[ADT Stack#^f91b1c]]
+
+###### Anwendungsbeispiele
+
+1. Zahlen auf dem Stack
+
+![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=zpxxKvIf]]
+2.  Umwandlung von Infix to PostFix and vice versa
+	Siehe Aufgabe: [[Algo/Übungen/Übung 6#Aufgabe 21|Übung 6]]
+	
+>[!definition]+ Infix $\Rightarrow$ Postfix Umwandlung
+>___
+>
+>Stapel anfangs leer
+>Stapel enthält während des Algorithmus nur '(' oder Rechenoperatoren
+>Durchlaufe die Eingabeelemente von links nach rechts
+>Fallunterscheidung:
+>1. '('
+>	Klammer '(' auf den Stapel legen
+>2. Zahl
+>	Zahl ausgeben
+>3. Operator
+>	Alle Operatoren mit gleicher oder höheren Priorität vom Stabel ausgeben, bis '(' erreicht oder Stabel leer. ==Dann Operator auf Stapel legen.==
+>4. ')'
+>	Alle Operatoren vom Stabel bis zur ersten linken Klammer ausgeben.
+>	Die erste Linke Klammer vom Stapel löschen
+>
+>Am Ende alle verbleibenden Operatoren vom Stapel ausgeben.
+
+
+>[!definition]+ Postfix $\Rightarrow$ Infix 
+>___
+>Stapel anfangs leer 
+>Stapel enthält während des Algorithmus nur Zahlen 
+>Durchlaufe die Eingabeelemente von links nach rechts. 
+>Fallunterscheidung:
+> 1. Zahl: 
+> 	Lege die Zahl auf den Stapel 
+> 2. Operator op:
+> 	- Wende den Operator op auf die beiden obersten Elemente des Stapels an
+> 	- Ersetze diese beiden Zahlen durch das Ergebnis 
+> 
+> Am Ende steht das Rechenergebnis als einziger Wert im Stapel
+
+
+
+##### Tabelle
+Siehe: [[Übung 7#Aufgabe 25|Aufgabe 25]]
+- Wichtig ist das es ein KeyValue pair gibt 
+	- z.b. Index und Wert in einem Array
+	- Matrikelnummer (Key) und Studenten infos (Value)
+	- honestly idk how he did it in his Presentation
+
+>[!definition]+ Tabelle
+>___
+>Verfügbare Elementfunktionen:
+>- generieren, entfernen von Tabellen
+>- suche, ausgeben, ersetzen löschen von Einträgen in der Tabelle
+>- Reorganisation der Tabelle
+>- Sortieren der Einträge nach vorgegebenen Kriterien
+>- Selektion nach vorgegebenen Kriterien
+>- Typische Operation von $\rightarrow$ Datenbanken
+>
+>Einträge (Elements):
+>- records eines Typs Tr
+
+Siehe [[AUD_Skript_Teil_2.pdf#page=37|Anwendungsbeispiele]]
+
+Tabelle als Array implementierbar: 
+- feste zusammenhängende Random-Access-Struktur 
+- direkter schneller Zugriff auf die Komponenten
+- Suchen und Sortieren im array leicht möglich
+
+###### Komplexität
+
+Reorg = O(n)
+Einfügen/Löschen = O(n)
+weitere = O(1)
+Suchen:
+- Linear: O(n)
+- Binär: O($log_n$) ==Vorhersortieren!!!==
+
+
+STL - Standart Template Libary 
+Implementiert Tables
+___
+##### Datenbanken
+
+... bestehen aus Tabellen.
+Eindeutiger Primärschlüssel notwendig. (Freiwählbar oder Auto gen)
+Verschiedene Tabellen können miteinander verknüpft werden via Primärschlüssel
+
+| matrikerl | name   | kursenum |
+| --------- | ------ | -------- |
+| 9120      | muster | 102      |
+
+| kursnum | name | prof   |
+| ------- | ---- | ------ |
+| 102     | Algo | Göhner |
+Hier kriegt der Student mit der Matrikelnumer 9120 den kurs 102 zugewiesen, der dann den Prof Göhner hat. Stellt somit eine Beziehung da.
