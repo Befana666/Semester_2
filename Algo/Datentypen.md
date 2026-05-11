@@ -98,6 +98,7 @@ Zugriff nur über * und -> Operationen möglich
 
 ##### Einfach verkettete Liste
 
+[[LV_Notizen_1304c.pdf#page=1|LV_Notizen_1304c, page 1]]
 
 >[!Info]+
 >___
@@ -160,6 +161,7 @@ void Stack<item_type>::push(item_type& r) {
 Gefahr der Speicherfresser beim Löschen. Aka du hängst nur die Pointer um aber löscht das Item nicht.
 
 ##### Zweifach Verkettete Liste
+[[LV_Notizen_2004a.pdf#page=1|LV_Notizen_2004a, page 1]]
 - jeder Knoten hat 2 Zeiger einem zum vorherigen und einem zum nächsten Knoten
 - man kann in beide richtungen Loopen
 - Zugriff kann über head or tail passieren
@@ -184,7 +186,7 @@ Benötigte Operationen(min)
 	s.pop - entfernt das oberste Element
 	s.push(x) - legt ein Element auf den Stack
 
-
+[[LV_Notizen_2004b.pdf#page=1|LV_Notizen_2004b, page 1]]
 ![[ADT Stack#^4b10d0]]
 
 ![[ADT Stack#^f91b1c]]
@@ -196,7 +198,7 @@ Benötigte Operationen(min)
 ![[Algo/Attachment/DatenTypenExcalidraw.md#^frame=zpxxKvIf]]
 2.  Umwandlung von Infix to PostFix and vice versa
 	Siehe Aufgabe: [[Algo/Übungen/Übung 6#Aufgabe 21|Übung 6]]
-	
+	[[LV_Notizen_2004c.pdf#page=1|LV_Notizen_2004c, page 1]]
 >[!definition]+ Infix $\Rightarrow$ Postfix Umwandlung
 >___
 >
@@ -216,7 +218,7 @@ Benötigte Operationen(min)
 >
 >Am Ende alle verbleibenden Operatoren vom Stapel ausgeben.
 
-
+[[LV_Notizen_2004d.pdf#page=1|LV_Notizen_2004d, page 1]]
 >[!definition]+ Postfix $\Rightarrow$ Infix 
 >___
 >Stapel anfangs leer 
@@ -234,6 +236,11 @@ Benötigte Operationen(min)
 
 
 ##### Tabelle
+LV Notizen:
+- [[LV_Notizen_2704a.pdf#page=1|LV_Notizen_2704a, page 1]]
+- [[LV_Notizen_2704b.pdf#page=1|LV_Notizen_2704b, page 1]]
+
+
 Siehe: [[Übung 7#Aufgabe 25|Aufgabe 25]]
 - Wichtig ist das es ein KeyValue pair gibt 
 	- z.b. Index und Wert in einem Array
@@ -274,6 +281,10 @@ STL - Standart Template Libary
 Implementiert Tables
 ___
 ##### Datenbanken
+LV Notizen:
+- [[LV_Notizen_2704c.pdf#page=1|LV_Notizen_2704c, page 1]]
+- [[LV_Notizen_2704d.pdf#page=1|LV_Notizen_2704d, page 1]]
+- [[LV_Notizen_2704e.pdf#page=1|LV_Notizen_2704e, page 1]]
 
 ... bestehen aus Tabellen.
 Eindeutiger Primärschlüssel notwendig. (Freiwählbar oder Auto gen)
@@ -287,3 +298,7 @@ Verschiedene Tabellen können miteinander verknüpft werden via Primärschlüsse
 | ------- | ---- | ------ |
 | 102     | Algo | Göhner |
 Hier kriegt der Student mit der Matrikelnumer 9120 den kurs 102 zugewiesen, der dann den Prof Göhner hat. Stellt somit eine Beziehung da.
+
+Sorry Blake falls du das hier kriegst ich wusste einfach nicht was ich hier schreiben soll da wir das eigentlich alles in den Verketteten Listen hatten.
+Falls du eine Frage hast schau ich es mir nochmal an und füge es hinzu.
+Schreibs nur hierrein falls ich es vergesse zu sagen.

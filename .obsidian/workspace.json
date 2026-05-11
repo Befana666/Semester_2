@@ -6,7 +6,7 @@
       {
         "id": "69054290cbe2d724",
         "type": "tabs",
-        "dimension": 65.2014652014652,
+        "dimension": 59.70695970695971,
         "children": [
           {
             "id": "57bc2b7ebd56cae1",
@@ -65,7 +65,7 @@
       {
         "id": "bb74acf9942b4650",
         "type": "tabs",
-        "dimension": 34.798534798534796,
+        "dimension": 40.29304029304029,
         "children": [
           {
             "id": "09456854e1619c91",
@@ -73,10 +73,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Algo/Vorlesungen/AUD_Skript_Teil_2.pdf"
+                "file": "Algo/Vorlesungen/5.Notes/LV_Notizen_2704e.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "AUD_Skript_Teil_2"
+              "title": "LV_Notizen_2704e"
+            }
+          },
+          {
+            "id": "31eb56d738ef6d79",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Algo/Vorlesungen/5.Notes/LV_Notizen_2704d.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "LV_Notizen_2704d"
             }
           }
         ]
@@ -255,29 +267,29 @@
   },
   "active": "57bc2b7ebd56cae1",
   "lastOpenFiles": [
-    "Algo/Vorlesungen/AUD_Skript_Teil_2.pdf",
+    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704e.pdf",
+    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704d.pdf",
     "Algo/Datentypen.md",
+    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704c.pdf",
+    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704b.pdf",
+    "Algo/Vorlesungen/5.Notes/LV_Notizen_2704a.pdf",
+    "Algo/Vorlesungen/4.Notes/LV_Notizen_2004d.pdf",
+    "Algo/Vorlesungen/AUD_Skript_Teil_2.pdf",
+    "Algo/Vorlesungen/Done_1. Vorlesung.pdf",
+    "Algo/Vorlesungen/4.Notes/LV_Notizen_2004c.pdf",
+    "Algo/Vorlesungen/4.Notes/LV_Notizen_2004b.pdf",
+    "Algo/Algorithmen.md",
     "Algo/Übungen/Übung 7.md",
     "Algo/Übungen/Übung 8.md",
     "Analysis/Übungen/Übung 6.md",
     "Algo/Übungen/Übung 6.md",
     "Algo/Attachment/DatenTypenExcalidraw.md",
     "Algo/Code Beispiele/ADT Stack.md",
-    "Algo/Algorithmen.md",
     "Algo/Code Beispiele/Facultät.md",
     "TheoInf/Übungen/Übung_6.md",
-    "TheoInf/Übungen/Aufgabenstellung/ue6.pdf",
     "TheoInf/Extras.md",
     "Programmieren 2/Exercise/Exercise 5 - Klassenbeziehungen.md",
     "Programmieren 2/Exercise/Exercise 1 - Grundlagen C++.md",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 7 Container.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 6 Speicherverwaltung.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 5 Klassenbeziehungen.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 4 Vererbung.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 3 Kopieren & Verschieben.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 2 Basic Objektorientierung.pdf",
-    "Programmieren 2/Exercise/Aufgabenstellung/Exercise 1 Grundlagen C++.pdf",
-    "Algo/Übungen/Aufgabenstellung/Übung8.pdf",
     "conflict-files-obsidian-git.md",
     "Analysis/Übungen/Übung 5.md",
     "Analysis/Übungen/Übung 3.md",
