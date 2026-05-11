@@ -260,7 +260,7 @@ Tabelle als Array implementierbar:
 - direkter schneller Zugriff auf die Komponenten
 - Suchen und Sortieren im array leicht möglich
 
-###### Komplexität
+###### Komplexität (Array Tabelle)
 
 Reorg = O(n)
 Einfügen/Löschen = O(n)
