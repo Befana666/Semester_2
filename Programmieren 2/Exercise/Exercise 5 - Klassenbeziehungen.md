@@ -19,8 +19,9 @@ Einige der Klassen stehen in Beziehung zueinander.
 ###### ii. Ein Postfach enthält eine beliebige Anzahl von E-Mails (auch keine). E-Mails kennen ihr Postfach nicht. 
 	Die selbe Beziehung wie oben.
 ###### iii. Eine E-Mail hat genau einen Absender und mindestens einen Empfänger. Personen kennen E-Mails, in denen sie Absender oder Empfänger sind, nicht. iv. Eine Person kann eine beliebige Anzahl von Freunden haben (auch keine).  
-Email 1 zu absender 1. Email 1 zu Empfänger 1...*. Da die Personen die Email nicht kennen geht der pfeil immer in richtung der email.
-Freunde sind Bidirektional 0...*.
+Email 1 zu absender 1. Email 1 zu Empfänger 1...*. 
+	Da die Personen die Email nicht kennen geht der pfeil immer in richtung der email.
+	Freunde sind Bidirektional 0...*.
 
 ##### b) Trage die Beziehungen in UML-Notation in die Abbildung ein. Trage nur Beziehungen ein, keine Attribute oder Methoden. Beschrifte die Beziehungen wenn möglich mit Stereotypen, Rollennamen und Multiplizitäten. 
 siehe c
@@ -54,7 +55,7 @@ Die Beziehungen zwischen den Klassen sind bereits in UML-Notation in der Abbildu
 ![[Drawing 2026-04-28 14.17.11.excalidraw]]
 ##### a) Erstelle ein neues Projekt und implementiere die vier Klassen aus dem Diagramm mit ihren Attributen. Die Attribute sollen über einen Konstruktor initialisiert werden und über public Getter-Methoden zugänglich sein. 
 ##### b) Implementiere die Kompositionen von Person und University aus Address. Stelle bei der Implementierung sicher, dass die komponierten Objekte nicht ohne ihr Kompositionsobjekt existieren können. 
-##### c) Implementiere die Aggregation zwischen University und Faculty. Stelle sicher, dass sich In- stanzen beider Klassen gegenseitig erreichen können (ungerichtet / bidirektional). Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
+##### c) Implementiere die Aggregation zwischen University und Faculty. Stelle sicher, dass sich Instanzen beider Klassen gegenseitig erreichen können (ungerichtet / bidirektional). Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
 ##### d) Implementiere die Assoziationen von University und Faculty zu Person. Implementiere Multiplizitäten größer eins als Array fester Größe, das an nicht-genutzten Indices mit Nullpointern gefüllt ist. 
 ##### e) Implementiere die Methoden in University um Fakultäten hinzufügen und entfernen zu können und in Faculty um Professoren und Studenten hinzuzufügen und entfernen zu können. 
 ##### f) Erstelle ein Testprogramm (main()-Methode), in dem Du Instanzen der Klassen erstellst und miteinander verknüpfst. Du kannst z.B. die Hochschule Kempten abbilden.
@@ -66,8 +67,8 @@ Die Beziehungen zwischen den Klassen sind bereits in UML-Notation in der Abbildu
 Gib dann auf Basis des Universitätsobjekts die Attribute der Universität (Name) und die ver- knüpften Objekte mit dieser (Adresse, Präsident, Fakultäten mit Professoren und Studenten) in der Konsole aus.
 
 #### 5.3 Code-Organisation 
-Diese Aufgabe befasst sich mit der Programmstruktur von C++-Programmen und resultierenden Besonderheiten, auf die bei der Implementierung von Klassen und deren Beziehungen geachtet werden muss. Nutze zur Bearbeitung der Aufgaben die Vorgabe mit den Dateien Game.h, Item.h, Player.h, Enemy.h und Exercise5 3 Vorgabe.cpp, die dem übungsblatt beiliegt. Diese definieren typische Objekte einer Game-Engine. 
-##### a) Erstelle ein neues Projekt und binde die oben genannten Quelldateien darin ein. Beim Versuch das Projekt zu kompilieren, kommt es zu dem Fehler ”Nicht deklarierter Bezeich- ner“/”undeclared identifier“. Kannst Du diesen Fehler durch Vertauschen der Headerinkludie- rungen im Hauptprogramm (.cpp-Datei in der sich die main()-Funktion befindet) lösen? Wenn ja: wie? Wenn nein: warum nicht? 
+Diese Aufgabe befasst sich mit der Programmstruktur von C++-Programmen und resultierenden Besonderheiten, auf die bei der Implementierung von Klassen und deren Beziehungen geachtet werden muss. Nutze zur Bearbeitung der Aufgaben die Vorgabe mit den Dateien Game.h, Item.h, Player.h, Enemy.h und Exercise5 3 Vorgabe.cpp, die dem Übungsblatt beiliegt. Diese definieren typische Objekte einer Game-Engine. 
+##### a) Erstelle ein neues Projekt und binde die oben genannten Quelldateien darin ein. Beim Versuch das Projekt zu kompilieren, kommt es zu dem Fehler ”Nicht deklarierter Bezeichner“/”undeclared identifier“. Kannst Du diesen Fehler durch Vertauschen der Headerinkludierungen im Hauptprogramm (.cpp-Datei in der sich die main()-Funktion befindet) lösen? Wenn ja: wie? Wenn nein: warum nicht? 
 ##### b) Erstelle in den Headerdateien Vorausdeklarationen, sodass es bei derer Inkludierung zu keinen undefinierten Typen/Bezeichnern mehr kommt. Verändere die Reihenfolge, in der die Headerdateien im Hauptprogramm inkludiert werden und überprüfe ob sich alle Kombinationsmöglichkeiten kompilieren lassen. Inkludiere insbesondere den Game.h Header einmal zu Beginn und einmal zuletzt. 
 ##### c) Könnten die vorausdeklarierten Klassen auch ohne Zeiger oder Referenzen an Methoden übergeben und direkt als Membervariablen abgespeichert werden? Begründe deine Antwort. 
 ##### d) Die Klassen sollen nun in Namensräumen organisiert werden. Definiere dazu einen Namensraum ”MyGameEngine“ und die Unternamensräume ”Core“ und ”Objects“, die dem MyGameEngine Namensraum untergeordnet sind. Die Klassen sollen sich wie folgt in den Namensräumen befin- den: :: MyGameEngine Core Game Objects Item Player Enemy 

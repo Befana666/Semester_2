@@ -178,7 +178,7 @@ $$\begin{aligned}
 &0+0=0\leq c \in \mathbb{R}^+\\
 &f(n)=1000n+100\in O(n^2)
 \end{aligned}$$
-Für mehr Beispiele siehe: [[Big-O-Notation Notizen.pdf#page=2|LV_Notizen_2303, page 2]]
+Für mehr Beispiele sieh0e: [[Big-O-Notation Notizen.pdf#page=2|LV_Notizen_2303, page 2]]
 
 ### Lineares Suchen
 
