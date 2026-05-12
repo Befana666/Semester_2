@@ -22,5 +22,26 @@
 
 ^93d643
 
+>[!definition] Objektübergaben
+>___
+>Als <span style ="color:red; font-weight:bold ">Objektübergabe</span> wird die Zuweisung des Werts eines Objekts auf ein anderes Objekt bezeichnet
+>
+>Ein Objekt kann grundsätzlich auf zwei verschiedene <span style ="color:red; font-weight:bold ">Arten</span> übergeben werden
+>- <span style ="color:red; font-weight:bold ">Call-by-value</span>: Der Wert des Objekts (=value) wird direkt übergeben und dabei kopiert (``` text(1);```)
+>- <span style ="color:red; font-weight:bold ">Call-by-reference</span>: Der Wert des Objekts wird indirekt über eine Referenz übergeben (``` text(int & var);```)
+>
+>In C++ wird die Art der Objektübergabe immer explizit definiert und ist von keinen Compilerregeln abhänig!!
+>  
+>  Vergleich Java, Python, ..., Call by value where value could be a reference.
+>  ---
+>  
+>  Du gibst Werte/Variabeln an eine Funktion weiter. 
+>  Oder einen Wert einer Variable an eine andere Variable
+
+^5eddb9
+
+
+
+
 
 

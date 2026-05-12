@@ -7,5 +7,13 @@
       ],
       "key": "D"
     }
+  ],
+  "auto-close-tags:close-last-tag": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Key226"
+    }
   ]
 }

@@ -135,15 +135,15 @@ result = a +b;
 
 
 >[!recap]
->Eine <span style ="color:red; font-weight:bold ">Variable</span> ist ein Speicherbereich (Objekt) mit einem bestimmten Datentyp und enthält einen Wert
+>Eine <span class="redHigh">Variable</span> ist ein Speicherbereich (Objekt) mit einem bestimmten Datentyp und enthält einen Wert
 	>- Wert und benötigte Bitgröße hängen vom Datentyp ab
 >
->Elemtare Datentypen haben einen <span style ="color:red; font-weight:bold ">Mindestwertebereich</span>
+>Elemtare Datentypen haben einen <span class="redHigh">Mindestwertebereich</span>
 	>- Tastsächliche Bitgröße ist Compilerabhänig, kann aber mit Typen des \<cstding> Headers einheitlich festgelegt werden
 >
->Das Setzen eines Werts einer Variablen kann eine <span style ="color:red; font-weight:bold ">Initialisierung</span> oder <span style ="color:red; font-weight:bold ">Zuweisung</span> darstellen
-	>- <span style ="color:red; font-weight:bold ">Initialisierung</span>: Setzen des Werts bei der Objekterstellung
-	>- <span style ="color:red; font-weight:bold ">Zuweisung</span>: Setzen des Werts eines bereits vorhandenen Objekts
+>Das Setzen eines Werts einer Variablen kann eine <span class="redHigh">Initialisierung</span> oder <span class="redHigh">Zuweisung</span> darstellen
+	>- <span class="redHigh">Initialisierung</span>: Setzen des Werts bei der Objekterstellung
+	>- <span class="redHigh">Zuweisung</span>: Setzen des Werts eines bereits vorhandenen Objekts
 	>  
 >  C++11 BS:
 >  Das Keyword <span style ="color:purple; font-weight:bold ">auto</span> kann anstelle eines Datentyps verwendet werden und entspricht dem Typ des zugewiesenen Werts
@@ -175,3 +175,73 @@ double square(double d) { return d * d; }
 double s2 = square(2); // Ruft square() mit dem Argument double{2} auf 
 double s3 = square("three"); // FEHLER: Argument vom Typ "const char*" ist mit Parameter vom Typ "double" inkompatibel 
 ```
+
+![[Programmieren 2/Definitionen#^5eddb9]]
+
+---
+#### Call-by-Value
+
+...Objekt wird ohne Zeiger und ohne Referenz übergeben
+
+- Es wird ein <span class="redHigh">neues Objekt</span> erstellt
+- Der Wert des einen Objekts wird in das andere <span class="redHigh">kopiert</span>
+
+```
+void function(int x2)
+{
+	x2 += 2;
+	cout << "x ist: " << x2; // 7
+}
+
+int main() {
+	int x1 = 5;
+	function(x1);
+	cout << "x ist: " << x1; // 5
+}
+```
+
+
+Theoretisch wird dann der Speicherplatz 2 mal belegt einmal der alte und einmal der neue. Später kommt der move() Befehl mit dem man den Wert dann verschieben kann.
+
+Besonders bei Klassen später wird es sehr ersichtlich wo der unterschied ist. Da wenn du eine Klasse mit Call-By-value übergibst du die Klasse kopierst und du die Wertänderungen in der eigentlichen Klasse später nicht abfragen kannst.
+
+Gedanken:
+Wie <span class="redHigh">teuer</span> ist der <span class="redHigh">Kopiervorgang</span> des Objekts? 
+
+>[!Info]
+>---
+>Falls das Objekt eine Größe von 2 bis 3 Zeigern haben, sind sie billiger zu kopieren als zu referenzieren.
+>
+>---
+>Alle Elemtare Datentypen sollten nie als Referenz übergeben werden!
+
+---
+
+#### Call-by-reference
+
+...ein Objekt wird als Zeiger oder als Referenz übergeben.
+
+- Es wird <span class="redHigh">kein neues Objekt</span> erstellt
+- Das übergebene Objekt wird <span class="redHigh">referenziert</span>
+
+```
+void function(int &x2)
+{
+	x2 += 2;
+	cout << "x ist: " << x2; // 7
+}
+
+int main() {
+	int x1 = 5;
+	function(x1);
+	cout << "x ist: " << x1; // 7
+}
+```
+
+Du übergibst die Speicheraddresse von der Variable und änderst dann die Originale Variable.
+
+Gedanken:
+Benutzt wenn das Objekt <span class="redHigh">gemeinsam</cstding> mit der Funktion <span class="redHigh">genutzt</span> wird, und wird das Objekt das genutzt wird <span class="redHigh">verändert</span>. - Dann Ja
+
+---
+

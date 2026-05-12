@@ -1,1 +1,1 @@
-<span style ="color:red; font-weight:bold "></span>
+<span class="redHigh">

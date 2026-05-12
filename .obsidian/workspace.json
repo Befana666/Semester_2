@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "a66b7ac6fecf9cd9",
+            "id": "a5106872029c29b4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png"
+                "file": "Template/highlight.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Qr-Code Objekte&Variabeln"
+              "icon": "lucide-file",
+              "title": "highlight"
             }
           }
         ]
@@ -227,13 +229,17 @@
   },
   "active": "a84ed9329c7f1667",
   "lastOpenFiles": [
-    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
-    "Programmieren 2/01_Grundlagen_C++.md",
-    "Programmieren 2/Definitionen.md",
-    "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
     "Template/highlight.md",
-    "TheoInf/Vorlesung/RAM's.md",
+    "Programmieren 2/01_Grundlagen_C++.md",
+    "Template/def.md",
+    "Template/code.md",
+    "Template/embeddedDefinition.md",
+    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
+    "Programmieren 2/Definitionen.md",
     "Programmieren 2/Interface Klassen.md",
+    "TheoInf/Übungen/Übung_6.md",
+    "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
+    "TheoInf/Vorlesung/RAM's.md",
     "Programmieren 2/Vorlesungen/14.Input_und_Output.pdf",
     "Programmieren 2/Vorlesungen/12.Fehlerbehandlung.pdf",
     "Programmieren 2/Vorlesungen/09.FunktionaleProgrammierung.pdf",
@@ -254,15 +260,12 @@
     "Algo/Übungen/Übung 6.md",
     "Algo/Code Beispiele/ADT Stack.md",
     "Algo/Code Beispiele/Facultät.md",
-    "TheoInf/Übungen/Übung_6.md",
     "TheoInf/Extras.md",
     "Programmieren 2/Exercise/Exercise 5 - Klassenbeziehungen.md",
     "Programmieren 2/Exercise/Exercise 1 - Grundlagen C++.md",
     "conflict-files-obsidian-git.md",
     "Analysis/Übungen/Übung 5.md",
     "Analysis/Übungen/Übung 3.md",
-    "Analysis/Übungen/Übung 2.md",
-    "Analysis/Übungen/Übung 1.md",
     "Analysis/Attachments/Pasted image 20260421200906.png",
     "Analysis/Attachments/Pasted image 20260421190901.png",
     "Algo/Attachment/Übung 6.canvas",
