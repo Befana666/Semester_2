@@ -3,6 +3,7 @@ C++ hat zum großteil die selbe Syntax als C hat, bietet aber bessere und sicher
 
 
 ### Objekte & Variablen
+#### ____
 
 ![[Programmieren 2/Definitionen#^2edd57]]
 
@@ -46,7 +47,7 @@ Weitere solcher Befehle existieren zu <span style="color:red">Optimierung, Perfo
 
 
 ---
-#### SizeOf
+##### SizeOf
 sizeof(Variable) gibt die die Größe einer Variablen in Bytes dar, der Rückgabewert hat den Datentypen size_t. Du kannst es verwenden um die Länge von Arrays, Zeigern und ähnlichem berechnen.
 ```
 //Anzahl der Elemente in einem Array = Größe des gesamten Arrays / Größe eines Elementes eines Arrays
@@ -55,12 +56,12 @@ auto lengthOfArray = sizeOf(Array)/sizeOf(Array[0])
 Das geht aber natürlich nur bei Arrays und ähnlichem wo alle werte die selbe größe haben.
 
 ---
-#### ptrdiff_t
+##### ptrdiff_t
 
 Speichert einen Integer der die max Größe für den Compiler haben kann.
 
 ---
-#### Initialisieren
+##### Initialisieren
 
 Das erste Zuweisen von Daten/Werten zu einer Variable.
 Man kann das beim Objekt erstellen machen oder später.
@@ -89,7 +90,7 @@ Die geschweiften Klammern hier heißen eine Initialisierungsliste.
 
 ---
 
-#### auto (The lazy Way)
+##### auto (The lazy Way)
 
 Ist ein Variablentyp der sich automatisch anpasst an den Wahrscheinlichstentyp den der Wert haben kann.
 
@@ -107,7 +108,7 @@ auto Typen müssen bei der Deklaration immer initialisiert werden sonst kommen f
 
 ---
 
-#### decltype (declaration type)
+##### decltype (declaration type)
 
 Ist eine Funktion die dir den Datentyp eines Objektes zurückgibt.
 Sie wird vom Compiler vor dem Programstart ausgeführt.
@@ -133,8 +134,8 @@ result = a +b;
 ---
 #### Zusammenfassung
 
-
 >[!recap]
+>---
 >Eine <span class="redHigh">Variable</span> ist ein Speicherbereich (Objekt) mit einem bestimmten Datentyp und enthält einen Wert
 	>- Wert und benötigte Bitgröße hängen vom Datentyp ab
 >
@@ -159,6 +160,8 @@ PIN: 469452
 
 ### Funktionen & Objektübergaben
 
+#### ___
+##### Funktionen
 ![[Programmieren 2/Definitionen#^93d643]]
 
 ```
@@ -175,11 +178,13 @@ double square(double d) { return d * d; }
 double s2 = square(2); // Ruft square() mit dem Argument double{2} auf 
 double s3 = square("three"); // FEHLER: Argument vom Typ "const char*" ist mit Parameter vom Typ "double" inkompatibel 
 ```
+---
+##### Objektübergaben
 
 ![[Programmieren 2/Definitionen#^5eddb9]]
 
 ---
-#### Call-by-Value
+##### Call-by-Value
 
 ...Objekt wird ohne Zeiger und ohne Referenz übergeben
 
@@ -217,7 +222,7 @@ Wie <span class="redHigh">teuer</span> ist der <span class="redHigh">Kopiervorga
 
 ---
 
-#### Call-by-reference
+##### Call-by-reference
 
 ...ein Objekt wird als Zeiger oder als Referenz übergeben.
 
@@ -250,6 +255,7 @@ Benutzt wenn das Objekt <span class="redHigh">gemeinsam</cstding> mit der Funkti
 #### Zusammenfassung
 
 >[!Recap]
+>---
 > Funktionen führen Anweisungen aus; können dazu Objekte entgegennehmen und zurückgeben
 > 
 > Objekte können direkt als <span class="redHigh">Wert</span> (Call-by-value) oder indirekt als <span class="redHigh">Referenz</span> (Call-by- reference) übergeben werden
@@ -267,6 +273,62 @@ Pin: 469452
 [[01.Grundlagen.pdf#page=33|01.Grundlagen, page 33]]
 
 ### Gültigkeit & Lebenszeit
+#### _____________________
+##### Gültigkeitsbereiche / Scopes
 
-#### Gültigkeitsbereiche / Scopes
+![[Programmieren 2/Definitionen#^02342e]]
 
+```
+int main()
+{
+	int x = 1;
+	if(x==1)
+	{
+		int y = 2;
+		{
+			int z = 3;
+		}
+		//Kennt z nicht mehr
+	}
+	//Kennt y nicht mehr
+}
+//Kennt x nicht mehr
+```
+---
+
+##### Lebenszeit
+
+![[Programmieren 2/Definitionen#^fb4660]]
+
+---
+
+##### new & delete
+
+Mit dem <span class="redHigh">new</span>-Operator kann ein Objekt dynamisch erzeut werden
+- Das Objekt wird zur Laufzeit - also nach Start des Programms - im Speicher erstellt (DYNAMIC ARRAYS)
+
+Mit dem <span class="redHigh">delete</span>-Operator werden Objekte gelöscht, die mit dem <span class="redHigh">new</span>-Operator erzeugt wurden
+- Damit wird das Objekt zerstört und der Speicher, den das Objekt belegt, wieder freigegeben
+
+Für jedes new brauchst du ein delete sonst hast du Memory Leak Issues/Speicherfresser beschworen.
+
+---
+
+#### Zusammenfassung
+
+>[!Recap] 
+>---
+><span class="redHigh">Gültigkeitsbereiche</span> (scopes) werden über geschweifte Klammern aufgespannt und definieren einen Start- und Endpunkt, in dem Objekte / Variablen gültig sind
+>- Sie können alleinstehen oder den Inhalt einer bestimmten Anweisung / Deklaration definiere
+>
+>Die Lebenszeit von Objekten ist abhängig von ihrer <span class="redHigh">Speicherdauer</span> (storage duration)
+>- Variablen, die in einem Gültigkeitsbereich / Scope definiert sind, werden an der schließenden Klammer zerstört (<span class="redHigh">automatische Speicherdauer</span>)
+>- Mit den **new/delete**-Operatoren kann der Programmierer manuell steuern, wann ein Objekt erzeugt oder zerstört werden soll (<span class="redHigh">dynamische Speicherdauer</span>)
+>  Variablen, die außerhalb von Gültigkeitsbereichen definiert sind, leben bis zum Ende des gesamten Programms (<span class="redHigh">statische Speicherdauer</span>)
+
+---
+##### Verständnisfragen
+
+Pin: 469452
+
+[<img src="QR_Code Gültigkeit&Lebenszeit.png" width="300">](https://poll.hs-kempten.de/poll)

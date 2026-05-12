@@ -42,4 +42,29 @@
 
 >[!definition] Scope 
 >___
+>
+>Ein Gültigkeitsberiech (=Scope) wird mit geschweiften Klammern definiert.
+>- Es braucht keine vorhergehende Anweisung oder Deklaration
+>- Ein Objekt/Variable ist nur in ihrem **umschließenden Scope** gültig
+>
+>Unter einer Anweisung (z.B. IF) definieren sie den Inhalt der Anweisung.
+>
+>---
+>Also die Geschweiftenklammern nach if's for und ähnlichem aber auch die Geschweiftenklammern nach nach dem Funktionsnamen und ähnlichen.
+>Zählen alle da rein, und makieren einen Scope
+
+^02342e
+
+>[!definition] Lebenszeit
+>___
+>Unter <span class="redHigh">Lebenszeit</span> eines Objekts wird betrachtet, wie lange ein Objekt **nach seiner Erzeugung** existiert.
+>
+>Entscheidend für die Lebenszeit ist der <span class="redHigh">Speicherbereich</span>, in dem ein Objekt beheimatet ist
+>
+>Unterschieden wird zwischen 5 Arten der <span class="redHigh">Speicherdauer</span>(storage durations)
+>- <span class="redHigh">automatisch</span>: Das Objekt lebt so lange, wie es in seinem umschließenden Scope gültig ist (Standart)
+>- <span class="redHigh">dynamisch/manuell</span>: Das Objekt lebt so lange, bis es manuell drch den Programmierenden gelöscht wird
+>- <span class="redHigh">statisch</span>: Das Objekt lebt so lange, bis das gesamte Programm beendet wird
+
+^fb4660
 

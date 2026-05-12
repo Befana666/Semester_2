@@ -14,12 +14,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programmieren 2/Definitionen.md",
+                "file": "Programmieren 2/01_Grundlagen_C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitionen"
+              "title": "01_Grundlagen_C++"
+            }
+          },
+          {
+            "id": "49c584e3d607474a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "QR_Code Gültigkeit&Lebenszeit.png"
+              },
+              "icon": "lucide-image",
+              "title": "QR_Code Gültigkeit&Lebenszeit"
             }
           },
           {
@@ -255,15 +267,16 @@
   },
   "active": "a84ed9329c7f1667",
   "lastOpenFiles": [
+    "QR_Code Gültigkeit&Lebenszeit.png",
     "Programmieren 2/01_Grundlagen_C++.md",
     "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
+    "Programmieren 2/Definitionen.md",
     "QR_Code Funktionen&Objektübergaben.png",
     "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
     "Template/highlight.md",
     "Template/def.md",
     "Template/code.md",
     "Template/embeddedDefinition.md",
-    "Programmieren 2/Definitionen.md",
     "Programmieren 2/Interface Klassen.md",
     "TheoInf/Übungen/Übung_6.md",
     "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
@@ -302,7 +315,6 @@
     "Programmieren 2/Attachments/UML Exercise 4.canvas",
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "!Übung 6.canvas",
-    "Analysis/Übungen/Pasted image 20260421200906.png",
     "Untitled 1.canvas"
   ]
 }
