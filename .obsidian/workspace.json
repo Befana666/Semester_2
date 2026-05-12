@@ -6,6 +6,7 @@
       {
         "id": "fbcf3b1ed72a94b0",
         "type": "tabs",
+        "dimension": 51.28205128205128,
         "children": [
           {
             "id": "a84ed9329c7f1667",
@@ -19,6 +20,30 @@
               },
               "icon": "lucide-file",
               "title": "01_Grundlagen_C++"
+            }
+          },
+          {
+            "id": "9ed7b9c09c10ddb6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "QR_Code Funktionen&Objektübergaben.png"
+              },
+              "icon": "lucide-image",
+              "title": "QR_Code Funktionen&Objektübergaben"
+            }
+          },
+          {
+            "id": "e9155a60cb0d184d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "GrundlagenC++.excalidraw"
             }
           },
           {
@@ -40,6 +65,7 @@
       {
         "id": "c8ed1a68ff48e50f",
         "type": "tabs",
+        "dimension": 48.717948717948715,
         "children": [
           {
             "id": "61b7a76e6babac9c",
@@ -229,12 +255,14 @@
   },
   "active": "a84ed9329c7f1667",
   "lastOpenFiles": [
-    "Template/highlight.md",
+    "QR_Code Funktionen&Objektübergaben.png",
     "Programmieren 2/01_Grundlagen_C++.md",
+    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
+    "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
+    "Template/highlight.md",
     "Template/def.md",
     "Template/code.md",
     "Template/embeddedDefinition.md",
-    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
     "Programmieren 2/Definitionen.md",
     "Programmieren 2/Interface Klassen.md",
     "TheoInf/Übungen/Übung_6.md",
@@ -264,8 +292,6 @@
     "Programmieren 2/Exercise/Exercise 5 - Klassenbeziehungen.md",
     "Programmieren 2/Exercise/Exercise 1 - Grundlagen C++.md",
     "conflict-files-obsidian-git.md",
-    "Analysis/Übungen/Übung 5.md",
-    "Analysis/Übungen/Übung 3.md",
     "Analysis/Attachments/Pasted image 20260421200906.png",
     "Analysis/Attachments/Pasted image 20260421190901.png",
     "Algo/Attachment/Übung 6.canvas",
@@ -277,7 +303,6 @@
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "!Übung 6.canvas",
     "Analysis/Übungen/Pasted image 20260421200906.png",
-    "Analysis/Übungen/Pasted image 20260421190901.png",
     "Untitled 1.canvas"
   ]
 }

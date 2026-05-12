@@ -213,7 +213,7 @@ Wie <span class="redHigh">teuer</span> ist der <span class="redHigh">Kopiervorga
 >Falls das Objekt eine Größe von 2 bis 3 Zeigern haben, sind sie billiger zu kopieren als zu referenzieren.
 >
 >---
->Alle Elemtare Datentypen sollten nie als Referenz übergeben werden!
+>Alle Elemtare Datentypen sollten nie als Referenz übergeben werden! Da eine Referenz aufwändiger wäre.
 
 ---
 
@@ -243,5 +243,23 @@ Du übergibst die Speicheraddresse von der Variable und änderst dann die Origin
 Gedanken:
 Benutzt wenn das Objekt <span class="redHigh">gemeinsam</cstding> mit der Funktion <span class="redHigh">genutzt</span> wird, und wird das Objekt das genutzt wird <span class="redHigh">verändert</span>. - Dann Ja
 
+ Objekte, die kopiert werden können, allerdings <span class="redHigh">teuer zu kopieren</span> sind, sollten als <span class="redHigh">konstante Referenzen</span> übergeben werden
+
 ---
+
+#### Zusammenfassung
+
+>[!Recap]
+> Funktionen führen Anweisungen aus; können dazu Objekte entgegennehmen und zurückgeben
+> 
+> Objekte können direkt als <span class="redHigh">Wert</span> (Call-by-value) oder indirekt als <span class="redHigh">Referenz</span> (Call-by- reference) übergeben werden
+> - Die Wahl der Übergabeart hängt von Kriterien ab:
+>   
+>   ![[Programmieren 2/Attachments/GrundlagenC++.excalidraw.md#^clippedframe=uMsrZ0yu]]
+
+##### Verständnisfragen
+
+Pin: 469452
+
+[<img src="QR_Code Funktionen&Objektübergaben.png" width="300">](https://poll.hs-kempten.de/poll)
 
