@@ -29,3 +29,16 @@ rect /* Black "no Icon" for Math */
     --callout-icon: "circle-question-mark";
     --callout-text-align: left;
 }
+
+/* Black Code icon for Coding */
+.callout[data-callout="recap"] {
+    --callout-color: 101,160,47;
+    --callout-icon: "square-code";
+    --icon-color: 0,0,0;
+    --callout-title-color: #4cda5f;/*Title */
+    --callout-text-align: left;
+}
+.callout[data-callout="code"] .callout-icon .svg-icon {
+    color: white;
+
+}

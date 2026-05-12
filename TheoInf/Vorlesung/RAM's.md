@@ -20,7 +20,7 @@ Steuereinheit hat das Programm gespeichert
 
 #### RAM Programmieren
 
-![[Definitionen#^1e3839]]
+![[TheoInf/Definitionen#^1e3839]]
 
 >[!Info]- RAM-Syntax
 >$R_i$ = Direkte Adresse
@@ -72,7 +72,7 @@ Hilfsregister:               $[R2] =\ Zwischensumme,\ [R3] = 1$
 
 #### RAM-berechenbar
 
-![[Definitionen#^a72847]]
+![[TheoInf/Definitionen#^a72847]]
 
 ##### Übung 2: $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist berechenbar?
 
@@ -99,7 +99,7 @@ Jede RAM berechnet unendlich viele Funktionen für jedes $n\geq 0$.
 
 Durch jede RAM wird auch eine Funktion definiert.
 
-![[Definitionen#^b63ff6]]
+![[TheoInf/Definitionen#^b63ff6]]
 
 >[!Note]+ Totalen Funktionen
 >haben für jede Eingabe auch eine Ausgabe 
