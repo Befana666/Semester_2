@@ -263,3 +263,10 @@ Pin: 469452
 
 [<img src="QR_Code Funktionen&Objektübergaben.png" width="300">](https://poll.hs-kempten.de/poll)
 
+
+[[01.Grundlagen.pdf#page=33|01.Grundlagen, page 33]]
+
+### Gültigkeit & Lebenszeit
+
+#### Gültigkeitsbereiche / Scopes
+
