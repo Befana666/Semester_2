@@ -48,6 +48,7 @@ Steuereinheit hat das Programm gespeichert
 | Stoppbefehl              |                                                                                          |                                                                                       |
 | $STOP$                   |                                                                                          | Ende der Berechnung                                                                   |
 
+---
 ##### Übung 1: Multiplikation mit einer RAM ($x*y$) (S.53)
 
 Ausgangssituation:    $[R0]=x,\ [R1]=y, [R_i]=0\ für\ i\geq2$ 
@@ -74,6 +75,7 @@ Hilfsregister:               $[R2] =\ Zwischensumme,\ [R3] = 1$
 
 ![[TheoInf/Definitionen#^a72847]]
 
+---
 ##### Übung 2: $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist berechenbar?
 
 Die Funktion $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist im RAM-berechenbar, weil die folgende RAM diese Funktion berechnet:
@@ -86,9 +88,11 @@ Die Funktion $f(x,\ y,\ z)\stackrel{\text{def}}{=}x+y+z$ ist im RAM-berechenbar,
 >
 >3-stellige Funktion
 
+---
 ##### Übung 3:
 
 >[!code]+ Programm
+>---
 >0|$R0\leftarrow R0+R1$|//Bildet eingabe auf sich selbst ab
 >--|--|--
 >2|STOP
@@ -99,6 +103,28 @@ Jede RAM berechnet unendlich viele Funktionen für jedes $n\geq 0$.
 
 Durch jede RAM wird auch eine Funktion definiert.
 
+---
+#### Funktionen
+
+$$RAM \stackrel{\text{def}}{=} \{f:f \text{ist RAM-berechenbarß\}}$$
+
+Die Menge $RAM$ ist eine Menge von Funktionen $f$ die es eine Random-Access-Machine gibt, die $f$ berechnet.
+
+Am besten stellt man sich eine Funktion vor als eine Tabelle den Eingabe und Ausgabe werten.
+
+| Eingabe x | Ausgabe f(x) |
+| --------- | ------------ |
+| 0         | 5            |
+| 1         | 6            |
+| 2         | 9            |
+| 3         | 14           |
+| 4         | 21           |
+| 5         | 30           |
+| ...       | ...          |
+
+Jede Random-Access-Machine definiert auch eine Funktion.
+
+![[TheoInf/Definitionen#^a94a52]]
 ![[TheoInf/Definitionen#^b63ff6]]
 
 >[!Note]+ Totalen Funktionen
@@ -109,11 +135,35 @@ Durch jede RAM wird auch eine Funktion definiert.
 
 Eine Partielle Funktion wäre zum Beispiel das folgende Program/RAM:
 
-| BR  | Program               | Kommentar           |
-| --- | --------------------- | ------------------- |
-| 0   | $R1\leftarrow 4$      | R1=4                |
-| 1   | $R2\leftarrow R1-R0$  | R2=4-X              |
-| 2   | $IF\ R2\gt0\ GOTO\ 5$ | //Endloss für X < 4 |
-| 3   | $R0 \leftarrow R0+R0$ |                     |
-| 4   | $STOP$                |                     |
-| 5   | $GOTO\ 5$             | //Endlos loop       |
+| BR  | Program               | Kommentar          |
+| --- | --------------------- | ------------------ |
+| 0   | $R1\leftarrow 4$      | R1 = 4             |
+| 1   | $R2\leftarrow R1-R0$  | R2 = 4 - X         |
+| 2   | $IF\ R2\gt0\ GOTO\ 5$ | //Endlos für X < 4 |
+| 3   | $R0 \leftarrow R0+R0$ |                    |
+| 4   | $STOP$                |                    |
+| 5   | $GOTO\ 5$             | //Endlos loop      |
+
+Dieses Ram Programm berechnet die partielle Funktion M
+
+| x   | $f_M(x)$        |
+| --- | --------------- |
+| 0   | nicht definiert |
+| 1   | nicht definiert |
+| 2   | nicht definiert |
+| 3   | nicht definiert |
+| 4   | 8               |
+| 5   | 10              |
+| 6   | 12              |
+| ... | ...             |
+
+siehe Definition below:
+
+- $E_{f_M}= \mathbb{N}$ //Die Eingabemenge sind die Natürlichen Zahlen
+- $D_{f_M}= \mathbb{N}-\{0,1,2,3\}$ //Definitionsmenge sind alle Zahlen kleiner 4 bei 4 Endlossschleife
+- $W_{f_M} = \{y:y \text{ ist eine gerade Zahl größer gleich 8}\}$ //Das Ergebnis das das Programm ausgibt
+
+---
+![[TheoInf/Definitionen#^de852c]]
+
+---
