@@ -56,4 +56,6 @@
 > Aka. Es ist genau die Zeilen aus denen eine Turingmaschine aufgebaut ist.
 
 ^6c8843
-
+>[!definition] Definition 6: von Turingmaschine berechnet
+>___
+>
