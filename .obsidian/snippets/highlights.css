@@ -1,4 +1,7 @@
-.redHigh {
+.redHighBold {
     color: red;
     font-weight: bold;
+}
+.redHigh {
+    color: red;
 }

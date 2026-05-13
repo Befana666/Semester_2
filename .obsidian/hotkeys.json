@@ -11,7 +11,7 @@
   "auto-close-tags:close-last-tag": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "Key226"
     }

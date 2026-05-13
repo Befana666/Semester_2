@@ -136,15 +136,15 @@ result = a +b;
 
 >[!recap]
 >---
->Eine <span class="redHigh">Variable</span> ist ein Speicherbereich (Objekt) mit einem bestimmten Datentyp und enthält einen Wert
-	>- Wert und benötigte Bitgröße hängen vom Datentyp ab
+>Eine <span class="redHighBold">Variable</span> ist ein Speicherbereich (Objekt) mit einem bestimmten Datentyp und enthält einen Wert
+>- Wert und benötigte Bitgröße hängen vom Datentyp ab
 >
->Elemtare Datentypen haben einen <span class="redHigh">Mindestwertebereich</span>
+>Elemtare Datentypen haben einen <span class="redHighBold">Mindestwertebereich</span>
 	>- Tastsächliche Bitgröße ist Compilerabhänig, kann aber mit Typen des \<cstding> Headers einheitlich festgelegt werden
 >
->Das Setzen eines Werts einer Variablen kann eine <span class="redHigh">Initialisierung</span> oder <span class="redHigh">Zuweisung</span> darstellen
-	>- <span class="redHigh">Initialisierung</span>: Setzen des Werts bei der Objekterstellung
-	>- <span class="redHigh">Zuweisung</span>: Setzen des Werts eines bereits vorhandenen Objekts
+>Das Setzen eines Werts einer Variablen kann eine <span class="redHighBold">Initialisierung</span> oder <span class="redHighBold">Zuweisung</span> darstellen
+	>- <span class="redHighBold">Initialisierung</span>: Setzen des Werts bei der Objekterstellung
+	>- <span class="redHighBold">Zuweisung</span>: Setzen des Werts eines bereits vorhandenen Objekts
 	>  
 >  C++11 BS:
 >  Das Keyword <span style ="color:purple; font-weight:bold ">auto</span> kann anstelle eines Datentyps verwendet werden und entspricht dem Typ des zugewiesenen Werts
@@ -188,8 +188,8 @@ double s3 = square("three"); // FEHLER: Argument vom Typ "const char*" ist mit P
 
 ...Objekt wird ohne Zeiger und ohne Referenz übergeben
 
-- Es wird ein <span class="redHigh">neues Objekt</span> erstellt
-- Der Wert des einen Objekts wird in das andere <span class="redHigh">kopiert</span>
+- Es wird ein <span class="redHighBold">neues Objekt</span> erstellt
+- Der Wert des einen Objekts wird in das andere <span class="redHighBold">kopiert</span>
 
 ```
 void function(int x2)
@@ -211,7 +211,7 @@ Theoretisch wird dann der Speicherplatz 2 mal belegt einmal der alte und einmal 
 Besonders bei Klassen später wird es sehr ersichtlich wo der unterschied ist. Da wenn du eine Klasse mit Call-By-value übergibst du die Klasse kopierst und du die Wertänderungen in der eigentlichen Klasse später nicht abfragen kannst.
 
 Gedanken:
-Wie <span class="redHigh">teuer</span> ist der <span class="redHigh">Kopiervorgang</span> des Objekts? 
+Wie <span class="redHighBold">teuer</span> ist der <span class="redHighBold">Kopiervorgang</span> des Objekts? 
 
 >[!Info]
 >---
@@ -226,8 +226,8 @@ Wie <span class="redHigh">teuer</span> ist der <span class="redHigh">Kopiervorga
 
 ...ein Objekt wird als Zeiger oder als Referenz übergeben.
 
-- Es wird <span class="redHigh">kein neues Objekt</span> erstellt
-- Das übergebene Objekt wird <span class="redHigh">referenziert</span>
+- Es wird <span class="redHighBold">kein neues Objekt</span> erstellt
+- Das übergebene Objekt wird <span class="redHighBold">referenziert</span>
 
 ```
 void function(int &x2)
@@ -246,9 +246,9 @@ int main() {
 Du übergibst die Speicheraddresse von der Variable und änderst dann die Originale Variable.
 
 Gedanken:
-Benutzt wenn das Objekt <span class="redHigh">gemeinsam</cstding> mit der Funktion <span class="redHigh">genutzt</span> wird, und wird das Objekt das genutzt wird <span class="redHigh">verändert</span>. - Dann Ja
+Benutzt wenn das Objekt <span class="redHighBold">gemeinsam</cstding> mit der Funktion <span class="redHighBold">genutzt</span> wird, und wird das Objekt das genutzt wird <span class="redHighBold">verändert</span>. - Dann Ja
 
- Objekte, die kopiert werden können, allerdings <span class="redHigh">teuer zu kopieren</span> sind, sollten als <span class="redHigh">konstante Referenzen</span> übergeben werden
+ Objekte, die kopiert werden können, allerdings <span class="redHighBold">teuer zu kopieren</span> sind, sollten als <span class="redHighBold">konstante Referenzen</span> übergeben werden
 
 ---
 
@@ -258,7 +258,7 @@ Benutzt wenn das Objekt <span class="redHigh">gemeinsam</cstding> mit der Funkti
 >---
 > Funktionen führen Anweisungen aus; können dazu Objekte entgegennehmen und zurückgeben
 > 
-> Objekte können direkt als <span class="redHigh">Wert</span> (Call-by-value) oder indirekt als <span class="redHigh">Referenz</span> (Call-by- reference) übergeben werden
+> Objekte können direkt als <span class="redHighBold">Wert</span> (Call-by-value) oder indirekt als <span class="redHighBold">Referenz</span> (Call-by- reference) übergeben werden
 > - Die Wahl der Übergabeart hängt von Kriterien ab:
 >   
 >   ![[Programmieren 2/Attachments/GrundlagenC++.excalidraw.md#^clippedframe=uMsrZ0yu]]
@@ -304,10 +304,10 @@ int main()
 
 ##### new & delete
 
-Mit dem <span class="redHigh">new</span>-Operator kann ein Objekt dynamisch erzeut werden
+Mit dem <span class="redHighBold">new</span>-Operator kann ein Objekt dynamisch erzeut werden
 - Das Objekt wird zur Laufzeit - also nach Start des Programms - im Speicher erstellt (DYNAMIC ARRAYS)
 
-Mit dem <span class="redHigh">delete</span>-Operator werden Objekte gelöscht, die mit dem <span class="redHigh">new</span>-Operator erzeugt wurden
+Mit dem <span class="redHighBold">delete</span>-Operator werden Objekte gelöscht, die mit dem <span class="redHighBold">new</span>-Operator erzeugt wurden
 - Damit wird das Objekt zerstört und der Speicher, den das Objekt belegt, wieder freigegeben
 
 Für jedes new brauchst du ein delete sonst hast du Memory Leak Issues/Speicherfresser beschworen.
@@ -318,13 +318,13 @@ Für jedes new brauchst du ein delete sonst hast du Memory Leak Issues/Speicherf
 
 >[!Recap] 
 >---
-><span class="redHigh">Gültigkeitsbereiche</span> (scopes) werden über geschweifte Klammern aufgespannt und definieren einen Start- und Endpunkt, in dem Objekte / Variablen gültig sind
+><span class="redHighBold">Gültigkeitsbereiche</span> (scopes) werden über geschweifte Klammern aufgespannt und definieren einen Start- und Endpunkt, in dem Objekte / Variablen gültig sind
 >- Sie können alleinstehen oder den Inhalt einer bestimmten Anweisung / Deklaration definiere
 >
->Die Lebenszeit von Objekten ist abhängig von ihrer <span class="redHigh">Speicherdauer</span> (storage duration)
->- Variablen, die in einem Gültigkeitsbereich / Scope definiert sind, werden an der schließenden Klammer zerstört (<span class="redHigh">automatische Speicherdauer</span>)
->- Mit den **new/delete**-Operatoren kann der Programmierer manuell steuern, wann ein Objekt erzeugt oder zerstört werden soll (<span class="redHigh">dynamische Speicherdauer</span>)
->  Variablen, die außerhalb von Gültigkeitsbereichen definiert sind, leben bis zum Ende des gesamten Programms (<span class="redHigh">statische Speicherdauer</span>)
+>Die Lebenszeit von Objekten ist abhängig von ihrer <span class="redHighBold">Speicherdauer</span> (storage duration)
+>- Variablen, die in einem Gültigkeitsbereich / Scope definiert sind, werden an der schließenden Klammer zerstört (<span class="redHighBold">automatische Speicherdauer</span>)
+>- Mit den **new/delete**-Operatoren kann der Programmierer manuell steuern, wann ein Objekt erzeugt oder zerstört werden soll (<span class="redHighBold">dynamische Speicherdauer</span>)
+>  Variablen, die außerhalb von Gültigkeitsbereichen definiert sind, leben bis zum Ende des gesamten Programms (<span class="redHighBold">statische Speicherdauer</span>)
 
 ---
 ##### Verständnisfragen

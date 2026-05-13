@@ -1,0 +1,308 @@
+{
+  "main": {
+    "id": "6172582cc1f5f2d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbcf3b1ed72a94b0",
+        "type": "tabs",
+        "dimension": 61.832061068702295,
+        "children": [
+          {
+            "id": "61b7a76e6babac9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Vorlesung/Axiome & Induktion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Axiome & Induktion"
+            }
+          },
+          {
+            "id": "9ed7b9c09c10ddb6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "QR_Code Funktionen&Objektübergaben.png"
+              },
+              "icon": "lucide-image",
+              "title": "QR_Code Funktionen&Objektübergaben"
+            }
+          },
+          {
+            "id": "e9155a60cb0d184d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "GrundlagenC++.excalidraw"
+            }
+          },
+          {
+            "id": "a5106872029c29b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/highRed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "highRed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "88b657ae7c7f9fa2",
+        "type": "tabs",
+        "dimension": 38.16793893129771,
+        "children": [
+          {
+            "id": "2cbe34d325cca94a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Analysis/Vorlesung/Folien/02_Vorlesung.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "02_Vorlesung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88d32bbf062ca21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "263f601f149caba7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b12eccc6d9883226",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7a97f459999789b1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Junktoren",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "80d5431b2f6f853b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cc9ed7912658003a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a049589c0a7f724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b358967fe7a1f96",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TheoInf/Übung_4/aufgabe 4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for aufgabe 4"
+            }
+          },
+          {
+            "id": "fb7f5facc16c494a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algo/Before.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Before"
+            }
+          },
+          {
+            "id": "27e6cbfe5005c8b2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fcdf84d8acfaf505",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "adfea9e94f29d752",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programmieren 2/Exercise/Exercise 2.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Exercise 2"
+            }
+          },
+          {
+            "id": "d83dc510f407cb5b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "61b7a76e6babac9c",
+  "lastOpenFiles": [
+    "Analysis/Vorlesung/Logische Aussagen.md",
+    "Analysis/Vorlesung/Axiome & Induktion.md",
+    "Analysis/Übungen/Übung 6.md",
+    "Analysis/Übungen/Aufgabenstellung/Übung 6.pdf",
+    "Analysis/Vorlesung/Folien/02_Vorlesung.pdf",
+    "Analysis/Vorlesung/Definition.md",
+    "Analysis/Vorlesung/Extra.md",
+    "QR_Code Funktionen&Objektübergaben.png",
+    "Template/highRed.md",
+    "Template/definition x.md",
+    "Programmieren 2/01_Grundlagen_C++.md",
+    "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
+    "Analysis/Vorlesung/Folien/Done01_Vorlesung_Done.pdf",
+    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
+    "conflict-files-obsidian-git.md",
+    "QR_Code Gültigkeit&Lebenszeit.png",
+    "Programmieren 2/Definitionen.md",
+    "Template/def.md",
+    "Template/code.md",
+    "Template/embeddedDefinition.md",
+    "Programmieren 2/Interface Klassen.md",
+    "TheoInf/Übungen/Übung_6.md",
+    "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
+    "TheoInf/Vorlesung/RAM's.md",
+    "Programmieren 2/Vorlesungen/14.Input_und_Output.pdf",
+    "Programmieren 2/Vorlesungen/12.Fehlerbehandlung.pdf",
+    "Programmieren 2/Vorlesungen/09.FunktionaleProgrammierung.pdf",
+    "Programmieren 2/Vorlesungen/08.Templates.pdf",
+    "Programmieren 2/Vorlesungen/07.Container.pdf",
+    "Programmieren 2/Vorlesungen/04.Vererbung.pdf",
+    "Programmieren 2/UML.md",
+    "Algo/Datentypen.md",
+    "Algo/Algorithmen.md",
+    "Algo/Sortieren.md",
+    "Algo/Attachment/DatenTypenExcalidraw.md",
+    "Algo/Übungen/Übung 7.md",
+    "Algo/Übungen/Übung 8.md",
+    "Algo/Übungen/Übung 6.md",
+    "Analysis/Attachments/Pasted image 20260421200906.png",
+    "Analysis/Attachments/Pasted image 20260421190901.png",
+    "Algo/Attachment/Übung 6.canvas",
+    "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
+    "Pasted image 20260429125300.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
+    "!Übung 6.canvas",
+    "Untitled 1.canvas"
+  ]
+}
