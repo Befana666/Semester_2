@@ -241,7 +241,7 @@ LV Notizen:
 - [[LV_Notizen_2704b.pdf#page=1|LV_Notizen_2704b, page 1]]
 
 
-Siehe: [[Übung 7#Aufgabe 25|Aufgabe 25]]
+Siehe: [[Algo/Übungen/Übung 7#Aufgabe 25|Aufgabe 25]]
 - Wichtig ist das es ein KeyValue pair gibt 
 	- z.b. Index und Wert in einem Array
 	- Matrikelnummer (Key) und Studenten infos (Value)

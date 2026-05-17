@@ -21,3 +21,24 @@
 
 ^b1c353
 
+>[!definition] Partition
+>___
+>The Partition problem is a classic problem in computer science, especially in **dynamic programming** and **NP-completeness**.
+>
+>Given:
+>Given is a set of integers, determine whether it can be divided into two subsets such that the sum of the elements in both subsets is equal.
+>
+>Example:
+>	Input:
+>		\[1, 5, 11, 5\]
+>		
+>	Output:
+>		True
+>		
+>	- Subset 1: \[1, 5, 5\] $\rightarrow$ sum = 11
+>	- Subset 2: \[11\] $\rightarrow$ sum = 11
+>___
+>
+
+^b9b00a
+

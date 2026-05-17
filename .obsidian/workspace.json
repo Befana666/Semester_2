@@ -6,6 +6,7 @@
       {
         "id": "383798b1e8b3457a",
         "type": "tabs",
+        "dimension": 51.96476964769647,
         "children": [
           {
             "id": "9baacaeb27f5a16d",
@@ -13,12 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TheoInf/Definitionen.md",
+                "file": "TheoInf/Übungen/Übung_7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Definitionen"
+              "title": "Übung_7"
+            }
+          },
+          {
+            "id": "5ced20aa5d65d769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TheoInf/Übungen/Übung_6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Übung_6"
             }
           },
           {
@@ -27,16 +42,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algo/Übungen/Übung 8.md",
+                "file": "TheoInf/Extras.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Übung 8"
+              "title": "Extras"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "ca228dd01972bfab",
+        "type": "tabs",
+        "dimension": 48.03523035230352,
+        "children": [
+          {
+            "id": "12955b7bcca438aa",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "TheoInf/Übungen/Aufgabenstellung/ue7.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ue7"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,14 +253,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dbe6d5d9e4f2f25c",
+  "active": "9baacaeb27f5a16d",
   "lastOpenFiles": [
+    "TheoInf/Übungen/Übung_6.md",
+    "TheoInf/Attachments/Übung 7.md",
+    "TheoInf/Übungen/Aufgabenstellung/ue7.pdf",
+    "TheoInf/Übungen/Aufgabenstellung/ue6.pdf",
+    "TheoInf/Übungen/Übung_7.md",
+    "TheoInf/Extras.md",
+    "TheoInf/Definitionen.md",
+    "Algo/Übungen/Übung 8.md",
+    "TheoInf/Übungen/Aufgabenstellung/Nicht bestätigt 682654.crdownload",
     "Algo/Übungen/Aufgabenstellung/Übung8.pdf",
     "TheoInf/Vorlesung/Turingmaschinen.md",
     "Untitled.base",
     "Untitled 1.base",
     "Excalidraw/Drawing 2026-05-13 15.28.26.excalidraw.md",
-    "Algo/Übungen/Übung 8.md",
     "TheoInf/Attachments/Turingmaschine.md",
     "TheoInf/Attachments",
     "Template/highRed.md",
@@ -238,10 +279,6 @@
     "QR_Code Funktionen&Objektübergaben.png",
     "Programmieren 2/Vorlesungen/14.Input_und_Output.pdf",
     "Programmieren 2/Vorlesungen/12.Fehlerbehandlung.pdf",
-    "Programmieren 2/Vorlesungen/11.Vorlesung_Software_Patterns.pdf",
-    "Programmieren 2/Vorlesungen/10.Vorlesung_Programmierkonzepte.pdf",
-    "Programmieren 2/Vorlesungen/09.FunktionaleProgrammierung.pdf",
-    "Programmieren 2/Vorlesungen/06.Speicherverwaltung.pdf",
     "Programmieren 2/Definitionen.md",
     "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
     "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
@@ -249,10 +286,7 @@
     "Algo/Sortieren.md",
     "Algo/Code Beispiele/ADT Stack.md",
     "Algo/Attachment/Übung7_Aufgabe25.md",
-    "TheoInf/Übungen/Übung_6.md",
-    "TheoInf/Extras.md",
     "TheoInf/Vorlesung/RAM's.md",
-    "TheoInf/Definitionen.md",
     "Algo/Datentypen.md",
     "Algo/Algorithmen.md",
     "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
@@ -263,8 +297,6 @@
     "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "Programmieren 2/Attachments/Pasted image 20260421125118.png",
     "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
-    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
-    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
     "Analysis/Attachments/Pasted image 20260421200906.png",
     "Analysis/Attachments/Pasted image 20260421190901.png",
     "Pasted image 20260503165538.png",
