@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbcf3b1ed72a94b0",
+        "id": "383798b1e8b3457a",
         "type": "tabs",
-        "dimension": 64.65201465201466,
         "children": [
           {
-            "id": "61b7a76e6babac9c",
+            "id": "9baacaeb27f5a16d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,63 +22,21 @@
             }
           },
           {
-            "id": "2a189d7b3c580344",
+            "id": "dbe6d5d9e4f2f25c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "TheoInf/Attachments/Turingmaschine.md"
+                "file": "Algo/Übungen/Übung 8.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Turingmaschine"
-            }
-          },
-          {
-            "id": "9ed7b9c09c10ddb6",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Untitled 1.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "e9155a60cb0d184d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "GrundlagenC++.excalidraw"
+              "icon": "lucide-file",
+              "title": "Übung 8"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "88b657ae7c7f9fa2",
-        "type": "tabs",
-        "dimension": 35.34798534798535,
-        "children": [
-          {
-            "id": "2cbe34d325cca94a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TheoInf/Vorlesung/Folien.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Folien"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Junktoren",
+                "query": "tag:#RAM-Berechenbarkeit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,6 +189,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c3efbdf8d5567eb0",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
         ],
         "currentTab": 5
@@ -253,55 +220,56 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e9155a60cb0d184d",
+  "active": "dbe6d5d9e4f2f25c",
   "lastOpenFiles": [
-    "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Excalidraw/Drawing 2026-05-13 15.28.26.excalidraw.md",
-    "TheoInf/Definitionen.md",
+    "Algo/Übungen/Aufgabenstellung/Übung8.pdf",
     "TheoInf/Vorlesung/Turingmaschinen.md",
-    "TheoInf/Vorlesung/Folien.pdf",
-    "TheoInf/Extras.md",
-    "TheoInf/Vorlesung/RAM's.md",
-    "QR_Code Funktionen&Objektübergaben.png",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Excalidraw/Drawing 2026-05-13 15.28.26.excalidraw.md",
+    "Algo/Übungen/Übung 8.md",
     "TheoInf/Attachments/Turingmaschine.md",
     "TheoInf/Attachments",
-    "TheoInf/Übungen/Übung_6.md",
-    "Analysis/Vorlesung/Folien/02_Vorlesung.pdf",
-    "Analysis/Vorlesung/Axiome & Induktion.md",
-    "Analysis/Vorlesung/Logische Aussagen.md",
-    "Analysis/Übungen/Übung 6.md",
-    "Analysis/Übungen/Aufgabenstellung/Übung 6.pdf",
-    "Analysis/Vorlesung/Definition.md",
-    "Analysis/Vorlesung/Extra.md",
     "Template/highRed.md",
-    "Template/definition x.md",
-    "Programmieren 2/01_Grundlagen_C++.md",
     "Analysis/Vorlesung/Folien/Done01_Vorlesung_Done.pdf",
-    "Programmieren 2/Vorlesungen/01.Grundlagen.pdf",
+    "Analysis/Vorlesung/Axiome & Induktion.md",
+    "Template/highlight.md",
     "QR_Code Gültigkeit&Lebenszeit.png",
-    "Programmieren 2/Definitionen.md",
-    "Template/def.md",
-    "Template/code.md",
-    "Template/embeddedDefinition.md",
-    "Programmieren 2/Interface Klassen.md",
-    "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
+    "QR_Code Funktionen&Objektübergaben.png",
     "Programmieren 2/Vorlesungen/14.Input_und_Output.pdf",
     "Programmieren 2/Vorlesungen/12.Fehlerbehandlung.pdf",
-    "Programmieren 2/UML.md",
+    "Programmieren 2/Vorlesungen/11.Vorlesung_Software_Patterns.pdf",
+    "Programmieren 2/Vorlesungen/10.Vorlesung_Programmierkonzepte.pdf",
+    "Programmieren 2/Vorlesungen/09.FunktionaleProgrammierung.pdf",
+    "Programmieren 2/Vorlesungen/06.Speicherverwaltung.pdf",
+    "Programmieren 2/Definitionen.md",
+    "Programmieren 2/Attachments/Qr-Code Objekte&Variabeln.png",
+    "Programmieren 2/Attachments/GrundlagenC++.excalidraw.md",
+    "Programmieren 2/01_Grundlagen_C++.md",
+    "Algo/Sortieren.md",
+    "Algo/Code Beispiele/ADT Stack.md",
+    "Algo/Attachment/Übung7_Aufgabe25.md",
+    "TheoInf/Übungen/Übung_6.md",
+    "TheoInf/Extras.md",
+    "TheoInf/Vorlesung/RAM's.md",
+    "TheoInf/Definitionen.md",
     "Algo/Datentypen.md",
     "Algo/Algorithmen.md",
+    "Excalidraw/Drawing 2026-04-28 14.17.11.excalidraw.md",
+    "TheoInf/Übungen/Übung_4/aufgabe 4.md",
+    "Programmieren 2/Exercise/Exercise 5 - Klassenbeziehungen.md",
+    "Programmieren 2/Attachments/UML Exercise 4.canvas",
+    "Programmieren 2/Attachments/UML Beziehungesrichtungen.md",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
+    "Programmieren 2/Attachments/Pasted image 20260421125118.png",
+    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
+    "Programmieren 2/Attachments/Exercise5 Abbildung1.md",
+    "Excalidraw/Drawing 2026-04-28 14.09.51.excalidraw.md",
     "Analysis/Attachments/Pasted image 20260421200906.png",
     "Analysis/Attachments/Pasted image 20260421190901.png",
+    "Pasted image 20260503165538.png",
     "Algo/Attachment/Übung 6.canvas",
     "GameDesign/Vorlesung/GDDs/Space_Quest_IV_Storyboard.png",
-    "Pasted image 20260429125300.png",
-    "Programmieren 2/Attachments/Exercise5Klassendiagram2.png",
-    "Programmieren 2/Attachments/Exercise5Klassendiagram.png",
-    "Programmieren 2/Attachments/UML Exercise 4.canvas",
-    "Programmieren 2/Attachments/Exercise5Klassendiagram3.png",
     "!Übung 6.canvas",
     "Untitled 1.canvas"
   ]
