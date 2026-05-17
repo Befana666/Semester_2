@@ -6,7 +6,7 @@
       {
         "id": "383798b1e8b3457a",
         "type": "tabs",
-        "dimension": 51.96476964769647,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "9baacaeb27f5a16d",
@@ -48,25 +48,6 @@
               },
               "icon": "lucide-file",
               "title": "Extras"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ca228dd01972bfab",
-        "type": "tabs",
-        "dimension": 48.03523035230352,
-        "children": [
-          {
-            "id": "12955b7bcca438aa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "TheoInf/Übungen/Aufgabenstellung/ue7.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ue7"
             }
           }
         ]
