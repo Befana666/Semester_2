@@ -234,4 +234,6 @@ Testen Sie Ihr Programm an den oben aufgeführten Beispielen!
 
 #### Aufgabe 4:
 ##### (a) Zeigen Sie: PARTITION ≤ SOS 
+Partition hat On^2 und sos hat On^3 
 ##### (b) Zeigen Sie: SOS ≤ PARTITION
+Partition hat On^2 und sos hat On^3 
