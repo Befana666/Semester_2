@@ -12,14 +12,12 @@
             "id": "9baacaeb27f5a16d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "TheoInf/Übungen/Übung_7.md",
-                "mode": "source",
-                "source": false
+                "file": "Programmieren 2/Attachments/QR_Code Funktionen&Objektübergaben.png"
               },
-              "icon": "lucide-file",
-              "title": "Übung_7"
+              "icon": "lucide-image",
+              "title": "QR_Code Funktionen&Objektübergaben"
             }
           },
           {
@@ -50,7 +48,8 @@
               "title": "Extras"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,10 +233,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9baacaeb27f5a16d",
+  "active": "b12eccc6d9883226",
   "lastOpenFiles": [
-    "TheoInf/Übungen/Aufgabenstellung/ue7.pdf",
+    "Untitled.base",
+    "Programmieren 2/Attachments/QR_Code Gültigkeit&Lebenszeit.png",
+    "Programmieren 2/Attachments/QR_Code Funktionen&Objektübergaben.png",
     "TheoInf/Übungen/Übung_7.md",
+    "TheoInf/Übungen/Aufgabenstellung/ue7.pdf",
     "TheoInf/Übungen/Übung_6.md",
     "TheoInf/Attachments/Übung 7.md",
     "TheoInf/Übungen/Aufgabenstellung/ue6.pdf",
@@ -247,7 +249,6 @@
     "TheoInf/Übungen/Aufgabenstellung/Nicht bestätigt 682654.crdownload",
     "Algo/Übungen/Aufgabenstellung/Übung8.pdf",
     "TheoInf/Vorlesung/Turingmaschinen.md",
-    "Untitled.base",
     "Untitled 1.base",
     "Excalidraw/Drawing 2026-05-13 15.28.26.excalidraw.md",
     "TheoInf/Attachments/Turingmaschine.md",
@@ -256,8 +257,6 @@
     "Analysis/Vorlesung/Folien/Done01_Vorlesung_Done.pdf",
     "Analysis/Vorlesung/Axiome & Induktion.md",
     "Template/highlight.md",
-    "QR_Code Gültigkeit&Lebenszeit.png",
-    "QR_Code Funktionen&Objektübergaben.png",
     "Programmieren 2/Vorlesungen/14.Input_und_Output.pdf",
     "Programmieren 2/Vorlesungen/12.Fehlerbehandlung.pdf",
     "Programmieren 2/Definitionen.md",
